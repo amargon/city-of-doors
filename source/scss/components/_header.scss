@@ -1,0 +1,62 @@
+/* HEADER ------------------------------------------------------------------ */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: $header__height;
+    width: 100%;
+    overflow: hidden;
+    background-color: #33414a;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    color: #fff;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: $font-weight__normal;
+    line-height: $header__height;
+}
+
+.header > div {
+    float: left;
+    height: 100%;
+}
+
+.logo.fa {
+    font-size: 34px;
+    font-size: 2.125rem;
+    line-height: $header__height;
+    margin-right: $header-button__margin;
+    padding: 0 $header-button__margin;
+}
+
+.title sup { /* β */
+    color: #64788c;
+    margin-left: .1em;
+}
+
+#menu {
+    float: right;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: $header-button__size;
+    margin: 0 $header-button__margin;
+    padding: $header-button__margin 0;
+}
+
+#menu .fa {
+    float: left;
+    width: $header-button__size;
+    height: $header-button__size;
+    border-radius: 50%;
+    line-height: $header-button__size;
+    margin-left: $header-button__margin;
+    text-align: center;
+    transition: background-color .6s ease-out;
+}
+
+#menu .fa:hover,
+#menu .fa.active {
+    background: #64788c;
+    transition: background-color .3s ease-in;
+}

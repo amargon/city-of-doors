@@ -1,0 +1,10 @@
+// Fonts ----------------------------------------------------------------------
+$font-family: 'Roboto', sans-serif;
+$font-weight__light: 300;
+$font-weight__normal: 400;
+$font-weight__strong: 500;
+
+// Magic Numbers --------------------------------------------------------------
+$header__height: 66px;
+$header-button__margin: 12px;
+$header-button__size: $header__height - $header-button__margin * 2;

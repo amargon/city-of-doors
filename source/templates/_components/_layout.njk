@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='{{ language }}'>
+    <head>
+        <meta charset='utf-8'>
+        <title>{{ title }}</title>
+        <meta name='description' content='{{ description }}'>
+
+        {% for size in path.favicons.size -%}
+            <link rel='icon' type='image/png' href='{{ path.favicons.dir }}/favicon-{{ size }}.png' sizes='{{ size }}'>
+        {% endfor %}
+        <meta name='robots' content='{{ robots }}'>
+{% if ogp %}
+{% include '_components/_ogp.njk' %}{%- endif %}{% if swiftype %}{% include '_components/_swiftype.njk' %}
+{%- endif %}
+        <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
+
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i{{ font_subset }}'>
+        <link rel='stylesheet' href='storage/css/style.css'>
+    </head>
+    <body>
+        <div class='header'>
+            <div class='logo fa fa-map-o'></div>
+            <div class='title'>{{ header }}</div>
+            <div id='menu'>
+                <div class='fa fa-key'></div>
+            </div>
+        </div>
+
+    <div id='map'></div>
+
+    <div class='panel from-right'>
+        <div class='panel-container'>
+            <div class='panel-content'>
+{% include '_components/_readme.njk' %}
+            </div>
+        </div>
+    </div>
+    {% if path.jquery %}
+    <script src='{{ path.jquery }}'></script>{% endif %}
+    <script src='storage/js/plugins.js'></script>
+    <script>
+        $(document).ready(function() {
+            $('#menu .fa-key').on('click', function(event){
+                $(this).toggleClass('active');
+                $('.panel').toggleClass('is-visible');
+            });
+
+            var $map = $('#map').mapplic({
+                source: 'storage/data/{{ language }}/map.json',
+                height: 500,
+                fullscreen: true,
+                mapfill: true,
+                maxscale: 1
+            });
+
+            $map.on('mapready', function(e, self) {
+                self.moveTo(0, 0, 1, 0);
+            });
+        });
+    </script>
+{% if analytics_id -%}{% include '_components/_analytics.njk' %}{%- endif -%}
+    </body>
+</html>

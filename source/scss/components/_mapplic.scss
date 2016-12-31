@@ -1,0 +1,96 @@
+/* MAPPLIC MAP ELEMENTS ---------------------------------------------------- */
+
+// Override default sidebar, minimap and tooltip sizes:
+@media only screen and (max-width: 667px) {
+    .mapplic-sidebar {height: auto;}
+}
+
+@media only screen and (min-width: 1024px) {
+    .mapplic-sidebar {width: 20%;}
+    .mapplic-container {width: 80%;}
+}
+
+@media only screen and (min-width: 1200px) {
+    .mapplic-minimap {width: 300px;}
+    .mapplic-minimap-background {width: 300px !important;}
+
+    .mapplic-tooltip {max-width: 500px;}
+    .mapplic-tooltip-content {max-height: 300px;}
+}
+
+// Set lighter font for venue categories:
+.mapplic-list-category > a .mapplic-list-count {font-weight: $font-weight__strong;}
+
+// Dont't blur minimap:
+.mapplic-minimap-background {filter: none;}
+
+
+// Override map pin style -----------------------------------------------------
+
+.mapplic-pin.circular {
+    width: 20px;
+    height: 20px;
+    margin-left: -9px;
+    margin-top: -9px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3),
+                inset 0 1px 0 rgba(255, 255, 255, .3);
+}
+
+.mapplic-pin.circular.large {
+    width: 30px;
+    height: 30px;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+
+.mapplic-pin.circular:not(.fa)::after,
+.mapplic-pin.circular:not(.fa)::before {
+    content: '';
+    position: absolute;
+    bottom: auto;
+    right: auto;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #fff;
+}
+
+.mapplic-pin.circular:not(.fa)::after {
+    height: 2px;
+    width: 8px;
+}
+
+.mapplic-pin.circular:not(.fa)::before {
+    height: 8px;
+    width: 2px;
+}
+
+.mapplic-pin.circular.fa {
+    color: #fff;
+    font-size: 12px;
+    font-size: .75rem;
+    line-height: 20px;
+    text-align: center;
+}
+
+.mapplic-pin.circular.large.fa {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+// Override tooltip style -----------------------------------------------------
+
+.mapplic-tooltip-content p:last-of-type {margin: 0;}
+
+.mapplic-tooltip-description .fa:before {margin-right: .2em;}
+.mapplic-tooltip-description .fa-star {color: #fdca2a;}
+.mapplic-tooltip-description .special .fa-star {color: #bf5138;}
+.mapplic-tooltip-description .fa-star-o {color: #d6d6d6;}
+
+.mapplic-tooltip-description p {color: #999;}
+
+.mapplic-tooltip-description b,
+.mapplic-tooltip-description strong
+    {color: #666;}

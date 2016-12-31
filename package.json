@@ -1,0 +1,47 @@
+{
+  "name": "city-of-doors",
+  "title": "The Map of Sigil, City of Doors",
+  "version": "1.0.0",
+  "description": "Reference index of 260 Sigil venues culled from official Planescape material.",
+  "keywords": [
+    "d&d",
+    "dungeons & dragons",
+    "map",
+    "planescape",
+    "sigil"
+  ],
+  "homepage": "http://nether-whisper.ru/rp/planescape/map-of-sigil/",
+  "private": true,
+  "author": "amargon (https://github.com/amargon)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amargon/city-of-doors"
+  },
+  "bugs": {
+    "url": "https://github.com/amargon/city-of-doors/issues"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hammerjs": "^2.0.8",
+    "jquery": "^2.2.4",
+    "jquery-mousewheel": "^3.1.13",
+    "magnific-popup": "^1.1.0",
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "merge-stream": "^1.0.1",
+    "postcss-import": "^9.0.0"
+  }
+}

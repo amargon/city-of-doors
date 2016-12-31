@@ -1,0 +1,7 @@
+{# Swiftype Search Metadata ------------------------------------------------ #}
+        <!-- SWIFTYPE SEARCH -->
+        <meta name='st:robots' content='index, nofollow'>{% if swiftype.type %}
+        <meta class='swiftype' name='type' data-type='enum' content='{{ swiftype.type }}'>{% endif %}
+        <meta class='swiftype' name='title' data-type='string' content='{{ swiftype.title }}'>
+        <meta class='swiftype' name='image' data-type='enum' content='{{ swiftype.image }}'>
+        <meta class='swiftype' name='published_at' data-type='date' content='{{ swiftype.published_at }}'>

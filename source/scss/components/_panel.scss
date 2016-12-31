@@ -1,0 +1,131 @@
+/* README PANEL (aka Map Key) ---------------------------------------------- */
+
+.panel {
+    position: fixed;
+    top: $header__height;
+    left: 0;
+    height: calc(100% - #{$header__height});
+    width: 100%;
+    visibility: hidden;
+    transition: visibility 0s .6s;
+}
+
+// Dim-out overlay:
+.panel::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: transparent;
+    cursor: pointer;
+    transition: background .3s .3s;
+}
+
+.panel.is-visible {
+    visibility: visible;
+    transition: visibility 0s 0s;
+}
+
+.panel.is-visible::after {
+    background: rgba(0, 0, 0, .6);
+    transition: background .3s 0s;
+}
+
+
+.panel-container {
+    position: fixed;
+    width: 90%;
+    height: calc(100% - #{$header__height});
+    top: $header__height;
+    z-index: 1;
+
+    background: #dbe2e9;
+
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-delay: .3s;
+}
+
+.from-right .panel-container {
+    right: 0;
+    transform: translate3d(100%, 0, 0);
+}
+
+.from-left .panel-container {
+    left: 0;
+    transform: translate3d(-100%, 0, 0);
+}
+
+.is-visible .panel-container {
+    transform: translate3d(0, 0, 0);
+    transition-delay: 0s;
+}
+
+@media only screen and (min-width: 768px) {
+    .panel-container {width: 70%;}
+}
+
+@media only screen and (min-width: 1170px) {
+    .panel-container {width: 50%;}
+}
+
+
+.panel-content {
+    width: 100%;
+    height: 100%;
+    padding: 12px 24px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
+    color: #424f5c;
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1.4;
+}
+
+.panel-content h2,
+.panel-content h3
+    {font-weight: $font-weight__strong;}
+
+.panel-content .lead {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: $font-weight__light;
+    line-height: 1.4;
+}
+
+.panel-content p:first-of-type {margin-top: 0;}
+.panel-content p:last-of-type {margin-bottom: 0;}
+
+.panel-content a {
+    color: #424f5c;
+    font-weight: $font-weight__strong;
+}
+
+.panel-content .lead a {font-weight: $font-weight__normal;}
+
+.panel-content .sidenote {
+    color: #64788c;
+    font-size: 12px;
+    font-size: .75rem;
+    font-weight: $font-weight__light;
+    text-align: right;
+}
+
+@media only screen and (min-width: 768px) {
+    .panel-content {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 1.6;
+        padding: 24px 32px;
+    }
+
+    .panel-content .lead {
+        font-size: 20px;
+        font-size: 1.250rem;
+        line-height: 1.6;
+    }
+}

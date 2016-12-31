@@ -1,0 +1,7 @@
+# Development -----------------------------------------------------------------
+node_modules/
+build/
+/*.zip
+
+# Mapplic
+source/vendor/mapplic/
