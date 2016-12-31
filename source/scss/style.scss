@@ -1,0 +1,58 @@
+/*! 3rd party CSS ========================================================== */
+
+@import '../vendor/normalize.css/normalize.css';
+@import '../vendor/font-awesome/font-awesome.css';
+@import '../vendor/magnific-popup/magnific-popup.css';
+@import '../vendor/mapplic/mapplic.css';
+
+/*! The Map of Sigil ======================================================= */
+
+@import 'components/variables';
+
+*,
+*::after,
+*::before
+    {box-sizing: border-box;}
+
+html,
+body
+    {height: 100%;}
+
+body {
+    background: #f0f0f0;
+    color: #333;
+    font-family: $font-family;
+    font-size: 16px;
+    line-height: 1;
+}
+
+
+iframe {border: 0;}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td, th {padding: 0;}
+
+
+a {text-decoration: none;}
+
+b,
+strong {font-weight: 500;}
+
+// The Map --------------------------------------------------------------------
+#map {
+    height: 100% !important; // Make Mapplic use all the window height.
+    padding-top: $header__height;
+}
+
+#map:full-screen {padding-top: 0;}
+#map:-webkit-full-screen {padding-top: 0;}
+#map:-moz-full-screen {padding-top: 0;}
+
+@import 'components/scrollbar';
+@import 'components/header';
+@import 'components/panel';
+@import 'components/mapplic';

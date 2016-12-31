@@ -1,0 +1,32 @@
+/* BONUS FEATURE: SCROLLBARS (only for Webkit browsers) -------------------- */
+
+// Map README -----------------------------------------------------------------
+.panel-content::-webkit-scrollbar {
+    width: 9px;
+    background-color: #dbe2e9;
+}
+
+.panel-content::-webkit-scrollbar-track {
+    background-color: #dbe2e9;
+    border-left: 1px solid #a7b7c7;
+}
+
+.panel-content::-webkit-scrollbar-thumb {background-color: #7f91a4;}
+
+// Sidebar & Tooltips ---------------------------------------------------------
+
+.mapplic-list::-webkit-scrollbar,
+.mapplic-tooltip-content::-webkit-scrollbar,
+.mapplic-list::-webkit-scrollbar-track,
+.mapplic-tooltip-content::-webkit-scrollbar-track
+    {background-color: #f9f9f9;}
+
+.mapplic-list::-webkit-scrollbar-thumb,
+.mapplic-tooltip-content::-webkit-scrollbar-thumb
+    {background-color: #ccc;}
+
+.mapplic-list::-webkit-scrollbar {width: 6px;}
+.mapplic-list::-webkit-scrollbar-track {border-left: 1px solid #eee;}
+
+.mapplic-tooltip-content::-webkit-scrollbar {width: 3px;}
+.mapplic-tooltip-content::-webkit-scrollbar-track {box-shadow: inset 0 0 2px rgba(0, 0, 0, .1);}

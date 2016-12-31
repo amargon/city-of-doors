@@ -1,0 +1,43 @@
+{# Web Analytics Tracking Code --------------------------------------------- #}
+{# 1. Replace the template content with your tracking code snippet, for example:
+
+    <!-- Google Analytics -->
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', '{{ analytics_id }}', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- Google Analytics -->
+
+where {{ analytics_id }} is the placeholder of your tracking ID.
+
+2. Fill in {{ analytics_id }} token in the main template. #}
+{# ------------------------------------------------------------------------- #}
+    <!-- Yandex.Metrika -->
+    <script>
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter{{ analytics_id }} = new Ya.Metrika({id:{{ analytics_id }},
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName('script')[0],
+                s = d.createElement('script'),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = (d.location.protocol == 'https:' ? 'https:' : 'http:') + '//mc.yandex.ru/metrika/watch.js';
+
+            if (w.opera == '[object Opera]') {
+                d.addEventListener('DOMContentLoaded', f, false);
+            } else { f(); }
+        })(document, window, 'yandex_metrika_callbacks');
+    </script>
+    <noscript><div><img src='//mc.yandex.ru/watch/{{ analytics_id }}' style='position:absolute; left:-9999px;' alt=''></div></noscript>
+    <!-- Yandex.Metrika -->
