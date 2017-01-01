@@ -1,5 +1,7 @@
 # The Map of Sigil, City of Doors
 
+[![The Map of Sigil, City of Doors](extras/screenshots/venue.jpg)](http://nether-whisper.ru/rp/planescape/map-of-sigil/)
+
 [![Latest release](https://img.shields.io/github/release/amargon/city-of-doors.svg?style=flat-square)](https://github.com/amargon/city-of-doors/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/amargon/city-of-doors/latest/total.svg?style=flat-square)](https://github.com/amargon/city-of-doors/releases/latest)
 
