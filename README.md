@@ -107,3 +107,11 @@ Additional artwork: Tony DiTerlizzi &amp; David S. «Diesel» LaForce.
 Poetry: Algernon Charles Swinburne.  
 
 Map engine: [Mapplic](https://codecanyon.net/item/mapplic-custom-interactive-map-jquery-plugin/6275001) by sekler.
+
+## License
+
+[The map data](source/data/) (i.e. the annotated list of Sigil venues), as well as the project documentation, are licensed under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license (CC BY 4.0).
+
+The underlying source code used to format and display that content is licensed under the [MIT](https://opensource.org/licenses/mit-license.php) license, with an exception of [third-party components](source/vendor/).  
+
+Although in most cases these components have the same license, there may be other options.
