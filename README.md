@@ -2,8 +2,9 @@
 
 [![The Map of Sigil, City of Doors](extras/screenshots/venue.jpg)](http://nether-whisper.ru/rp/planescape/map-of-sigil/)
 
-[![Latest release](https://img.shields.io/github/release/amargon/city-of-doors.svg?style=flat-square)](https://github.com/amargon/city-of-doors/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/amargon/city-of-doors/latest/total.svg?style=flat-square)](https://github.com/amargon/city-of-doors/releases/latest)
+[![Latest release](https://img.shields.io/github/release/amargon/city-of-doors.svg)](https://github.com/amargon/city-of-doors/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/amargon/city-of-doors/latest/total.svg)](https://github.com/amargon/city-of-doors/releases/latest)
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/map-of-sigil/localized.svg)](https://crowdin.com/project/map-of-sigil)
 
 This map descends from two well-known planewalker.com downloads: hi-res [PDF map of Sigil](https://www.dropbox.com/sh/dfgr15kgjcd7wso/AAB8FyNJyQjx9r8jGLChtw97a/Sigil_Map2.pdf?dl=0) and [Sigil Venues spreadsheet](http://mimir.planewalker.com/content/sigil-venues-database), a compilation of all named venues culled from official Planescape material.
 
@@ -11,6 +12,9 @@ It lists basic information about each location, wherever available, and is prima
 
 Feedback is welcome here: [planewalker.com forums](http://planewalker.com/content/new-interactive-sigil-map) (EN) or [my gaming blog](http://blog.nether-whisper.ru/post/136671622821) (RU).  
 Bug reports and feature requests go as usual, to [the queue](https://github.com/amargon/city-of-doors/issues).
+
+[Map translations are managed via Crowdin](https://crowdin.com/project/map-of-sigil).  
+Feel free to join and let me know if your language is not in the list yet.
 
 ## Locations
 
