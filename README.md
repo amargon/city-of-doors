@@ -108,7 +108,7 @@ Below is the full list of Planescape material used to make up this map:
 Montage: Denis «Ambrus» Richard.  
 Original cartography: Rob Lazzaretti.  
 Additional artwork: Tony DiTerlizzi &amp; David S. «Diesel» LaForce.  
-Poetry: Algernon Charles Swinburne.  
+Poetry: [Dolores](http://rpo.library.utoronto.ca/poems/dolores-notre-dame-des-sept-douleurs) by Algernon Charles Swinburne.  
 
 Map engine: [Mapplic](https://codecanyon.net/item/mapplic-custom-interactive-map-jquery-plugin/6275001) by sekler.
 
