@@ -173,18 +173,6 @@
                     "zoom": "4"
                 },
                 {
-                    "id": "U11",
-                    "pin": "circular fa fa-university",
-                    "fill": "#333333",
-                    "x": "0.0775",
-                    "y": "0.4500",
-                    "category": "under",
-                    "title": "U11: Great Library",
-                    "about": "Faction War [Adventure], p. 84",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 84</p><p>[Dabus]</p>",
-                    "zoom": "4"
-                },
-                {
                     "id": "♀1",
                     "pin": "circular fa fa-home",
                     "fill": "#bf5138",
@@ -830,6 +818,18 @@
                     "title": "♀53: Temple of Baravar Cloakshadow",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>Baravar Cloakshadow is&nbsp;the&nbsp;gnomish deity of&nbsp;illusions, protection, and&nbsp;deception. He&nbsp;creates traps and&nbsp;illusions of&nbsp;stunning complexity and&nbsp;cunning.</p>",
+                    "zoom": "4"
+                },
+                {
+                    "id": "♀54",
+                    "pin": "circular fa fa-university",
+                    "fill": "#bf5138",
+                    "x": "0.0775",
+                    "y": "0.4500",
+                    "category": "lady",
+                    "title": "♀54: Great Library",
+                    "about": "Expedition to the Demonweb Pits [Adventure], pp. 27, 37<br/>Faction War [Adventure], p. 84<br/>Hellbound: The Blood War [Boxed Set] — War Games, p. 42",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>Expedition to the Demonweb Pits [Adventure], pp. 27, 37.<br/>Faction War [Adventure], p. 84.<br/>Hellbound: The Blood War [Boxed Set] — War Games, p. 42.</p><p>NPC: Goldfeather, Androcyn Blackthorn, Shactal.</p><p>This city-sponcored facility is run by the dabus themselves, who spend most of&nbsp;their time making sure that clerks from faction libraries don't walk off with valuable books or stuff the shelves with smuggled propaganda. The Great Library tries to assert its independence — a body won't find much regarding the&nbsp;faction beliefs or organizations here.</p>",
                     "zoom": "4"
                 },
                 {
