@@ -21,7 +21,7 @@
     <body>
         <div class='header'>
             <div class='logo fa fa-map-o'></div>
-            <div class='title'>{{ header }}</div>
+            <div class='title'>{{ header }}{% if status %}<sup>{{ status }}</sup>{% endif %}</div>
             <div id='menu'>
                 <div class='fa fa-key'></div>
             </div>
