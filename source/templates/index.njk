@@ -45,6 +45,7 @@ they are set here. Map key has its own template ('_readme.njk'). #}
 {# Metadata ================================================================ #}
 
 {% set robots = 'index, nofollow, noarchive' %}
+{% set canonical_url = 'http://nether-whisper.ru/rp/planescape/map-of-sigil/' %}
 
 {# Open Graph -------------------------------------------------------------- #}
 {# 'url' and 'image' must be full URLs, i.e. 'http://example.com/images/ogp.jpg'.
@@ -55,7 +56,7 @@ they are set here. Map key has its own template ('_readme.njk'). #}
         description: description,
         locale: locale,
         published_time: '2016-01-04T23:19:13+03',
-        url: 'http://nether-whisper.ru/rp/planescape/map-of-sigil/',
+        url: canonical_url,
         image: 'http://nether-whisper.ru/rp/planescape/map-of-sigil/storage/images/en/ogp.jpg'
     }
 %}
@@ -93,13 +94,19 @@ where {{ analytics_id }} is the placeholder of your tracking ID.
 Most likely you don't use it, so this section is to be simply removed
 from your configuration.
 
-If you do use it: 'type' is an optional custom property to indicate the content
-type for the search filters (for example, 'image' or 'video').
+If you do use it:
 
-Remove it if you did not set up document type filters in Swiftype. #}
+1)  'type' is an optional custom property to indicate the content type
+    for the search filters (for example, 'image' or 'video').
+
+    Remove it if you did not set up document type filters in Swiftype.
+
+2)  'url' is optional too, unless you have to specify the canonical URL
+    of the page. #}
 {% set swiftype = {
         type: 'page',
-        title: title,
+        title: ogp.title,
+        url: ogp.url,
         image: ogp.image,
         published_at: ogp.published_time
     }
