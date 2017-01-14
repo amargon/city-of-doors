@@ -1,6 +1,7 @@
 {# Swiftype Search Metadata ------------------------------------------------ #}
         <!-- SWIFTYPE SEARCH -->
-        <meta name='st:robots' content='index, nofollow'>{% if swiftype.type %}
+        <meta name='st:robots' content='index, nofollow'>{% if swiftype.url %}
+        <meta class='swiftype' name='url' data-type='enum' content='{{ swiftype.url }}'>{% endif %}{% if swiftype.type %}
         <meta class='swiftype' name='type' data-type='enum' content='{{ swiftype.type }}'>{% endif %}
         <meta class='swiftype' name='title' data-type='string' content='{{ swiftype.title }}'>
         <meta class='swiftype' name='image' data-type='enum' content='{{ swiftype.image }}'>

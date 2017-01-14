@@ -8,7 +8,8 @@
         {% for size in path.favicons.size -%}
             <link rel='icon' type='image/png' href='{{ path.favicons.dir }}/favicon-{{ size }}.png' sizes='{{ size }}'>
         {% endfor %}
-        <meta name='robots' content='{{ robots }}'>
+        <meta name='robots' content='{{ robots }}'>{% if not CE %}
+        <link rel='canonical' href='{{ canonical_url }}'>{% endif %}
 {% if ogp %}
 {% include '_components/_ogp.njk' %}{%- endif %}{% if swiftype %}{% include '_components/_swiftype.njk' %}
 {%- endif %}
