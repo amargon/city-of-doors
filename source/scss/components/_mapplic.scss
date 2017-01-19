@@ -1,5 +1,8 @@
 /* MAPPLIC MAP ELEMENTS ---------------------------------------------------- */
 
+// Match the sidebar background color to the search panel background color:
+.mapplic-sidebar {background-color: #f8f8f8;}
+
 // Override default sidebar, minimap and tooltip sizes:
 @media only screen and (max-width: 667px) {
     .mapplic-sidebar {height: auto;}
