@@ -24,12 +24,11 @@
 // Set lighter font for venue categories:
 .mapplic-list-category > a .mapplic-list-count {font-weight: $font-weight__strong;}
 
-// Dont't blur minimap:
+// Dont't blur the minimap:
 .mapplic-minimap-background {filter: none;}
 
 
 // Override map pin style -----------------------------------------------------
-
 .mapplic-pin.circular {
     width: 20px;
     height: 20px;
@@ -83,8 +82,8 @@
     line-height: 30px;
 }
 
-// Override tooltip style -----------------------------------------------------
 
+// Override tooltip style -----------------------------------------------------
 .mapplic-tooltip-description .fa:before {margin-right: .2em;}
 .mapplic-tooltip-description .fa-star {color: #fdca2a;}
 .mapplic-tooltip-description .special .fa-star {color: #bf5138;}
