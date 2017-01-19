@@ -6,6 +6,7 @@
 Therefore it's very specific, but also it's an example of custom build.
 See '_CE' template for a bare minimum of options. #}
 
+
 {# Path Settings =========================================================== #}
 {# The map can be configured to rely on common website assets: as for now,
 favicons and jQuery.
@@ -43,7 +44,6 @@ they are set here. Map key has its own template ('_readme.njk'). #}
 
 
 {# Metadata ================================================================ #}
-
 {% set robots = 'index, nofollow, noarchive' %}
 {% set canonical_url = 'http://nether-whisper.ru/rp/planescape/map-of-sigil/' %}
 
@@ -114,8 +114,9 @@ If you do use it:
 
 {# Breadcrumbs in <title>: ------------------------------------------------- #}
 {# The Map of Sigil, City of Doors :: Planescape :: RP :: Nether Whisper     #}
-{% set breadcrumbs =  [title, 'Planescape', 'RP', 'Nether Whisper'] %}
+{% set breadcrumbs =  [title, 'Planescape', 'RP', ogp.site_name] %}
 {% set title = breadcrumbs | join(' :: ') %}
+
 
 {# The end. Now do the magic… ============================================== #}
 {% extends '_components/_layout.njk' %}

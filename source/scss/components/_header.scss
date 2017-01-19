@@ -8,6 +8,7 @@
     height: $header__height;
     width: 100%;
     overflow: hidden;
+
     background-color: #33414a;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
     color: #fff;
@@ -60,4 +61,74 @@
 #menu .fa.active {
     background: $header-color__secondary;
     transition: background-color .3s ease-in;
+}
+
+// Language List --------------------------------------------------------------
+#menu .languages {
+    float: left;
+    height: $header-button__size;
+    color: $header-color__secondary;
+    font-size: 16px;
+    line-height: $header-button__size;
+    text-align: right;
+
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.3s ease-out, transform 0.3s;
+}
+
+#menu .languages.is-visible {
+    transform: translateY(0);
+    opacity: 1;
+    transition: opacity 0.3s ease-in, transform 0.3s;
+}
+
+#menu .languages ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu .languages li {
+    display: inline-block;
+    margin: 0 0 0 12px;
+    padding: 0;
+}
+
+#menu .languages li.active {color: #fff;}
+
+#menu .languages a,
+#menu .languages a:visited {
+    color: $header-color__secondary;
+    transition: color .6s ease-out;
+}
+
+#menu .languages a:hover,
+#menu .languages a:active {
+    color: #9dabb9;
+    transition: color .3s ease-in;
+}
+
+#menu .languages .active a,
+#menu .languages .active a:hover,
+#menu .languages .active a:active,
+#menu .languages .active a:visited {
+    color: #fff;
+}
+
+@media only screen and (max-width: 667px) {
+    .header {overflow: visible;}
+
+    #menu .languages ul {
+        background-color: #33414a;
+        border: 1px solid $header-color__secondary;
+        border-radius: 4px;
+    }
+
+    #menu .languages li {
+        display: block;
+        margin: 0;
+        padding: 0 12px;
+        text-align: left;
+    }
 }
