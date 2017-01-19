@@ -9,20 +9,22 @@
             <link rel='icon' type='image/png' href='{{ path.favicons.dir }}/favicon-{{ size }}.png' sizes='{{ size }}'>
         {% endfor %}
         <meta name='robots' content='{{ robots }}'>{% if not CE %}
-        <link rel='canonical' href='{{ canonical_url }}'>{% endif %}
+        <link rel='canonical' href='{{ canonical_url }}'>{% endif -%}
 {% if ogp %}
 {% include '_components/_ogp.njk' %}{%- endif %}{% if swiftype %}{% include '_components/_swiftype.njk' %}
 {%- endif %}
         <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
 
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i{{ font_subset }}'>
-        <link rel='stylesheet' href='storage/css/style.css'>
+        <link rel='stylesheet' href='{{ base_path }}storage/css/style.css'>
     </head>
     <body>
         <div class='header'>
             <div class='logo fa fa-map-o'></div>
             <div class='title'>{{ header }}{% if status %}<sup>{{ status }}</sup>{% endif %}</div>
-            <div id='menu'>
+            <div id='menu'>{% if not CE %}
+{% block languages %}{% include '_components/_languages.njk' %}{% endblock %}
+                <div class='fa fa-globe'></div>{% endif %}
                 <div class='fa fa-key'></div>
             </div>
         </div>
@@ -32,22 +34,29 @@
     <div class='panel from-right'>
         <div class='panel-container'>
             <div class='panel-content'>
-{% include '_components/_readme.njk' %}
+{% block readme %}{% include '_components/_readme.njk' %}{% endblock %}{% if CE %}
+<p class='sidenote'>v1.0.1.</p>
+{% endif %}
             </div>
         </div>
     </div>
     {% if path.jquery %}
     <script src='{{ path.jquery }}'></script>{% endif %}
-    <script src='storage/js/plugins.js'></script>
+    <script src='{{ base_path }}storage/js/plugins.js'></script>
     <script>
         $(document).ready(function() {
             $('#menu .fa-key').on('click', function(event){
                 $(this).toggleClass('active');
                 $('.panel').toggleClass('is-visible');
-            });
+            });{% if not CE %}
+
+            $('#menu .fa-globe').on('click', function(event){
+               $(this).toggleClass('active');
+               $('.languages').toggleClass('is-visible');
+           });{% endif %}
 
             var $map = $('#map').mapplic({
-                source: 'storage/data/{{ language }}/map.json',
+                source: '{{ base_path }}storage/data/{{ language }}/map.json',
                 height: 500,
                 fullscreen: true,
                 mapfill: true,
@@ -55,7 +64,8 @@
             });
 
             $map.on('mapready', function(e, self) {
-                self.moveTo(0, 0, 1, 0);
+                self.moveTo(0, 0, 1, 0);{% if not CE %}
+                {% block l10n %}{% endblock %}{% endif %}
             });
         });
     </script>

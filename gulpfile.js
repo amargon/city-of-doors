@@ -7,7 +7,7 @@ var merge = require('merge-stream');
 
 var path = {
     nunjucks: {
-        js: '.',
+        root: '.',
         html: 'source/templates/'
     },
     build: {
@@ -99,11 +99,29 @@ gulp.task('build:images', function() {
     return merge(images, images_mapplic);
 });
 
+gulp.task('build:images:ce', function() {
+    var images = gulp.src('source/images/en/*.*')
+        .pipe(plugins.changed(path.build.images))
+        .pipe(gulp.dest('build/storage/images/en/'));
+
+    var images_mapplic = gulp.src('source/vendor/mapplic/images/**/*.*')
+        .pipe(plugins.changed('build/storage/images/mapplic/'))
+        .pipe(gulp.dest('build/storage/images/mapplic/'));
+
+    return merge(images, images_mapplic);
+});
+
 // Copy map data --------------------------------------------------------------
 gulp.task('build:data', function() {
     return gulp.src(path.source.data)
         .pipe(plugins.changed(path.build.data))
         .pipe(gulp.dest(path.build.data))
+});
+
+gulp.task('build:data:ce', function() {
+    return gulp.src('source/data/en/map.json')
+        .pipe(plugins.changed(path.build.data))
+        .pipe(gulp.dest('build/storage/data/en/'))
 });
 
 // Process CSS ----------------------------------------------------------------
@@ -125,7 +143,7 @@ gulp.task('build:css', function () {
 gulp.task('build:js', function() {
   return gulp.src(path.source.js)
     .pipe(plugins.nunjucksRender({
-        path: path.nunjucks.js,
+        path: path.nunjucks.root,
         ext: '.js',
         data: {path: {jquery: true}} // Make nunjucks exclude jQuery.
     }))
@@ -170,8 +188,8 @@ gulp.task('build', [
 // Build The Map of Sigil: Community Edition.
 gulp.task('build:ce', [
     'build:fonts',
-    'build:images',
-    'build:data',
+    'build:images:ce',
+    'build:data:ce',
     'build:css',
     'build:js:ce',
     'build:html:ce'
