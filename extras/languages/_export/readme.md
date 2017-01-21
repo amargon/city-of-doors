@@ -13,11 +13,11 @@ To be included in this compilation a location needs to have a proper name or uni
 
 Places of business are usually followed by a qualifier which identifies the type of establishment it is (for example: inn, tavern, etc).
 
-The vast majority of these venues find their origins in 2e AD&D sources which predate the events described in the Faction War adventure. Many are also culled from adventures and supplements with no clear mention of when in the city's history these venues came into being or later became defunct; leaving dubious timeline issues and the fates of some of the locations for individual DMs to resolve.
+The vast majority of these venues find their origins in 2e AD&D sources which predate the events described in the Faction War adventure. Many are also culled from adventures and supplements with no clear mention of when in the city’s history these venues came into being or later became defunct; leaving dubious timeline issues and the fates of some of the locations for individual DMs to resolve.
 
-Some venues, in their original context, have only dubious mentions concerning their placement within the city's wards while others offer no such clues. In other circumstances some of the venues have two or more sources which contradict each other in regards to location. Although individual DMs are free to place such venues in whichever ward suits their own tastes and story needs, for the purpose of creating the accompanying Sigil Map, it was necessary to ascribe each venue a definitive position within the city's six wards. In such circumstances a subjective decision was made based on the available background material and the resultant entry is *marked in red*.
+Some venues, in their original context, have only dubious mentions concerning their placement within the city’s wards while others offer no such clues. In other circumstances some of the venues have two or more sources which contradict each other in regards to location. Although individual DMs are free to place such venues in whichever ward suits their own tastes and story needs, for the purpose of creating the accompanying Sigil Map, it was necessary to ascribe each venue a definitive position within the city’s six wards. In such circumstances a subjective decision was made based on the available background material and the resultant entry is *marked in red*.
 
-Since Sigil is described as being morphic in nature, both growing and shrinking at the Lady's whim with both buildings and streets being moved by the Dabus over time, the map is intended to represent only one possible geographic configuration of the city with approximate distances. Scale of the features on the map is only representational, meaning that individual buildings are purposefully enlarged to depict appearance and importance rather than relative scale to each other.
+Since Sigil is described as being morphic in nature, both growing and shrinking at the Lady’s whim with both buildings and streets being moved by the Dabus over time, the map is intended to represent only one possible geographic configuration of the city with approximate distances. Scale of the features on the map is only representational, meaning that individual buildings are purposefully enlarged to depict appearance and importance rather than relative scale to each other.
 
 ## Rating
 
@@ -35,12 +35,12 @@ A **single star** indicates that the source material contains little to no infor
 
 ## References
 
-Some venues are listed with multiple pages and multiple sources if significant information is available elsewhere but, in most instances, only a venue's primary or best available source material is referenced.
+Some venues are listed with multiple pages and multiple sources if significant information is available elsewhere but, in most instances, only a venue’s primary or best available source material is referenced.
 
 Below is the full list of Planescape material used to make up this map:
 
 1. Planes of Conflict [Boxed Set] — Adventures in Conflict
-1. Baldur's Gate II [PC Game]
+1. Baldur’s Gate II [PC Game]
 1. Wars Trilogy 1: Blood Hostages [Novel]
 1. Blood Wars Trilogy 2: Abyssal Warriors [Novel]
 1. Blood Wars Trilogy 3: Planar Powers [Novel]
@@ -54,10 +54,10 @@ Below is the full list of Planescape material used to make up this map:
 1. Die Vecna Die! [Adventure]
 1. The Eternal Boundary [Adventure]
 1. Expedition to the Demonweb Pits [Adventure]
-1. Finder's Bane [Novel]
+1. Finder’s Bane [Novel]
 1. Fires of Dis [Adventure]
 1. Faces of Evil: The Fiends
-1. The Factol's Manifesto
+1. The Factol’s Manifesto
 1. Faction War [Adventure]
 1. A Guide to the Astral Plane
 1. A Guide to the Ethereal Plane
@@ -77,8 +77,8 @@ Below is the full list of Planescape material used to make up this map:
 1. On Hallowed Ground
 1. Planescape Conspectus [Poster]
 1. Planes of Chaos [Boxed Set] — the Travelogue
-1. Planescape Campaign Setting [Boxed Set] — A Player's Guide to the Planes
-1. The Planeswalker's Handbook
+1. Planescape Campaign Setting [Boxed Set] — A Player’s Guide to the Planes
+1. The Planeswalker’s Handbook
 1. Planar Handbook
 1. Planes of Law [Boxed Set] — Arcadia
 1. Planes of Law [Boxed Set] — Baator
@@ -90,15 +90,15 @@ Below is the full list of Planescape material used to make up this map:
 1. Planescape Campaign Setting [Boxed Set] — Sigil and Beyond
 1. Something Wild [Adventure]
 1. Tales From the Infinite Staircase [Adventure]
-1. Tymora's Luck [Novel]
+1. Tymora’s Luck [Novel]
 1. Uncaged: Faces of Sigil
 1. Well of Worlds [Adventure]
 
 ## Credits
 
-Montage: Denis «Ambrus» Richard.  
+Montage: Denis “Ambrus” Richard.  
 Original cartography: Rob Lazzaretti.  
-Additional artwork: Tony DiTerlizzi &amp; David S. «Diesel» LaForce.  
+Additional artwork: Tony DiTerlizzi & David S. “Diesel” LaForce.  
 Poetry: [Dolores](http://rpo.library.utoronto.ca/poems/dolores-notre-dame-des-sept-douleurs) by Algernon Charles Swinburne.  
 
 Map engine: [Mapplic](https://codecanyon.net/item/mapplic-custom-interactive-map-jquery-plugin/6275001) by sekler.  
