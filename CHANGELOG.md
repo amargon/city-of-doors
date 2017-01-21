@@ -11,11 +11,11 @@ Multilanguage support.
 ### Added
 
 * More details on the Great Library.  
-* Link to the «Dolores» poem in the Map Key (README) panel.
+* Link to the “Dolores” poem in the Map Key (README) panel.
 
 ### Changed
 
-* Move the Great Library from Under Sigil to The Lady's Ward.
+* Move the Great Library from Under Sigil to The Lady’s Ward.
 
 ## [1.0.0] \(2016-12-31\)
 
