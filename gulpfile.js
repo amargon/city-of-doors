@@ -115,12 +115,14 @@ gulp.task('build:images:ce', function() {
 gulp.task('build:data', function() {
     return gulp.src(path.source.data)
         .pipe(plugins.changed(path.build.data))
+        .pipe(plugins.lineEndingCorrector())
         .pipe(gulp.dest(path.build.data))
 });
 
 gulp.task('build:data:ce', function() {
     return gulp.src('source/data/en/map.json')
         .pipe(plugins.changed(path.build.data))
+        .pipe(plugins.lineEndingCorrector())
         .pipe(gulp.dest('build/storage/data/en/'))
 });
 
@@ -136,6 +138,7 @@ gulp.task('build:css', function () {
         .pipe(plugins.postcss(processors))
         .pipe(plugins.replace('images/', '../images/mapplic/'))
         .pipe(plugins.cleanCss())
+        .pipe(plugins.lineEndingCorrector())
         .pipe(gulp.dest(path.build.css))
 });
 
@@ -148,6 +151,7 @@ gulp.task('build:js', function() {
         data: {path: {jquery: true}} // Make nunjucks exclude jQuery.
     }))
     .pipe(plugins.uglify())
+    .pipe(plugins.lineEndingCorrector())
     .pipe(gulp.dest(path.build.js));
 });
 
@@ -158,6 +162,7 @@ gulp.task('build:js:ce', function() {
         ext: '.js'
     }))
     .pipe(plugins.uglify())
+    .pipe(plugins.lineEndingCorrector())
     .pipe(gulp.dest(path.build.js));
 });
 
@@ -165,6 +170,7 @@ gulp.task('build:js:ce', function() {
 gulp.task('build:html', function() {
     return gulp.src(path.source.html)
         .pipe(plugins.nunjucksRender({path: path.nunjucks.html}))
+        .pipe(plugins.lineEndingCorrector())
         .pipe(gulp.dest(path.build.html))
 });
 
@@ -172,6 +178,7 @@ gulp.task('build:html:ce', function() {
     return gulp.src(path.nunjucks.html + '_CE/_index.njk')
         .pipe(plugins.nunjucksRender({path: path.nunjucks.html}))
         .pipe(plugins.rename({basename: 'index'}))
+        .pipe(plugins.lineEndingCorrector())
         .pipe(gulp.dest(path.build.html))
 });
 
