@@ -7,8 +7,9 @@ building a “public” release of the map (the one that you download from GitHu
 
 Among other things, “Community Edition” means no favicons, no Open Graph markup
 and no web analytics. Robots <meta> tag is set to 'noindex, nofollow'.
-It's up to you how to further set up these elements on your website. #}
+It’s up to you how to further set up these elements on your website. #}
 
+{% extends '_components/_layout.njk' %}
 {% set CE = true %}
 
 {# Language Settings ------------------------------------------------------- #}
@@ -20,6 +21,3 @@ It's up to you how to further set up these elements on your website. #}
 
 {# Metadata ---------------------------------------------------------------- #}
 {% set robots = 'noindex, nofollow' %}
-
-{# The end. Now do the magic… ============================================== #}
-{% extends '_components/_layout.njk' %}
