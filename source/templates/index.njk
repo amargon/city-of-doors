@@ -3,15 +3,17 @@
 {# ========================================================================= #}
 
 {# This is the template I use to build the map as a part of my gaming website.
-Therefore it's very specific, but also it's an example of custom build.
-See '_CE' template for a bare minimum of options. #}
+Therefore it’s very specific, but also it’s an example of custom build.
+See “CE” template for a bare minimum of options. #}
+
+{% extends '_components/_layout.njk' %}
 
 
 {# Path Settings =========================================================== #}
 {# The map can be configured to rely on common website assets: as for now,
 favicons and jQuery.
 
-Favicons are assumed to be PNG images and have names like 'favicon-16x16.png'.
+Favicons are assumed to be PNG images and have names like “favicon-16x16.png”.
 
 If 'path.jquery' is not defined or empty, jQuery will be bundled with other
 JS modules in a single independent package. #}
@@ -30,8 +32,7 @@ JS modules in a single independent package. #}
 it provides only the latin character set.
 
 To render the map in a language other than English, you may need to request
-an additional font subset, for example '&subset=latin-ext'
-or '&subset=cyrillic'. #}
+an additional font subset, for example '&subset=cyrillic'. #}
 {% set language = 'en' %}
 {% set locale = 'en_US' %}
 {% set font_subset = '' %}
@@ -91,7 +92,7 @@ where {{ analytics_id }} is the placeholder of your tracking ID.
 
 {# Swiftype Search --------------------------------------------------------- #}
 {# Swiftype (https://swiftype.com/) is a website search service.
-Most likely you don't use it, so this section is to be simply removed
+Most likely you don’t use it, so this section is to be simply removed
 from your configuration.
 
 If you do use it:
@@ -114,9 +115,4 @@ If you do use it:
 
 {# Breadcrumbs in <title>: ------------------------------------------------- #}
 {# The Map of Sigil, City of Doors :: Planescape :: RP :: Nether Whisper     #}
-{% set breadcrumbs =  [title, 'Planescape', 'RP', ogp.site_name] %}
-{% set title = breadcrumbs | join(' :: ') %}
-
-
-{# The end. Now do the magic… ============================================== #}
-{% extends '_components/_layout.njk' %}
+{% set breadcrumbs =  [title, 'Planescape', 'RP', ogp.site_name] | join(' :: ') %}
