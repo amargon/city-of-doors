@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/github/downloads/amargon/city-of-doors/latest/total.svg)](https://github.com/amargon/city-of-doors/releases/latest)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/map-of-sigil/localized.svg)](https://crowdin.com/project/map-of-sigil)
 
-This map descends from two well-known planewalker.com downloads: hi-res [PDF map of Sigil](https://www.dropbox.com/sh/dfgr15kgjcd7wso/AAB8FyNJyQjx9r8jGLChtw97a/Sigil_Map2.pdf?dl=0) and [Sigil Venues spreadsheet](http://mimir.planewalker.com/content/sigil-venues-database), a compilation of all named venues culled from official Planescape material.
+This map descends from two well-known planewalker.com downloads: hi-res [PDF map of Sigil](http://mimir.planewalker.com/sites/default/files/Sigil_Map2.pdf) and [Sigil Venues spreadsheet](http://mimir.planewalker.com/sites/default/files/Sigil%20Venues2.xls), a compilation of all named venues culled from official Planescape material.
 
 It lists basic information about each location, wherever available, and is primarily intended to serve as a reference index rather than a substitute for the various products in which these venues appear.
 
