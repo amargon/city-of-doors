@@ -6,6 +6,13 @@ Notable changes to the Community Edition of the map.
 
 Multilanguage support.
 
+## [1.0.2] \(2017-02-02\)
+
+### Changed
+
+* Replace broken links to planewalker.com original downloads.
+* Fix typos, punctuation and minor UI issues.
+
 ## [1.0.1] \(2017-01-11\)
 
 ### Added
@@ -21,6 +28,7 @@ Multilanguage support.
 
 Initial release of the Community Edition.
 
-[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.0.1...master
+[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.0.2...master
+[1.0.2]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.2
 [1.0.1]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.1
 [1.0.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.0
