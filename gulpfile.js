@@ -28,7 +28,7 @@ var path = {
         images: 'source/images/**/*.*'
     },
     clean: {
-        all: 'build/**/*.*'
+        all: 'build/'
     }
 };
 
@@ -70,11 +70,31 @@ gulp.task('fetch:vendor', function() {
         .pipe(plugins.changed('source/vendor/font-awesome/fonts/'))
         .pipe(gulp.dest('source/vendor/font-awesome/fonts/'));
 
-    var fa_css = gulp.src('node_modules/font-awesome/css/font-awesome.css*')
+    var fa_css = gulp.src('node_modules/font-awesome/css/font-awesome.css')
         .pipe(plugins.changed('source/vendor/font-awesome/'))
         .pipe(gulp.dest('source/vendor/font-awesome/'));
 
-    return merge(jquery, jquery_mousewheel, hammerjs, magnific_popup, normalize, fa_fonts, fa_css);
+    // Process Mapplic package if available:
+    var mapplic_images = gulp.src('node_modules/mapplic/html/mapplic/images/*.*')
+        .pipe(plugins.changed('source/vendor/mapplic/images/'))
+        .pipe(gulp.dest('source/vendor/mapplic/images/'));
+
+    var mapplic = gulp.src([
+        'node_modules/mapplic/html/mapplic/mapplic?(-ie).css',
+        'node_modules/mapplic/html/mapplic/mapplic.js',
+    ])
+        .pipe(plugins.changed('source/vendor/mapplic/'))
+        .pipe(gulp.dest('source/vendor/mapplic/'));
+
+    return merge(
+        jquery,
+        jquery_mousewheel,
+        hammerjs,
+        magnific_popup,
+        normalize,
+        fa_fonts, fa_css,
+        mapplic_images, mapplic
+    );
 });
 
 // GO, DABUS, GO ==============================================================
@@ -92,7 +112,7 @@ gulp.task('build:images', function() {
         .pipe(plugins.changed(path.build.images))
         .pipe(gulp.dest(path.build.images));
 
-    var images_mapplic = gulp.src(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha@(20|50).png'])
+    var images_mapplic = gulp.src(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha{20,50}.png'])
         .pipe(plugins.changed('build/storage/images/mapplic/'))
         .pipe(gulp.dest('build/storage/images/mapplic/'));
 
@@ -104,7 +124,7 @@ gulp.task('build:images:ce', function() {
         .pipe(plugins.changed(path.build.images))
         .pipe(gulp.dest('build/storage/images/en/'));
 
-    var images_mapplic = gulp.src(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha@(20|50).png'])
+    var images_mapplic = gulp.src(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha{20,50}.png'])
         .pipe(plugins.changed('build/storage/images/mapplic/'))
         .pipe(gulp.dest('build/storage/images/mapplic/'));
 
