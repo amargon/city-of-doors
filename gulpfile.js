@@ -6,10 +6,6 @@ var merge = require('merge-stream');
 
 
 var path = {
-    nunjucks: {
-        root: '.',
-        html: 'source/templates/'
-    },
     build: {
         css: 'build/storage/css/',
         data: 'build/storage/data/',
@@ -19,7 +15,10 @@ var path = {
         images: 'build/storage/images/'
     },
     source: {
+        // Common:
+        templates: 'source/templates/',
         vendor: 'source/vendor/',
+        // Special:
         css: 'source/scss/style.scss',
         data: 'source/data/**/*.json',
         fonts: 'source/vendor/font-awesome/fonts/fontawesome-webfont.*',
@@ -32,6 +31,34 @@ var path = {
     }
 };
 
+
+var nunjucks = {
+    js: {
+        path: path.source.vendor,
+        ext: '.js',
+        data: {path: {jquery: true}} // Make nunjucks exclude jQuery.
+    }
+};
+
+
+// Check build type: Regular or Community Edition (i.e. gulp --ce).
+var ce = false;
+
+if (plugins.util.env.ce === true) {
+    ce = true;
+
+    path.source.images = 'source/images/en/*.*';
+    path.build.images = 'build/storage/images/en/';
+
+    path.source.data = 'source/data/en/map.json';
+    path.build.data = 'build/storage/data/en/';
+
+    delete nunjucks.js.data;
+
+    path.source.html = path.source.templates + '_CE/_index.njk';
+};
+
+
 // ============================================================================
 // ********************************** TASKS ***********************************
 // ============================================================================
@@ -40,6 +67,7 @@ var path = {
 gulp.task('clean:all', function() {
     return del.sync(path.clean.all);
 });
+
 
 // Backup dependencies to 'source/vendor' -------------------------------------
 gulp.task('fetch:vendor', function() {
@@ -97,6 +125,23 @@ gulp.task('fetch:vendor', function() {
     );
 });
 
+// Fetch only the Mapplic package ---------------------------------------------
+gulp.task('fetch:mapplic', function() {
+    var mapplic_images = gulp.src('node_modules/mapplic/html/mapplic/images/*.*')
+        .pipe(plugins.changed('source/vendor/mapplic/images/'))
+        .pipe(gulp.dest('source/vendor/mapplic/images/'));
+
+    var mapplic = gulp.src([
+        'node_modules/mapplic/html/mapplic/mapplic?(-ie).css',
+        'node_modules/mapplic/html/mapplic/mapplic.js',
+    ])
+        .pipe(plugins.changed('source/vendor/mapplic/'))
+        .pipe(gulp.dest('source/vendor/mapplic/'));
+
+    return merge(mapplic_images, mapplic);
+});
+
+
 // GO, DABUS, GO ==============================================================
 
 // Copy fonts -----------------------------------------------------------------
@@ -105,6 +150,7 @@ gulp.task('build:fonts', function() {
         .pipe(plugins.changed(path.build.fonts))
         .pipe(gulp.dest(path.build.fonts))
 });
+
 
 // Copy images ----------------------------------------------------------------
 gulp.task('build:images', function() {
@@ -119,17 +165,6 @@ gulp.task('build:images', function() {
     return merge(images, images_mapplic);
 });
 
-gulp.task('build:images:ce', function() {
-    var images = gulp.src('source/images/en/*.*')
-        .pipe(plugins.changed(path.build.images))
-        .pipe(gulp.dest('build/storage/images/en/'));
-
-    var images_mapplic = gulp.src(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha{20,50}.png'])
-        .pipe(plugins.changed('build/storage/images/mapplic/'))
-        .pipe(gulp.dest('build/storage/images/mapplic/'));
-
-    return merge(images, images_mapplic);
-});
 
 // Copy map data --------------------------------------------------------------
 gulp.task('build:data', function() {
@@ -139,12 +174,6 @@ gulp.task('build:data', function() {
         .pipe(gulp.dest(path.build.data))
 });
 
-gulp.task('build:data:ce', function() {
-    return gulp.src('source/data/en/map.json')
-        .pipe(plugins.changed(path.build.data))
-        .pipe(plugins.lineEndingCorrector())
-        .pipe(gulp.dest('build/storage/data/en/'))
-});
 
 // Process CSS ----------------------------------------------------------------
 gulp.task('build:css', function () {
@@ -162,45 +191,26 @@ gulp.task('build:css', function () {
         .pipe(gulp.dest(path.build.css))
 });
 
+
 // Process JS -----------------------------------------------------------------
 gulp.task('build:js', function() {
   return gulp.src(path.source.js)
-    .pipe(plugins.nunjucksRender({
-        path: path.nunjucks.root,
-        ext: '.js',
-        data: {path: {jquery: true}} // Make nunjucks exclude jQuery.
-    }))
+    .pipe(plugins.nunjucksRender(nunjucks.js))
     .pipe(plugins.uglify())
     .pipe(plugins.lineEndingCorrector())
     .pipe(gulp.dest(path.build.js));
 });
 
-gulp.task('build:js:ce', function() {
-  return gulp.src(path.source.js)
-    .pipe(plugins.nunjucksRender({
-        path: path.nunjucks.js,
-        ext: '.js'
-    }))
-    .pipe(plugins.uglify())
-    .pipe(plugins.lineEndingCorrector())
-    .pipe(gulp.dest(path.build.js));
-});
 
 // Process HTML templates -----------------------------------------------------
 gulp.task('build:html', function() {
     return gulp.src(path.source.html)
-        .pipe(plugins.nunjucksRender({path: path.nunjucks.html}))
+        .pipe(plugins.nunjucksRender({path: path.source.templates}))
+        .pipe(ce ? plugins.rename({basename: 'index'}) : plugins.util.noop())
         .pipe(plugins.lineEndingCorrector())
         .pipe(gulp.dest(path.build.html))
 });
 
-gulp.task('build:html:ce', function() {
-    return gulp.src(path.nunjucks.html + '_CE/_index.njk')
-        .pipe(plugins.nunjucksRender({path: path.nunjucks.html}))
-        .pipe(plugins.rename({basename: 'index'}))
-        .pipe(plugins.lineEndingCorrector())
-        .pipe(gulp.dest(path.build.html))
-});
 
 // Put it all together --------------------------------------------------------
 gulp.task('build', [
@@ -210,16 +220,6 @@ gulp.task('build', [
     'build:css',
     'build:js',
     'build:html'
-]);
-
-// Build The Map of Sigil: Community Edition.
-gulp.task('build:ce', [
-    'build:fonts',
-    'build:images:ce',
-    'build:data:ce',
-    'build:css',
-    'build:js:ce',
-    'build:html:ce'
 ]);
 
 gulp.task('default', ['build']);
