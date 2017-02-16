@@ -5,7 +5,23 @@ var del = require('del');
 var merge = require('merge-stream');
 
 
+// ============================================================================
+// ****************************** CONFIGURATION *******************************
+// ============================================================================
+
 var path = {
+    common: {
+        templates: 'source/templates/',
+        vendor: 'source/vendor/'
+    },
+    source: {
+        css: 'source/scss/style.scss',
+        data: 'source/data/**/*.json',
+        fonts: 'source/vendor/font-awesome/fonts/fontawesome-webfont.*',
+        html: 'source/templates/**/[^_]*.njk',
+        js: 'source/js/*.js',
+        images: 'source/images/**/*.*'
+    },
     build: {
         css: 'build/storage/css/',
         data: 'build/storage/data/',
@@ -13,18 +29,6 @@ var path = {
         html: 'build/',
         js: 'build/storage/js/',
         images: 'build/storage/images/'
-    },
-    source: {
-        // Common:
-        templates: 'source/templates/',
-        vendor: 'source/vendor/',
-        // Special:
-        css: 'source/scss/style.scss',
-        data: 'source/data/**/*.json',
-        fonts: 'source/vendor/font-awesome/fonts/fontawesome-webfont.*',
-        html: 'source/templates/**/[^_]*.njk',
-        js: 'source/js/*.js',
-        images: 'source/images/**/*.*'
     },
     clean: {
         all: 'build/'
@@ -34,28 +38,61 @@ var path = {
 
 var nunjucks = {
     js: {
-        path: path.source.vendor,
+        path: path.common.vendor,
         ext: '.js',
         data: {path: {jquery: true}} // Make nunjucks exclude jQuery.
+    },
+    html: {
+        path: path.common.templates,
+        data: {
+            community: false,
+            default_language: 'en',
+            base_url: 'http://nether-whisper.ru/rp/planescape/map-of-sigil/',
+            robots: 'index, nofollow, noarchive',
+            analytics_id: '31374838',
+            ogp: true,
+            swiftype: true,
+            path: {
+                jquery: '/storage/js/jquery.js',
+                favicons: {
+                    dir: '/storage/images/favicons/',
+                    size: ['96x96', '32x32', '16x16']
+                }
+            }
+        }
     }
 };
 
 
-// Check build type: Regular or Community Edition (i.e. gulp --ce).
-var ce = false;
+// Check build type: Regular or Community Edition (i.e. gulp --ce) ============
 
 if (plugins.util.env.ce === true) {
-    ce = true;
+    delete nunjucks.js.data;
 
+    // Exclude uncomplete translations ----------------------------------------
+    var translations = ['fr', 'it', 'ru'];
+
+    // Images:
     path.source.images = 'source/images/en/*.*';
     path.build.images = 'build/storage/images/en/';
 
+    // Data:
     path.source.data = 'source/data/en/map.json';
     path.build.data = 'build/storage/data/en/';
 
-    delete nunjucks.js.data;
+    // Templates:
+    path.source.html = [path.source.html];
+    for (var i = 0; i < translations.length; i++) {
+        path.source.html.push('!' + path.common.templates + translations[i] + '/[^_]*.njk');
+    }
 
-    path.source.html = path.source.templates + '_CE/_index.njk';
+    // Switch global template variables ---------------------------------------
+    nunjucks.html.data.community = true;
+    nunjucks.html.data.analytics_id = false;
+    nunjucks.html.data.ogp = false;
+    nunjucks.html.data.swiftype = false;
+    nunjucks.html.data.robots = 'noindex, nofollow';
+    nunjucks.html.data.path.jquery = false;
 };
 
 
@@ -69,7 +106,22 @@ gulp.task('clean:all', function() {
 });
 
 
-// Backup dependencies to 'source/vendor' -------------------------------------
+// Backup dependencies to “source/vendor” =====================================
+
+// Shared pipes to fetch the Mapplic package if it’s installed ----------------
+var fetch_mapplic_images = gulp.src('node_modules/mapplic/html/mapplic/images/*.*')
+    .pipe(plugins.changed('source/vendor/mapplic/images/'))
+    .pipe(gulp.dest('source/vendor/mapplic/images/'));
+
+var fetch_mapplic = gulp.src([
+    'node_modules/mapplic/html/mapplic/mapplic?(-ie).css',
+    'node_modules/mapplic/html/mapplic/mapplic.js',
+])
+    .pipe(plugins.changed('source/vendor/mapplic/'))
+    .pipe(gulp.dest('source/vendor/mapplic/'));
+
+
+// Fetch all packages ---------------------------------------------------------
 gulp.task('fetch:vendor', function() {
     var jquery = gulp.src('node_modules/jquery/dist/jquery.js')
         .pipe(plugins.changed('source/vendor/jquery/'))
@@ -102,18 +154,6 @@ gulp.task('fetch:vendor', function() {
         .pipe(plugins.changed('source/vendor/font-awesome/'))
         .pipe(gulp.dest('source/vendor/font-awesome/'));
 
-    // Process Mapplic package if available:
-    var mapplic_images = gulp.src('node_modules/mapplic/html/mapplic/images/*.*')
-        .pipe(plugins.changed('source/vendor/mapplic/images/'))
-        .pipe(gulp.dest('source/vendor/mapplic/images/'));
-
-    var mapplic = gulp.src([
-        'node_modules/mapplic/html/mapplic/mapplic?(-ie).css',
-        'node_modules/mapplic/html/mapplic/mapplic.js',
-    ])
-        .pipe(plugins.changed('source/vendor/mapplic/'))
-        .pipe(gulp.dest('source/vendor/mapplic/'));
-
     return merge(
         jquery,
         jquery_mousewheel,
@@ -121,24 +161,13 @@ gulp.task('fetch:vendor', function() {
         magnific_popup,
         normalize,
         fa_fonts, fa_css,
-        mapplic_images, mapplic
+        fetch_mapplic_images, fetch_mapplic
     );
 });
 
 // Fetch only the Mapplic package ---------------------------------------------
 gulp.task('fetch:mapplic', function() {
-    var mapplic_images = gulp.src('node_modules/mapplic/html/mapplic/images/*.*')
-        .pipe(plugins.changed('source/vendor/mapplic/images/'))
-        .pipe(gulp.dest('source/vendor/mapplic/images/'));
-
-    var mapplic = gulp.src([
-        'node_modules/mapplic/html/mapplic/mapplic?(-ie).css',
-        'node_modules/mapplic/html/mapplic/mapplic.js',
-    ])
-        .pipe(plugins.changed('source/vendor/mapplic/'))
-        .pipe(gulp.dest('source/vendor/mapplic/'));
-
-    return merge(mapplic_images, mapplic);
+    return merge(fetch_mapplic_images, fetch_mapplic);
 });
 
 
@@ -202,11 +231,10 @@ gulp.task('build:js', function() {
 });
 
 
-// Process HTML templates -----------------------------------------------------
+// Process page templates -----------------------------------------------------
 gulp.task('build:html', function() {
     return gulp.src(path.source.html)
-        .pipe(plugins.nunjucksRender({path: path.source.templates}))
-        .pipe(ce ? plugins.rename({basename: 'index'}) : plugins.util.noop())
+        .pipe(plugins.nunjucksRender(nunjucks.html))
         .pipe(plugins.lineEndingCorrector())
         .pipe(gulp.dest(path.build.html))
 });

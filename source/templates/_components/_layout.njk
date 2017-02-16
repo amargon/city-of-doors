@@ -3,16 +3,17 @@
 <html lang='{{ language }}'>
     <head>
         <meta charset='utf-8'>
-        <title>{{ breadcrumbs if breadcrumbs else title }}</title>
-        <meta name='description' content='{{ description }}'>
+        <title>{{ breadcrumbs if breadcrumbs and not community else title }}</title>
+        <meta name='description' content='{{ description }}'>{% if not community %}
+{% for size in path.favicons.size %}
+        <link rel='icon' type='image/png' href='{{ path.favicons.dir }}favicon-{{ size }}.png' sizes='{{ size }}'>{% endfor %}{% endif %}
 
-        {% for size in path.favicons.size -%}
-            <link rel='icon' type='image/png' href='{{ path.favicons.dir }}/favicon-{{ size }}.png' sizes='{{ size }}'>
-        {% endfor %}
-        <meta name='robots' content='{{ robots }}'>{% if not CE %}
-        <link rel='canonical' href='{{ canonical_url }}'>{% endif -%}
+        <meta name='robots' content='{{ robots }}'>{% if not community %}
+        <link rel='canonical' href='{{ base_url }}{% if language != default_language %}{{ language }}/{% endif %}'>{% endif %}{% if not community and translations %}
+{% for code, name in translations | dictsort(false, 'value') %}
+        <link rel='alternate' href='{{ base_url }}{% if code != default_language %}{{ code }}/{% endif %}' hreflang='{{ code }}'>{% endfor %}{% endif -%}
 {% if ogp %}
-{% include '_components/_ogp.njk' %}{%- endif %}{% if swiftype %}{% include '_components/_swiftype.njk' %}
+{% include '_components/_ogp.njk' ignore missing %}{%- endif %}{% if swiftype %}{% include '_components/_swiftype.njk' ignore missing %}
 {%- endif %}
         <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
 
@@ -23,8 +24,21 @@
         <div class='header'>
             <div class='logo fa fa-map-o'></div>
             <div class='title'>{{ header }}{% if status %}<sup>{{ status }}</sup>{% endif %}</div>
-            <div id='menu'>{% if not CE %}
-{% block languages %}{% include '_components/_languages.njk' %}{% endblock %}
+            <div id='menu'>{% if not community and translations %}
+                <div class='languages'>
+                    <ul>
+                    {%- for code, name in translations | dictsort(false, 'value') %}
+                        {% if code == language -%}
+                            <li class='active'>{{ name }}</li>
+                        {%- elif code == default_language -%}
+                            <li><a href='{{ base_path }}'>{{ name }}</a></li>
+                        {%- else -%}
+                            <li><a href='{{ base_path }}{{ code }}/'>{{ name }}</a></li>
+                        {%- endif -%}
+                    {% endfor %}
+                    </ul>
+                </div>
+
                 <div class='fa fa-globe'></div>{% endif %}
                 <div class='fa fa-key'></div>
             </div>
@@ -35,13 +49,13 @@
     <div class='panel from-right'>
         <div class='panel-container'>
             <div class='panel-content'>
-{% block readme %}{% include '_components/_readme.njk' %}{% endblock %}{% if CE %}
+{% block readme %}{% include '_components/_readme.njk' %}{% endblock %}{% if community %}
 <p class='sidenote'>v1.0.2.</p>
 {% endif %}
             </div>
         </div>
     </div>
-    {% if path.jquery %}
+{% if path.jquery %}
     <script src='{{ path.jquery }}'></script>{% endif %}
     <script src='{{ base_path }}storage/js/plugins.js'></script>
     <script>
@@ -49,7 +63,7 @@
             $('#menu .fa-key').on('click', function(event){
                 $(this).toggleClass('active');
                 $('.panel').toggleClass('is-visible');
-            });{% if not CE %}
+            });{% if not community %}
 
             $('#menu .fa-globe').on('click', function(event){
                $(this).toggleClass('active');
@@ -65,11 +79,11 @@
             });
 
             $map.on('mapready', function(e, self) {
-                self.moveTo(0, 0, 1, 0);{% if not CE %}
-                {% block l10n %}{% endblock %}{% endif %}
+                self.moveTo(0, 0, 1, 0);{% if language !== 'en' %}
+                {% block mapplic_l10n %}{% endblock %}{% endif %}
             });
         });
-    </script>
-{% if analytics_id -%}{% include '_components/_analytics.njk' %}{%- endif -%}
+    </script>{% if analytics_id %}
+{% include '_components/_analytics.njk' ignore missing %}{% endif %}
     </body>
 </html>

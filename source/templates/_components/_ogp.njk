@@ -1,10 +1,10 @@
 {# Open Graph Metadata ----------------------------------------------------- #}
-        <!-- OPEN GRAPH -->{% if ogp.site_name %}
-        <meta property='og:site_name' content='{{ ogp.site_name }}'>{% endif %}
-        <meta property='og:locale' content='{{ ogp.locale }}'>
-        <meta property='og:type' content='article'>{% if ogp.published_time %}
-        <meta property='article:published_time' content='{{ ogp.published_time }}'>{% endif %}
-        <meta property='og:url' content='{{ ogp.url }}'>
-        <meta property='og:title' content='{{ ogp.title }}'>
-        <meta property='og:description' content='{{ ogp.description }}'>
-        <meta property='og:image' content='{{ ogp.image }}'>
+        <!-- OPEN GRAPH -->{% if site_name %}
+        <meta property='og:site_name' content='{{ site_name }}'>{% endif %}{% if locale %}
+        <meta property='og:locale' content='{{ locale }}'>{% endif %}
+        <meta property='og:type' content='article'>{% if published_at %}
+        <meta property='article:published_time' content='{{ published_at }}'>{% endif %}
+        <meta property='og:url' content='{{ base_url }}{% if language !== default_language %}{{ language }}/{% endif %}'>
+        <meta property='og:title' content='{{ title }}'>
+        <meta property='og:description' content='{{ description }}'>
+        <meta property='og:image' content='{{ base_url }}storage/images/{{ language }}/ogp.jpg'>

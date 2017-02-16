@@ -1,8 +1,8 @@
 {# Swiftype Search Metadata ------------------------------------------------ #}
         <!-- SWIFTYPE SEARCH -->
-        <meta name='st:robots' content='index, nofollow'>{% if swiftype.url %}
-        <meta class='swiftype' name='url' data-type='enum' content='{{ swiftype.url }}'>{% endif %}{% if swiftype.type %}
-        <meta class='swiftype' name='type' data-type='enum' content='{{ swiftype.type }}'>{% endif %}
-        <meta class='swiftype' name='title' data-type='string' content='{{ swiftype.title }}'>
-        <meta class='swiftype' name='image' data-type='enum' content='{{ swiftype.image }}'>
-        <meta class='swiftype' name='published_at' data-type='date' content='{{ swiftype.published_at }}'>
+        <meta name='st:robots' content='index, nofollow'>
+        <meta class='swiftype' name='url' data-type='enum' content='{{ base_url }}{% if language !== default_language %}{{ language }}/{% endif %}'>
+        <meta class='swiftype' name='type' data-type='enum' content='page'>
+        <meta class='swiftype' name='title' data-type='string' content='{{ title }}'>
+        <meta class='swiftype' name='image' data-type='enum' content='{{ base_url }}storage/images/{{ language }}/ogp.jpg'>
+        <meta class='swiftype' name='published_at' data-type='date' content='{{ published_at }}'>
