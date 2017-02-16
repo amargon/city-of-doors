@@ -1,118 +1,37 @@
 {# ========================================================================= #}
-{# ******************** The Map of Sigil: Main Template ******************** #}
+{# ************* The Map of Sigil: English Template (Default) ************** #}
 {# ========================================================================= #}
-
-{# This is the template I use to build the map as a part of my gaming website.
-Therefore it’s very specific, but also it’s an example of custom build.
-See “CE” template for a bare minimum of options. #}
 
 {% extends '_components/_layout.njk' %}
 
 
-{# Path Settings =========================================================== #}
-{# The map can be configured to rely on common website assets: as for now,
-favicons and jQuery.
+{# General ================================================================= #}
+{% set published_at = '2016-01-04T23:19:13+03' %}
 
-Favicons are assumed to be PNG images and have names like “favicon-16x16.png”.
+{# Language & Translations ================================================= #}
+{% set language = 'en' %}
+{% set locale = 'en_US' %}
 
-If 'path.jquery' is not defined or empty, jQuery will be bundled with other
-JS modules in a single independent package. #}
-{% set path = {
-        jquery: '/storage/js/jquery.js',
-        favicons: {
-            dir: '/storage/images/favicons',
-            size: ['96x96', '32x32', '16x16']
-        }
+{# Language Selector Options ----------------------------------------------- #}
+{% set translations = {
+        en: 'English',
+        fr: 'French',
+        it: 'Italian',
+        ru: 'Russian'
     }
 %}
 
+{# Page UI ----------------------------------------------------------------- #}
+{% set site_name = 'Nether Whisper' %}
 
-{# Language Settings ======================================================= #}
-{# Google Fonts makes webfont files as small as possible, so by default
-it provides only the latin character set.
-
-To render the map in a language other than English, you may need to request
-an additional font subset, for example '&subset=cyrillic'. #}
-{% set language = 'en' %}
-{% set locale = 'en_US' %}
-{% set font_subset = '' %}
-
-{# Title, description and map caption ('header') are small text fragments thus
-they are set here. Map key has its own template ('_readme.njk'). #}
 {% set title = 'The Map of Sigil, City of Doors' %}
 {% set description = 'Reference index of 260 Sigil venues culled from official Planescape material.' %}
 {% set header = 'Sigil: The City of Doors' %}
 
 
-{# Metadata ================================================================ #}
-{% set robots = 'index, nofollow, noarchive' %}
-{% set canonical_url = 'http://nether-whisper.ru/rp/planescape/map-of-sigil/' %}
-
-{# Open Graph -------------------------------------------------------------- #}
-{# 'url' and 'image' must be full URLs, i.e. 'http://example.com/images/ogp.jpg'.
-'site_name' and 'published_time' are optional properties and may be removed. #}
-{% set ogp = {
-        site_name: 'Nether Whisper',
-        title: title,
-        description: description,
-        locale: locale,
-        published_time: '2016-01-04T23:19:13+03',
-        url: canonical_url,
-        image: 'http://nether-whisper.ru/rp/planescape/map-of-sigil/storage/images/en/ogp.jpg'
-    }
-%}
-
-
 {# Custom Settings: nether-whisper.ru ====================================== #}
 {# REMOVE THE SECTION OR PUT HERE YOUR OWN CUSTOM SETTINGS. ---------------- #}
 
-{# Web Analytics Tracking ID ----------------------------------------------- #}
-{# If set, this token enables the tracking code snippet in the map footer.
-
-1. Remove the section if you are not going to to measure your traffic.
-
-OR
-
-1. Check '_analytics.njk' template and REPLACE its content with your
-tracking code snippet, for example:
-
-    <!-- Google Analytics -->
-    <script>
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', '{{ analytics_id }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <!-- Google Analytics -->
-
-where {{ analytics_id }} is the placeholder of your tracking ID.
-
-2. Fill in the token: #}
-{% set analytics_id = '31374838' %}
-
-{# Swiftype Search --------------------------------------------------------- #}
-{# Swiftype (https://swiftype.com/) is a website search service.
-Most likely you don’t use it, so this section is to be simply removed
-from your configuration.
-
-If you do use it:
-
-1)  'type' is an optional custom property to indicate the content type
-    for the search filters (for example, 'image' or 'video').
-
-    Remove it if you did not set up document type filters in Swiftype.
-
-2)  'url' is optional too, unless you have to specify the canonical URL
-    of the page. #}
-{% set swiftype = {
-        type: 'page',
-        title: ogp.title,
-        url: ogp.url,
-        image: ogp.image,
-        published_at: ogp.published_time
-    }
-%}
-
 {# Breadcrumbs in <title>: ------------------------------------------------- #}
 {# The Map of Sigil, City of Doors :: Planescape :: RP :: Nether Whisper     #}
-{% set breadcrumbs =  [title, 'Planescape', 'RP', ogp.site_name] | join(' :: ') %}
+{% set breadcrumbs =  [title, 'Planescape', 'RP', site_name] | join(' :: ') %}
