@@ -228,6 +228,7 @@ gulp.task('build:css', function () {
         .pipe(plugins.replace('images/', '../images/mapplic/'))
         .pipe(plugins.cleanCss())
         .pipe(plugins.lineEndingCorrector())
+        .pipe(plugins.rename({suffix: '.min'}))
         .pipe(gulp.dest(path.build.css));
 });
 
@@ -238,6 +239,7 @@ gulp.task('build:js', function() {
         .pipe(plugins.nunjucksRender(nunjucks.js))
         .pipe(plugins.uglify())
         .pipe(plugins.lineEndingCorrector())
+        .pipe(plugins.rename({suffix: '.min'}))
         .pipe(gulp.dest(path.build.js));
 });
 
