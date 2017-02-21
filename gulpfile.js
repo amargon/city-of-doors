@@ -9,11 +9,27 @@ var merge = require('merge-stream');
 // ****************************** CONFIGURATION *******************************
 // ============================================================================
 
+var argv = require('yargs')
+    .options({
+        'community': {
+            alias: 'ce',
+            describe: 'trigger the Community Edition build',
+            type: 'boolean'
+        },
+        'language': {
+            alias: 'lang',
+            // Two-letter codes of target languages on Crowdin:
+            choices: ['en', 'fr', 'it', 'ru'],
+            default: 'en',
+            describe: 'set the default language',
+            nargs: 1,
+            type: 'string'
+        }
+    })
+    .argv;
+
+
 var path = {
-    common: {
-        templates: 'source/templates/',
-        vendor: 'source/vendor/'
-    },
     source: {
         css: 'source/scss/style.scss',
         data: 'source/data/**/*.json',
@@ -38,23 +54,24 @@ var path = {
 
 var nunjucks = {
     js: {
-        path: path.common.vendor,
+        path: 'source/vendor/',
         ext: '.js',
-        data: {path: {jquery: true}} // Make nunjucks exclude jQuery.
+        // Exclude jQuery from the Regular build:
+        data: {path: {jquery: argv.community ? false : true}}
     },
     html: {
-        path: path.common.templates,
+        path: 'source/templates/',
         data: {
-            community: false,
-            default_language: 'en',
+            community: argv.community,
+            default_language: argv.language,
             base_url: 'http://nether-whisper.ru/rp/planescape/map-of-sigil/',
-            robots: 'index, nofollow, noarchive',
-            analytics_id: '31374838',
-            ogp: true,
-            swiftype: true,
+            robots: argv.community ? 'noindex, nofollow' : 'index, nofollow, noarchive',
+            analytics_id: argv.community ? false : '31374838',
+            ogp: argv.community ? false : true,
+            swiftype: argv.community ? false : true,
             path: {
-                jquery: '/storage/js/jquery.js',
-                favicons: {
+                jquery: argv.community ? false : '/storage/js/jquery.js',
+                favicons: argv.community ? false : {
                     dir: '/storage/images/favicons/',
                     size: ['96x96', '32x32', '16x16']
                 }
@@ -64,36 +81,18 @@ var nunjucks = {
 };
 
 
-// Check build type: Regular or Community Edition (i.e. gulp --ce) ============
+// Exclude uncomplete and unreleased translations -----------------------------
+var exclude_list = argv.community ? ['fr', 'it', 'ru'] : ['it', 'ru'];
 
-if (plugins.util.env.ce === true) {
-    delete nunjucks.js.data;
-
-    // Exclude uncomplete translations ----------------------------------------
-    var translations = ['fr', 'it', 'ru'];
-
-    // Images:
-    path.source.images = 'source/images/en/*.*';
-    path.build.images = 'build/storage/images/en/';
-
-    // Data:
-    path.source.data = 'source/data/en/map.json';
-    path.build.data = 'build/storage/data/en/';
-
-    // Templates:
-    path.source.html = [path.source.html];
-    for (var i = 0; i < translations.length; i++) {
-        path.source.html.push('!' + path.common.templates + translations[i] + '/[^_]*.njk');
-    }
-
-    // Switch global template variables ---------------------------------------
-    nunjucks.html.data.community = true;
-    nunjucks.html.data.analytics_id = false;
-    nunjucks.html.data.ogp = false;
-    nunjucks.html.data.swiftype = false;
-    nunjucks.html.data.robots = 'noindex, nofollow';
-    nunjucks.html.data.path.jquery = false;
+function exclude_translations(source) {
+    return source.replace('**', '!(' + exclude_list.join('|') + ')');
 };
+
+path.source.images = exclude_translations(path.source.images);
+path.source.data = exclude_translations(path.source.data);
+path.source.html = exclude_translations(path.source.html);
+
+nunjucks.html.data.translations_excluded = exclude_list;
 
 
 // ============================================================================
@@ -106,7 +105,7 @@ gulp.task('clean:all', function() {
 });
 
 
-// Backup dependencies to “source/vendor” =====================================
+// Back up dependencies to “source/vendor” ====================================
 
 // Shared pipes to fetch the Mapplic package if it’s installed ----------------
 var fetch_mapplic_images = gulp.src('node_modules/mapplic/html/mapplic/images/*.*')
@@ -177,19 +176,21 @@ gulp.task('fetch:mapplic', function() {
 gulp.task('build:fonts', function() {
     return gulp.src(path.source.fonts)
         .pipe(plugins.changed(path.build.fonts))
-        .pipe(gulp.dest(path.build.fonts))
+        .pipe(gulp.dest(path.build.fonts));
 });
 
 
 // Copy images ----------------------------------------------------------------
 gulp.task('build:images', function() {
+    var destination = path.build.images + 'mapplic/';
+
     var images = gulp.src(path.source.images)
         .pipe(plugins.changed(path.build.images))
         .pipe(gulp.dest(path.build.images));
 
     var images_mapplic = gulp.src(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha{20,50}.png'])
-        .pipe(plugins.changed('build/storage/images/mapplic/'))
-        .pipe(gulp.dest('build/storage/images/mapplic/'));
+        .pipe(plugins.changed(destination))
+        .pipe(gulp.dest(destination));
 
     return merge(images, images_mapplic);
 });
@@ -200,7 +201,7 @@ gulp.task('build:data', function() {
     return gulp.src(path.source.data)
         .pipe(plugins.changed(path.build.data))
         .pipe(plugins.lineEndingCorrector())
-        .pipe(gulp.dest(path.build.data))
+        .pipe(gulp.dest(path.build.data));
 });
 
 
@@ -217,28 +218,36 @@ gulp.task('build:css', function () {
         .pipe(plugins.replace('images/', '../images/mapplic/'))
         .pipe(plugins.cleanCss())
         .pipe(plugins.lineEndingCorrector())
-        .pipe(gulp.dest(path.build.css))
+        .pipe(gulp.dest(path.build.css));
 });
 
 
 // Process JS -----------------------------------------------------------------
 gulp.task('build:js', function() {
-  return gulp.src(path.source.js)
-    .pipe(plugins.nunjucksRender(nunjucks.js))
-    .pipe(plugins.uglify())
-    .pipe(plugins.lineEndingCorrector())
-    .pipe(gulp.dest(path.build.js));
+    return gulp.src(path.source.js)
+        .pipe(plugins.nunjucksRender(nunjucks.js))
+        .pipe(plugins.uglify())
+        .pipe(plugins.lineEndingCorrector())
+        .pipe(gulp.dest(path.build.js));
 });
 
 
 // Process page templates -----------------------------------------------------
 gulp.task('build:html', function() {
-    return gulp.src(path.source.html)
-        .pipe(plugins.nunjucksRender(nunjucks.html))
-        .pipe(plugins.lineEndingCorrector())
-        .pipe(gulp.dest(path.build.html))
-});
+    var token = 'source/templates/' + argv.language + '/[^_]*.njk';
 
+    function add_pipe(src) {
+        return gulp.src(src)
+            .pipe(plugins.nunjucksRender(nunjucks.html))
+            .pipe(plugins.lineEndingCorrector())
+            .pipe(gulp.dest(path.build.html));
+    };
+
+    var build_default = add_pipe(token);
+    var build_other = add_pipe([path.source.html, '!' + token]);
+
+    return merge(build_default, build_other);
+});
 
 // Put it all together --------------------------------------------------------
 gulp.task('build', [
