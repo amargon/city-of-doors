@@ -48,9 +48,7 @@ strong {font-weight: 500;}
     padding-top: $header__height;
 }
 
-#map:full-screen {padding-top: 0;}
-#map:-webkit-full-screen {padding-top: 0;}
-#map:-moz-full-screen {padding-top: 0;}
+#map.mapplic-fullscreen {padding-top: 0;}
 
 @import 'components/scrollbar';
 @import 'components/header';

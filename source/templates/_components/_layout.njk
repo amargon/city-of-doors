@@ -7,14 +7,14 @@
     <head>
         <meta charset='utf-8'>
         <title>{{ breadcrumbs if breadcrumbs else title }}</title>
-        <meta name='description' content='{{ description }}'>{% if not community %}
+        <meta name='description' content='{{ description }}'>{% if not community and path.favicons %}
 {% for size in path.favicons.size %}
         <link rel='icon' type='image/png' href='{{ path.favicons.dir }}favicon-{{ size }}.png' sizes='{{ size }}'>{% endfor %}{% endif %}
 
         <meta name='robots' content='{{ robots }}'>{% if not community and base_url %}
-        <link rel='canonical' href='{{ base_url }}{% if language != default_language %}{{ language }}/{% endif %}'>{% endif %}{% if not community and base_url and translations %}
+        <link rel='canonical' href='{{ base_url }}{% if language != default_language %}{{ language }}/{% endif %}'>{% if translations %}
 {% for code, name in translations | dictsort(false, 'value') %}{% if code not in translations_excluded %}
-        <link rel='alternate' href='{{ base_url }}{% if code != default_language %}{{ code }}/{% endif %}' hreflang='{{ code }}'>{% endif %}{% endfor %}{% endif %}{% if ogp and base_url %}
+        <link rel='alternate' href='{{ base_url }}{% if code != default_language %}{{ code }}/{% endif %}' hreflang='{{ code }}'>{% endif %}{% endfor %}{% endif %}{% endif %}{% if ogp and base_url %}
 
         <!-- OPEN GRAPH -->{% if site_name %}
         <meta property='og:site_name' content='{{ site_name }}'>{% endif %}{% if locale %}
@@ -74,7 +74,7 @@
             $('#menu .fa-key').on('click', function(event){
                 $(this).toggleClass('active');
                 $('.panel').toggleClass('is-visible');
-            });{% if not community %}
+            });{% if not community and translations %}
 
             $('#menu .fa-globe').on('click', function(event){
                $(this).toggleClass('active');
@@ -90,8 +90,7 @@
             });
 
             $map.on('mapready', function(e, self) {
-                self.moveTo(0, 0, 1, 0);{% if language !== 'en' %}
-                {% block mapplic_l10n %}{% endblock %}{% endif %}
+                self.moveTo(0, 0, 0, 0);{% if language !== 'en' %}{% block mapplic_l10n %}{% endblock %}{% endif %}
             });
         });
     </script>{% if analytics_id %}
