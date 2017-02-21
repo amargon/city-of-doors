@@ -29,7 +29,7 @@
         <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
 
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i{{ font_subset }}'>
-        <link rel='stylesheet' href='{{ base_path }}storage/css/style.css'>
+        <link rel='stylesheet' href='{{ base_path }}storage/css/style.min.css'>
     </head>
     <body>
         <div class='header'>
@@ -68,7 +68,7 @@
     </div>
 {% if path.jquery %}
     <script src='{{ path.jquery }}'></script>{% endif %}
-    <script src='{{ base_path }}storage/js/plugins.js'></script>
+    <script src='{{ base_path }}storage/js/plugins.min.js'></script>
     <script>
         $(document).ready(function() {
             $('#menu .fa-key').on('click', function(event){
