@@ -1,7 +1,7 @@
 {
   "name": "city-of-doors",
   "title": "The Map of Sigil, City of Doors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reference index of 260 Sigil venues culled from official Planescape material.",
   "keywords": [
     "d&d",
@@ -42,6 +42,7 @@
     "gulp-load-plugins": "^1.4.0",
     "gulp-nunjucks-render": "^2.0.0",
     "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
     "gulp-sass": "^3.0.0",
     "gulp-uglify": "^2.0.0",
