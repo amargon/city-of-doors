@@ -62,6 +62,7 @@ var nunjucks = {
     html: {
         path: 'source/templates/',
         data: {
+            // Configure the layout:
             community: argv.community,
             default_language: argv.language,
             base_url: 'http://nether-whisper.ru/rp/planescape/map-of-sigil/',
@@ -182,26 +183,35 @@ gulp.task('build:fonts', function() {
 
 // Copy images ----------------------------------------------------------------
 gulp.task('build:images', function() {
-    var destination = path.build.images + 'mapplic/';
+    function add_pipe(src, dest) {
+        return gulp.src(src)
+            .pipe(plugins.changed(dest))
+            .pipe(gulp.dest(dest));
+    };
 
-    var images = gulp.src(path.source.images)
-        .pipe(plugins.changed(path.build.images))
-        .pipe(gulp.dest(path.build.images));
+    var copy_images = add_pipe(path.source.images, path.build.images);
+    var copy_mapplic_images = add_pipe(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha{20,50}.png'], path.build.images + 'mapplic/');
 
-    var images_mapplic = gulp.src(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha{20,50}.png'])
-        .pipe(plugins.changed(destination))
-        .pipe(gulp.dest(destination));
-
-    return merge(images, images_mapplic);
+    return merge(copy_images, copy_mapplic_images);
 });
 
 
 // Copy map data --------------------------------------------------------------
 gulp.task('build:data', function() {
-    return gulp.src(path.source.data)
+    var token = 'source/data/' + argv.language + '/*.json';
+
+    var build_default = gulp.src(token)
         .pipe(plugins.changed(path.build.data))
         .pipe(plugins.lineEndingCorrector())
+        .pipe(gulp.dest(path.build.data + argv.language + '/'));
+
+    var build_other = gulp.src([path.source.data, '!' + token])
+        .pipe(plugins.changed(path.build.data))
+        .pipe(plugins.replace('storage/images/', '../storage/images/'))
+        .pipe(plugins.lineEndingCorrector())
         .pipe(gulp.dest(path.build.data));
+
+    return merge(build_default, build_other);
 });
 
 
