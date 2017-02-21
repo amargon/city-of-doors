@@ -1,20 +1,31 @@
 {# Page Layout ------------------------------------------------------------ -#}
+{%- if language != default_language %}{% set base_path = '../' %}{% endif -%}
+{%- if not community %}{% set breadcrumbs =  [title, 'Planescape', 'RP', site_name] | join(' :: ') %}{% endif -%}
+
 <!DOCTYPE html>
 <html lang='{{ language }}'>
     <head>
         <meta charset='utf-8'>
-        <title>{{ breadcrumbs if breadcrumbs and not community else title }}</title>
+        <title>{{ breadcrumbs if breadcrumbs else title }}</title>
         <meta name='description' content='{{ description }}'>{% if not community %}
 {% for size in path.favicons.size %}
         <link rel='icon' type='image/png' href='{{ path.favicons.dir }}favicon-{{ size }}.png' sizes='{{ size }}'>{% endfor %}{% endif %}
 
-        <meta name='robots' content='{{ robots }}'>{% if not community %}
-        <link rel='canonical' href='{{ base_url }}{% if language != default_language %}{{ language }}/{% endif %}'>{% endif %}{% if not community and translations %}
-{% for code, name in translations | dictsort(false, 'value') %}
-        <link rel='alternate' href='{{ base_url }}{% if code != default_language %}{{ code }}/{% endif %}' hreflang='{{ code }}'>{% endfor %}{% endif -%}
-{% if ogp %}
-{% include '_components/_ogp.njk' ignore missing %}{%- endif %}{% if swiftype %}{% include '_components/_swiftype.njk' ignore missing %}
-{%- endif %}
+        <meta name='robots' content='{{ robots }}'>{% if not community and base_url %}
+        <link rel='canonical' href='{{ base_url }}{% if language != default_language %}{{ language }}/{% endif %}'>{% endif %}{% if not community and base_url and translations %}
+{% for code, name in translations | dictsort(false, 'value') %}{% if code not in translations_excluded %}
+        <link rel='alternate' href='{{ base_url }}{% if code != default_language %}{{ code }}/{% endif %}' hreflang='{{ code }}'>{% endif %}{% endfor %}{% endif %}{% if ogp and base_url %}
+
+        <!-- OPEN GRAPH -->{% if site_name %}
+        <meta property='og:site_name' content='{{ site_name }}'>{% endif %}{% if locale %}
+        <meta property='og:locale' content='{{ locale }}'>{% endif %}
+        <meta property='og:type' content='article'>{% if published_at %}
+        <meta property='article:published_time' content='{{ published_at }}'>{% endif %}
+        <meta property='og:url' content='{{ base_url }}{% if language !== default_language %}{{ language }}/{% endif %}'>
+        <meta property='og:title' content='{{ title }}'>
+        <meta property='og:description' content='{{ description }}'>
+        <meta property='og:image' content='{{ base_url }}storage/images/{{ language }}/ogp.jpg'>{% endif %}{% if swiftype and base_url %}
+{% include '_components/_swiftype.njk' ignore missing %}{% endif %}
         <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
 
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i{{ font_subset }}'>
@@ -27,14 +38,14 @@
             <div id='menu'>{% if not community and translations %}
                 <div class='languages'>
                     <ul>
-                    {%- for code, name in translations | dictsort(false, 'value') %}
+                    {%- for code, name in translations | dictsort(false, 'value') %}{% if code not in translations_excluded %}
                         {% if code == language -%}
                             <li class='active'>{{ name }}</li>
                         {%- elif code == default_language -%}
                             <li><a href='{{ base_path }}'>{{ name }}</a></li>
                         {%- else -%}
                             <li><a href='{{ base_path }}{{ code }}/'>{{ name }}</a></li>
-                        {%- endif -%}
+                        {%- endif -%}{%- endif -%}
                     {% endfor %}
                     </ul>
                 </div>
@@ -49,7 +60,7 @@
     <div class='panel from-right'>
         <div class='panel-container'>
             <div class='panel-content'>
-{% block readme %}{% include '_components/_readme.njk' %}{% endblock %}{% if community %}
+{% block readme %}{% include language + '/_readme.njk' %}{% endblock %}{% if community %}
 <p class='sidenote'>v1.0.2.</p>
 {% endif %}
             </div>

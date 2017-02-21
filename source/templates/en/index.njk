@@ -1,5 +1,5 @@
 {# ========================================================================= #}
-{# ************* The Map of Sigil: English Template (Default) ************** #}
+{# ******************* The Map of Sigil: English Template ****************** #}
 {# ========================================================================= #}
 
 {% extends '_components/_layout.njk' %}
@@ -12,7 +12,7 @@
 {% set language = 'en' %}
 {% set locale = 'en_US' %}
 
-{# Language Selector Options ----------------------------------------------- #}
+{# Available Translations -------------------------------------------------- #}
 {% set translations = {
         en: 'English',
         fr: 'French',
@@ -27,11 +27,3 @@
 {% set title = 'The Map of Sigil, City of Doors' %}
 {% set description = 'Reference index of 260 Sigil venues culled from official Planescape material.' %}
 {% set header = 'Sigil: The City of Doors' %}
-
-
-{# Custom Settings: nether-whisper.ru ====================================== #}
-{# REMOVE THE SECTION OR PUT HERE YOUR OWN CUSTOM SETTINGS. ---------------- #}
-
-{# Breadcrumbs in <title>: ------------------------------------------------- #}
-{# The Map of Sigil, City of Doors :: Planescape :: RP :: Nether Whisper     #}
-{% set breadcrumbs =  [title, 'Planescape', 'RP', site_name] | join(' :: ') %}
