@@ -42,7 +42,7 @@
     top: $header__height;
     z-index: 1;
 
-    background: #dbe2e9;
+    background-color: $panel__background;
 
     transition-property: transform;
     transition-duration: .3s;
@@ -80,7 +80,7 @@
     overflow: auto;
     -webkit-overflow-scrolling: touch;
 
-    color: #424f5c;
+    color: $panel__text;
     font-size: 14px;
     font-size: .875rem;
     line-height: 1.4;
@@ -101,14 +101,14 @@
 .panel-content p:last-of-type {margin-bottom: 0;}
 
 .panel-content a {
-    color: #424f5c;
+    color: $panel__text;
     font-weight: $font-weight__strong;
 }
 
 .panel-content .lead a {font-weight: $font-weight__normal;}
 
 .panel-content .sidenote {
-    color: #64788c;
+    color: $panel_sidenote__text;
     font-size: 12px;
     font-size: .75rem;
     font-weight: $font-weight__light;
