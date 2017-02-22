@@ -5,9 +5,23 @@ $font-weight__normal: 400;
 $font-weight__strong: 500;
 
 // Colors ---------------------------------------------------------------------
-$header-color__secondary: #64788c;
+// Menu & Panel colors depend on header background color.
+
+$header__background: #33414a; // #33414a => hsl(203.48, 18.4%, 24.51%)
+$header_button__background: adjust-color($header__background, $hue: 6.52deg, $saturation: -1.73%, $lightness: 22.55%); // #64788c => hsl(210, 16.67%, 47.06%)
+
+$header__text: #fff;
+$header_hover__text: adjust-color($header_button__background, $lightness: 20%); // #9dabb9 => hsl(210, 16.67%, 67.06%)
+
+$panel__background: adjust-color($header_button__background, $saturation: 7.47%, $lightness: 41.61%); // #dbe2e9 => hsl(210, 24.14%, 88.63%)
+$panel__text: adjust-color($header_button__background, $saturation: -0.21%, $lightness: -16.08%); // #424f5c => hsl(210, 16.46%, 30.98%)
+$panel_sidenote__text: $header_button__background;
+
+$panel_scrollbar__background: $panel__background;
+$panel_scrollbar__border: adjust-color($header_button__background, $saturation: 5.55%, $lightness: 24.7%); // #a7b7c7 => hsl(210, 22.22%, 71.76%)
+$panel_scrollbar__thumb: adjust-color($header_button__background, $hue: 0.81deg, $saturation: 0.22%, $lightness: 10%); // #7f91a4 => hsl(210.81, 16.89%, 57.06%)
 
 // Magic Numbers --------------------------------------------------------------
 $header__height: 66px;
-$header-button__margin: 12px;
-$header-button__size: $header__height - $header-button__margin * 2;
+$header_button__margin: 12px;
+$header_button__size: $header__height - $header_button__margin * 2;

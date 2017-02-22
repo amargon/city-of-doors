@@ -3,15 +3,15 @@
 // Map README -----------------------------------------------------------------
 .panel-content::-webkit-scrollbar {
     width: 9px;
-    background-color: #dbe2e9;
+    background-color: $panel_scrollbar__background;
 }
 
 .panel-content::-webkit-scrollbar-track {
-    background-color: #dbe2e9;
-    border-left: 1px solid #a7b7c7;
+    background-color: $panel_scrollbar__background;
+    border-left: 1px solid $panel_scrollbar__border;
 }
 
-.panel-content::-webkit-scrollbar-thumb {background-color: #7f91a4;}
+.panel-content::-webkit-scrollbar-thumb {background-color: $panel_scrollbar__thumb;}
 
 
 // Sidebar & Tooltips ---------------------------------------------------------
