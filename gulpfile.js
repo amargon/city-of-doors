@@ -82,18 +82,23 @@ var nunjucks = {
 };
 
 
-// Exclude uncomplete and unreleased translations -----------------------------
+// Exclude incomplete and unreleased translations -----------------------------
 var exclude_list = argv.community ? ['fr', 'it', 'ru'] : ['it', 'ru'];
 
-function exclude_translations(source) {
-    return source.replace('**', '!(' + exclude_list.join('|') + ')');
+if (exclude_list.indexOf(argv.language) > -1) {
+    plugins.util.log('This translation is incomplete and cannot be set as default.');
+    process.exit(1);
+} else {
+    function exclude_translations(source) {
+        return source.replace('**', '!(' + exclude_list.join('|') + ')');
+    };
+
+    path.source.images = exclude_translations(path.source.images);
+    path.source.data = exclude_translations(path.source.data);
+    path.source.html = exclude_translations(path.source.html);
+
+    nunjucks.html.data.translations_excluded = exclude_list;
 };
-
-path.source.images = exclude_translations(path.source.images);
-path.source.data = exclude_translations(path.source.data);
-path.source.html = exclude_translations(path.source.html);
-
-nunjucks.html.data.translations_excluded = exclude_list;
 
 
 // ============================================================================
