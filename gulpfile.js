@@ -83,6 +83,10 @@ var nunjucks = {
 };
 
 
+// ============================================================================
+// ********************************* UTILITIES ********************************
+// ============================================================================
+
 // Exclude incomplete and unreleased translations -----------------------------
 var exclude_list = argv.community ? ['fr', 'it', 'ru'] : ['it', 'ru'];
 
@@ -99,6 +103,21 @@ if (exclude_list.indexOf(argv.language) > -1) {
     path.source.html = exclude_translations(path.source.html);
 
     nunjucks.html.data.translations_excluded = exclude_list;
+};
+
+
+// Format error messages and force exit code 1 on error -----------------------
+var on_error = function(error) {
+    plugins.util.log(plugins.util.colors.red('[ERROR]:', error.name, error.message));
+    process.exit(1);
+};
+
+
+// Announce the build type: Regular or Community Edition ----------------------
+if (argv.community) {
+    plugins.util.log('Building the map of Sigil',  '(Community Edition, default language: ' + argv.language + ')');
+} else {
+    plugins.util.log('Building the map of Sigil',  '(default language: ' + argv.language + ')');
 };
 
 
@@ -230,6 +249,7 @@ gulp.task('build:css', function () {
 
     return gulp.src(path.source.css)
         .pipe(plugins.sass())
+        .on('error', on_error)
         .pipe(plugins.postcss(processors))
         .pipe(plugins.replace('images/', '../images/mapplic/'))
         .pipe(plugins.cleanCss())
@@ -243,6 +263,7 @@ gulp.task('build:css', function () {
 gulp.task('build:js', function() {
     return gulp.src(path.source.js)
         .pipe(plugins.nunjucksRender(nunjucks.js))
+        .on('error', on_error)
         .pipe(plugins.uglify())
         .pipe(plugins.lineEndingCorrector())
         .pipe(plugins.rename({suffix: '.min'}))
@@ -257,6 +278,7 @@ gulp.task('build:html', function() {
     function add_pipe(src) {
         return gulp.src(src)
             .pipe(plugins.nunjucksRender(nunjucks.html))
+            .on('error', on_error)
             .pipe(plugins.lineEndingCorrector())
             .pipe(gulp.dest(path.build.html));
     };
