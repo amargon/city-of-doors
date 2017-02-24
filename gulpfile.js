@@ -57,7 +57,7 @@ var nunjucks = {
         path: 'source/vendor/',
         ext: '.js',
         // Exclude jQuery from the Regular build:
-        data: {path: {jquery: argv.community ? false : true}}
+        data: {common: {jquery: argv.community ? false : true}}
     },
     html: {
         path: 'source/templates/',
@@ -65,13 +65,14 @@ var nunjucks = {
             // Configure the layout:
             community: argv.community,
             default_language: argv.language,
+            translations_excluded: [],
+            analytics_id: argv.community ? false : '31374838',
             base_url: 'http://nether-whisper.ru/rp/planescape/map-of-sigil/',
             robots: argv.community ? 'noindex, nofollow' : 'index, nofollow, noarchive',
-            analytics_id: argv.community ? false : '31374838',
             ogp: argv.community ? false : true,
             swiftype: argv.community ? false : true,
-            path: {
-                jquery: argv.community ? false : '/storage/js/jquery.js',
+            common: {
+                jquery: argv.community ? false : '/storage/js/jquery.min.js',
                 favicons: argv.community ? false : {
                     dir: '/storage/images/favicons/',
                     size: ['96x96', '32x32', '16x16']

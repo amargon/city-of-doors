@@ -7,9 +7,9 @@
     <head>
         <meta charset='utf-8'>
         <title>{{ breadcrumbs if breadcrumbs else title }}</title>
-        <meta name='description' content='{{ description }}'>{% if not community and path.favicons %}
-{% for size in path.favicons.size %}
-        <link rel='icon' type='image/png' href='{{ path.favicons.dir }}favicon-{{ size }}.png' sizes='{{ size }}'>{% endfor %}{% endif %}
+        <meta name='description' content='{{ description }}'>{% if not community and common.favicons %}
+{% for size in common.favicons.size %}
+        <link rel='icon' type='image/png' href='{{ common.favicons.dir }}favicon-{{ size }}.png' sizes='{{ size }}'>{% endfor %}{% endif %}
 
         <meta name='robots' content='{{ robots }}'>{% if not community and base_url %}
         <link rel='canonical' href='{{ base_url }}{% if language != default_language %}{{ language }}/{% endif %}'>{% if translations %}
@@ -66,8 +66,8 @@
             </div>
         </div>
     </div>
-{% if path.jquery %}
-    <script src='{{ path.jquery }}'></script>{% endif %}
+{% if common.jquery %}
+    <script src='{{ common.jquery }}'></script>{% endif %}
     <script src='{{ base_path }}storage/js/plugins.min.js'></script>
     <script>
         $(document).ready(function() {
