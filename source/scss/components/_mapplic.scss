@@ -94,3 +94,13 @@
 .mapplic-tooltip-description b,
 .mapplic-tooltip-description strong
     {color: #666;}
+
+// Add location labels --------------------------------------------------------
+.mapplic-tooltip-description .labels {line-height: 24px;}
+
+.mapplic-tooltip-description .labels span {
+    color: #fff;
+    background-color: #a680b3;
+    margin-right: 5px;
+    padding: 4px 6px;
+}
