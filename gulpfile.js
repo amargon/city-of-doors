@@ -16,6 +16,11 @@ var argv = require('yargs')
             describe: 'trigger the Community Edition build',
             type: 'boolean'
         },
+        'development': {
+            alias: 'dev',
+            describe: 'enable Mapplic developer mode (display coordinates of the cursor)',
+            type: 'boolean'
+        },
         'language': {
             alias: 'lang',
             // Two-letter codes of target languages on Crowdin:
@@ -65,6 +70,7 @@ var nunjucks = {
             // Configure the layout:
             community: argv.community,
             default_language: argv.language,
+            developer_mode: argv.development ? true : false,
             translations_excluded: [],
             analytics_id: argv.community ? false : '31374838',
             base_url: 'http://nether-whisper.ru/rp/planescape/map-of-sigil/',
