@@ -71,19 +71,20 @@
     <script src='{{ base_path }}storage/js/plugins.min.js'></script>
     <script>
         $(document).ready(function() {
-            $('#menu .fa-key').on('click', function(event){
+            $('#menu .fa-key').on('click', function(event) {
                 $(this).toggleClass('active');
                 $('.panel').toggleClass('is-visible');
             });{% if not community and translations %}
 
-            $('#menu .fa-globe').on('click', function(event){
-               $(this).toggleClass('active');
-               $('.languages').toggleClass('is-visible');
+            $('#menu .fa-globe').on('click', function(event) {
+                $(this).toggleClass('active');
+                $('.languages').toggleClass('is-visible');
            });{% endif %}
 
             var $map = $('#map').mapplic({
                 source: '{{ base_path }}storage/data/{{ language }}/map.json',
-                height: 500,
+                height: 500,{% if developer_mode %}
+                developer: true,{% endif %}
                 fullscreen: true,
                 mapfill: true,
                 maxscale: 1
