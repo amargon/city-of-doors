@@ -43,6 +43,18 @@
             "color": "#333333",
             "title": "Under Sigil",
             "show": "false"
+        },
+        {
+            "id": "any",
+            "color": "#795548",
+            "title": "Anywhere in Sigil",
+            "show": "false"
+        },
+        {
+            "id": "other",
+            "color": "#757575",
+            "title": "Other",
+            "show": "false"
         }
     ],
     "levels": [
@@ -52,6 +64,116 @@
             "map": "storage/images/en/map.jpg",
             "minimap": "storage/images/en/minimap.jpg",
             "locations": [
+                {
+                    "id": "U1",
+                    "pin": "circular fa fa-flash",
+                    "fill": "#333333",
+                    "x": "0.9140",
+                    "y": "0.4675",
+                    "category": "under",
+                    "title": "U1: Temple of Darkness",
+                    "about": "Faction War [Adventure], p. 78",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>Faction War [Adventure], p. 78.</p><p>NPC: Incarus, Vanuire, Ghargaross.</p><p>No powers are revered there, far below the Hive Ward: the name simply conveys its aura of&nbsp;fear and evil. A yagnoloth named Incarus serves as the “high priest” of&nbsp;the&nbsp;Temple. His servants include two nycaloth lieutenants (Vaniure and Ghargaross) and a large force of mezzoloth, piscoloth and canoloth underlings.</p><p>The Nightmare Shaft at the center of the temple allows the yugoloth to seep into the dreams of others.</p>"
+                },
+                {
+                    "id": "U2",
+                    "pin": "circular fa fa-home",
+                    "fill": "#333333",
+                    "x": "0.1025",
+                    "y": "0.5590",
+                    "category": "under",
+                    "title": "U2: Dim Home Commune",
+                    "about": "Faction War [Adventure], p. 86",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 86.</p><p>NPC: Fion, Driel, Nios.</p><ul class='labels'><li>Darkers</li></ul>"
+                },
+                {
+                    "id": "U3",
+                    "pin": "circular fa fa-home",
+                    "fill": "#333333",
+                    "x": "0.1160",
+                    "y": "0.5670",
+                    "category": "under",
+                    "title": "U3: Nowhere Safe House",
+                    "about": "Faction War [Adventure], p. 88",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 88.</p><p>NPC: Gregin, Durrogh Black, Radassa Femio, Kiim Madbone.</p>"
+                },
+                {
+                    "id": "U4",
+                    "pin": "circular fa fa-star",
+                    "fill": "#333333",
+                    "x": "0.7465",
+                    "y": "0.3720",
+                    "category": "under",
+                    "title": "U4: Trash Warrens",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p>"
+                },
+                {
+                    "id": "U5",
+                    "pin": "circular fa fa-star",
+                    "fill": "#333333",
+                    "x": "0.7525",
+                    "y": "0.3790",
+                    "category": "under",
+                    "title": "U5: Buried Village",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p>"
+                },
+                {
+                    "id": "U6",
+                    "pin": "circular fa fa-star",
+                    "fill": "#333333",
+                    "x": "0.7565",
+                    "y": "0.3840",
+                    "category": "under",
+                    "title": "U6: Weeping Stone Catacombs",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p><p>NPC: Glyve.</p>"
+                },
+                {
+                    "id": "U7",
+                    "pin": "circular fa fa-star",
+                    "fill": "#333333",
+                    "x": "0.7625",
+                    "y": "0.3780",
+                    "category": "under",
+                    "title": "U7: Warrens of Thought",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p><p>NPC: Many-As-One.</p>"
+                },
+                {
+                    "id": "U8",
+                    "pin": "circular fa fa-home",
+                    "fill": "#333333",
+                    "x": "0.7495",
+                    "y": "0.3860",
+                    "category": "under",
+                    "title": "U8: Dead Nations",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p><p>NPC: Hargrimm, Acaste, Stale Mary, Soego.</p>"
+                },
+                {
+                    "id": "U9",
+                    "pin": "circular fa fa-home",
+                    "fill": "#333333",
+                    "x": "0.7450",
+                    "y": "0.3910",
+                    "category": "under",
+                    "title": "U9: Drowned Nations",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p>"
+                },
+                {
+                    "id": "U10",
+                    "pin": "circular fa fa-star",
+                    "fill": "#333333",
+                    "x": "0.7435",
+                    "y": "0.3980",
+                    "category": "under",
+                    "title": "U10: Nameless One’s Tomb",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p>"
+                },
                 {
                     "id": "♀1",
                     "pin": "circular fa fa-home",
@@ -72,7 +194,7 @@
                     "category": "lady",
                     "title": "♀2: Liberty Hall Tavern",
                     "about": "The Factol’s Manifesto, p. 96",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 96.</p><p class='labels'><span>Harmonium</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 96.</p><ul class='labels'><li>Harmonium</li></ul>"
                 },
                 {
                     "id": "♀3",
@@ -94,7 +216,7 @@
                     "category": "lady",
                     "title": "♀4: Square Bar",
                     "about": "The Factol’s Manifesto, p. 116",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 116.</p><p class='labels'><span>Revolutionary League</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 116.</p><ul class='labels'><li>Revolutionary League</li></ul>"
                 },
                 {
                     "id": "♀5",
@@ -149,7 +271,7 @@
                     "category": "lady",
                     "title": "♀9: Interplanar Importers Merchant House & Restaurant",
                     "about": "The Factol’s Manifesto, p. 115",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 115.</p><p>NPC: Quin, Katya, Mikal, Strader.</p><p class='labels'><span>Revolutionary League</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 115.</p><p>NPC: Quin, Katya, Mikal, Strader.</p><ul class='labels'><li>Revolutionary League</li></ul>"
                 },
                 {
                     "id": "♀10",
@@ -259,7 +381,7 @@
                     "category": "lady",
                     "title": "♀19: Temple of Zeus",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Law, leadership]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Law</li><li>Leadership</li></ul>"
                 },
                 {
                     "id": "♀20",
@@ -281,7 +403,7 @@
                     "category": "lady",
                     "title": "♀21: Temple of Gruumsh",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Orcs, war, territory]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Orcs</li><li>War</li><li>Territory</li></ul>"
                 },
                 {
                     "id": "♀22a",
@@ -314,7 +436,7 @@
                     "category": "lady",
                     "title": "♀23: Temple of Io",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Dragonkind, creation]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Dragonkind</li><li>Creation</li></ul>"
                 },
                 {
                     "id": "♀24",
@@ -380,7 +502,7 @@
                     "category": "lady",
                     "title": "♀29: Temple of Garl Glittergold",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Gnomes, humor]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Gnomes</li><li>Humor</li></ul>"
                 },
                 {
                     "id": "♀30",
@@ -391,7 +513,7 @@
                     "category": "lady",
                     "title": "♀30: Temple of Diancastra",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Giants, trickery, travel]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Giants</li><li>Trickery</li><li>Travel</li></ul>"
                 },
                 {
                     "id": "♀31",
@@ -402,7 +524,7 @@
                     "category": "lady",
                     "title": "♀31: Temple of Maglubiyet",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Goblins, war]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Goblins</li><li>War</li></ul>"
                 },
                 {
                     "id": "♀32",
@@ -413,7 +535,7 @@
                     "category": "lady",
                     "title": "♀32: Temple of Zivilyn",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>Zivilyn, also known as&nbsp;the&nbsp;World Tree, Wise&nbsp;One, and the&nbsp;Tree of&nbsp;Life, represents the&nbsp;godly force of&nbsp;wisdom. He&nbsp;encourages the&nbsp;soul to&nbsp;grow by&nbsp;achieving enlightenment and&nbsp;wisdom. He&nbsp;promotes understanding and&nbsp;spiritual awareness.</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>Zivilyn, also known as&nbsp;the&nbsp;World Tree, Wise&nbsp;One, and the&nbsp;Tree of&nbsp;Life, represents the&nbsp;godly force of&nbsp;wisdom. He&nbsp;encourages the&nbsp;soul to&nbsp;grow by&nbsp;achieving enlightenment and&nbsp;wisdom. He&nbsp;promotes understanding and&nbsp;spiritual awareness.</p><ul class='labels'><li>Krynn</li><li>Wisdom</li></ul>"
                 },
                 {
                     "id": "♀33",
@@ -424,7 +546,7 @@
                     "category": "lady",
                     "title": "♀33: Temple of Primus",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Modrons, ultimate order]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Modrons</li><li>Ultimate Order</li></ul>"
                 },
                 {
                     "id": "♀34",
@@ -435,7 +557,7 @@
                     "category": "lady",
                     "title": "♀34: Temple of Apollo",
                     "about": "Faction War [Adventure], p. 10",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 10.</p><p>[Healing, prophecy, music]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 10.</p><ul class='labels'><li>Healing</li><li>Prophecy</li><li>Music</li></ul>"
                 },
                 {
                     "id": "♀35",
@@ -446,7 +568,7 @@
                     "category": "lady",
                     "title": "♀35: Temple of Diancecht",
                     "about": "Faction War [Adventure], p. 10",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 10.</p><p>[Healing]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 10.</p><ul class='labels'><li>Healing</li></ul>"
                 },
                 {
                     "id": "♀36",
@@ -468,7 +590,7 @@
                     "category": "lady",
                     "title": "♀37: Temple of Frigga",
                     "about": "Faction War [Adventure], p. 10",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 10.</p><p>[Marriage, family]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 10.</p><ul class='labels'><li>Marriage</li><li>Family</li></ul>"
                 },
                 {
                     "id": "♀38",
@@ -490,7 +612,7 @@
                     "category": "lady",
                     "title": "♀39: Temple of Pelor",
                     "about": "Faction War [Adventure], p. 10",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 10.</p><p>[Oerth, light, healing]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 10.</p><ul class='labels'><li>Oerth</li><li>Light</li><li>Healing</li></ul>"
                 },
                 {
                     "id": "♀40",
@@ -501,7 +623,7 @@
                     "category": "lady",
                     "title": "♀40: Temple of Brahman",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Creation, everything]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Creation</li><li>Everything</li></ul>"
                 },
                 {
                     "id": "♀41",
@@ -512,7 +634,7 @@
                     "category": "lady",
                     "title": "♀41: Temple of Koriel",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Ki-rin, learning, protection]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Ki-rin</li><li>Learning</li><li>Protection</li></ul>"
                 },
                 {
                     "id": "♀42",
@@ -523,7 +645,7 @@
                     "category": "lady",
                     "title": "♀42: Temple of Corellon Larethian",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Elves, magic, art]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Elves</li><li>Magic</li><li>Art</li></ul>"
                 },
                 {
                     "id": "♀43",
@@ -534,7 +656,7 @@
                     "category": "lady",
                     "title": "♀43: Temple of Odin",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Wisdom, knowledge, war]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Wisdom</li><li>Knowledge</li><li>War</li></ul>"
                 },
                 {
                     "id": "♀44",
@@ -556,7 +678,7 @@
                     "category": "lady",
                     "title": "♀45: Temple of Ptah",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Travelers, artists, craftsmen]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Travelers</li><li>Artists</li><li>Craftsmen</li></ul>"
                 },
                 {
                     "id": "♀46",
@@ -567,7 +689,7 @@
                     "category": "lady",
                     "title": "♀46: Temple of Daragor",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Lycanthropes, beasts, bloodlust]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Lycanthropes</li><li>Beasts</li><li>Bloodlust</li></ul>"
                 },
                 {
                     "id": "♀47",
@@ -578,7 +700,7 @@
                     "category": "lady",
                     "title": "♀47: Temple of Moradin",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Dwarves, creation, smithing]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Dwarves</li><li>Creation</li><li>Smithing</li></ul>"
                 },
                 {
                     "id": "♀48",
@@ -589,7 +711,7 @@
                     "category": "lady",
                     "title": "♀48: Temple of Muamman Duathal",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Dwarves, wanderers]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Dwarves</li><li>Wanderers</li></ul>"
                 },
                 {
                     "id": "♀49",
@@ -633,7 +755,7 @@
                     "category": "lady",
                     "title": "♀52: Temple of Shang-Ti",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>[Creation, social order]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><ul class='labels'><li>Creation</li><li>Social Order</li></ul>"
                 },
                 {
                     "id": "♀53",
@@ -658,6 +780,61 @@
                     "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>Expedition to the Demonweb Pits [Adventure], pp. 27, 37.<br/>Faction War [Adventure], p. 84.<br/>Hellbound: The Blood War [Boxed Set] — War Games, p. 42.</p><p>NPC: Goldfeather, Androcyn Blackthorn, Shactal.</p><p>This city-sponcored facility is run by the dabus themselves, who spend most of&nbsp;their time making sure that clerks from faction libraries don’t walk off with valuable books or stuff the shelves with smuggled propaganda. The Great Library tries to assert its independence — a body won’t find much regarding the&nbsp;faction beliefs or organizations here.</p>"
                 },
                 {
+                    "id": "♀55",
+                    "pin": "circular fa fa-home",
+                    "fill": "#bf5138",
+                    "x": "0.2185",
+                    "y": "0.2970",
+                    "category": "lady",
+                    "title": "♀55: Durkayle’s Tower",
+                    "about": "Dungeon Magazine #55",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Dungeon Magazine #55.</p><p>NPC: Durkayle, Umbra, Greptaug, Tagon, Emalica.</p>"
+                },
+                {
+                    "id": "♀56",
+                    "pin": "circular fa fa-briefcase",
+                    "fill": "#bf5138",
+                    "x": "0.1635",
+                    "y": "0.5695",
+                    "category": "lady",
+                    "title": "♀56: Office of the Master of Portals",
+                    "about": "In the Cage: A Guide to Sigil, p. 31",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 31.</p><p>NPC: Ramander the Wise.</p>"
+                },
+                {
+                    "id": "♀57",
+                    "pin": "circular fa fa-home",
+                    "fill": "#bf5138",
+                    "x": "0.1800",
+                    "y": "0.2990",
+                    "category": "lady",
+                    "title": "♀57: Screaming Tower",
+                    "about": "Dungeon Magazine #55",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>Dungeon Magazine #55.</p><p>NPC: Zaraga, Eyarq, Baagoth, Glirkhil, Pix, Pox, Pux.</p><p>The 250’ tall twisted and hollow structure was built atop a natural portal leading to the Elemental Plane of Air. Every hour a huge gust of wind erupts from the&nbsp;portal and blows through the holes, creating the painful wailing noise which earns the tower its name.</p><ul class='labels'><li>Gargoyles</li></ul>"
+                },
+                {
+                    "id": "♀58",
+                    "pin": "circular fa fa-home",
+                    "fill": "#bf5138",
+                    "x": "0.0905",
+                    "y": "0.3550",
+                    "category": "lady",
+                    "title": "♀58: Spiral’s Mansion",
+                    "about": "Hellbound: The Blood War [Boxed Set] — War Games, p. 7",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Hellbound: The Blood War [Boxed Set] — War Games, p. 7.</p><p>NPC: Spiral Hal’Oight, Jouana, Karliff, The Redoubtable, Pogewdor.</p>"
+                },
+                {
+                    "id": "♀59",
+                    "pin": "circular fa fa-flash",
+                    "fill": "#bf5138",
+                    "x": "0.4010",
+                    "y": "0.3355",
+                    "category": "lady",
+                    "title": "♀59: Tower of the Prophet",
+                    "about": "Expedition to the Demonweb Pits [Adventure], p. 23",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>Expedition to the Demonweb Pits [Adventure], p. 23.</p><p>NPC: Humbart, Edelbart, Ursival, Brizsli, Grenata, Justus & Lucinor.</p>"
+                },
+                {
                     "id": "M0",
                     "pin": "circular large fa fa-flag",
                     "fill": "#db9537",
@@ -677,7 +854,7 @@
                     "category": "market",
                     "title": "M1: Masty’s Tavern",
                     "about": "In the Cage: A Guide to Sigil, p. 84",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><p class='labels'><span>Wealthy Indeps</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><ul class='labels'><li>Wealthy Indeps</li></ul>"
                 },
                 {
                     "id": "M2",
@@ -699,7 +876,7 @@
                     "category": "market",
                     "title": "M3: Sill Inn",
                     "about": "Fires of Dis [Adventure], p. 12",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Fires of Dis [Adventure], p. 12.</p><p>NPC: Cedlic Maar.</p><p class='labels'><span>Merchants</span><span>Pre FW</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Fires of Dis [Adventure], p. 12.</p><p>NPC: Cedlic Maar.</p><ul class='labels'><li>Merchants</li><li>Pre FW</li></ul>"
                 },
                 {
                     "id": "M4",
@@ -754,7 +931,7 @@
                     "category": "market",
                     "title": "M8: Deadfinger’s Tavern",
                     "about": "In the Cage: A Guide to Sigil, p. 84",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><p class='labels'><span>Thugs</span></p>"
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><ul class='labels'><li>Thugs</li></ul>"
                 },
                 {
                     "id": "M9",
@@ -853,7 +1030,7 @@
                     "category": "market",
                     "title": "M17: Warbling Blades Silversmithy",
                     "about": "The Factol’s Manifesto, p. 82",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 82.</p><p>NPC: Bria Tomay & family.</p><p class='labels'><span>Indeps</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 82.</p><p>NPC: Bria Tomay & family.</p><ul class='labels'><li>Indeps</li></ul>"
                 },
                 {
                     "id": "M18",
@@ -922,6 +1099,39 @@
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 93.</p><p>A sprawling inn that doubles as tourist trap, anyone is welcome as long as they keep the peace and have money to spend. A variety of attractions and small specialty shops are built into the building, including a small theater and a display of exotic creatures’ skulls.</p>"
                 },
                 {
+                    "id": "M24",
+                    "pin": "circular fa fa-coffee",
+                    "fill": "#db9537",
+                    "x": "0.1320",
+                    "y": "0.7920",
+                    "category": "market",
+                    "title": "M24: Café Leonan",
+                    "about": "Blood Wars Trilogy 1: Blood Hostages [Novel], p. 65",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Blood Wars Trilogy 1: Blood Hostages [Novel], p. 65.</p><p>NPC: Leonan, Jandau, LiGrun, Boffo, Artus, Aereas, Ninavereth.</p>"
+                },
+                {
+                    "id": "M25",
+                    "pin": "circular fa fa-book",
+                    "fill": "#db9537",
+                    "x": "0.0890",
+                    "y": "0.7240",
+                    "category": "market",
+                    "title": "M25: Dits’ Books",
+                    "about": "Finder’s Bane [Novel], p. 268",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Finder’s Bane [Novel], p. 268.</p><p>NPC: Dits, Joel.</p>"
+                },
+                {
+                    "id": "M26",
+                    "pin": "circular fa fa-flash",
+                    "fill": "#db9537",
+                    "x": "0.0850",
+                    "y": "0.7240",
+                    "category": "market",
+                    "title": "M26: Temple of Bane",
+                    "about": "Finder’s Bane [Novel], p. 267",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Finder’s Bane [Novel], p. 267.</p><p>Beneath <em>Dits’ Books</em> on Copperman Way.</p><ul class='labels'><li>Defunct</li></ul>"
+                },
+                {
                     "id": "G1",
                     "pin": "circular fa fa-tint",
                     "fill": "#4089a6",
@@ -930,7 +1140,7 @@
                     "category": "guildhall",
                     "title": "G1: Flame Pits Bathhouse",
                     "about": "In the Cage: A Guide to Sigil, p. 84<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 89",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 89.</p><p>NPC: Laril Zasskos.</p><p>A bath house that serves clientele with unusual and unique needs or desires — including open lava pools, noxious oozes, and purest water untouched by any contaminant.</p><p class='labels'><span>Revolutionary League</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 89.</p><p>NPC: Laril Zasskos.</p><p>A bath house that serves clientele with unusual and unique needs or desires — including open lava pools, noxious oozes, and purest water untouched by any contaminant.</p><ul class='labels'><li>Revolutionary League</li></ul>"
                 },
                 {
                     "id": "G2",
@@ -952,7 +1162,7 @@
                     "category": "guildhall",
                     "title": "G3: Rechvad’s Persona Lavisicum",
                     "about": "Faction War [Adventure], p. 65",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 65.</p><p>NPC: Rechvad.</p><p>Rechvad’s Persona Lavisicum is a place where customers could temporarily alter their personality in any way they choose.</p><p class='labels'><span>Eschaton</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 65.</p><p>NPC: Rechvad.</p><p>Rechvad’s Persona Lavisicum is a place where customers could temporarily alter their personality in any way they choose.</p><ul class='labels'><li>Eschaton</li></ul>"
                 },
                 {
                     "id": "G4",
@@ -963,7 +1173,7 @@
                     "category": "guildhall",
                     "title": "G4: Chapel Perilous",
                     "about": "Faction War [Adventure], p. 65",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 65.</p><p>NPC: Sheawil the Lesser, Eris Montauk, Anton Rennes, Toriam Osis.</p><p class='labels'><span>Eschaton</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 65.</p><p>NPC: Sheawil the Lesser, Eris Montauk, Anton Rennes, Toriam Osis.</p><ul class='labels'><li>Eschaton</li></ul>"
                 },
                 {
                     "id": "G5",
@@ -1018,7 +1228,7 @@
                     "category": "guildhall",
                     "title": "G9: Woodman’s Retreat Tavern",
                     "about": "In the Cage: A Guide to Sigil, p. 84<br/>Something Wild [Adventure], p. 20",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Something Wild [Adventure], p. 20.</p><p>NPC: Lucas Lappsel, Blander Mul.</p><p class='labels'><span>Escorts</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Something Wild [Adventure], p. 20.</p><p>NPC: Lucas Lappsel, Blander Mul.</p><ul class='labels'><li>Escorts</li></ul>"
                 },
                 {
                     "id": "G10",
@@ -1029,7 +1239,7 @@
                     "category": "guildhall",
                     "title": "G10: Yawning Rat Inn",
                     "about": "In the Cage: A Guide to Sigil, p. 84<br/>Tales From the Infinite Staircase [Adventure], p. 13",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Tales From the Infinite Staircase [Adventure], p. 13.</p><p>NPC: Ghieena.</p><p>[Dive]</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Tales From the Infinite Staircase [Adventure], p. 13.</p><p>NPC: Ghieena.</p><p>A dive that serves nothing but cheap wheat ale.</p>"
                 },
                 {
                     "id": "G11",
@@ -1062,7 +1272,7 @@
                     "category": "guildhall",
                     "title": "G13: Harim Festhall",
                     "about": "The Factol’s Manifesto, p. 116",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 116.</p><p>NPC: Cassandra, Nanice, Traice.</p><p class='labels'><span>Revolutionary League</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 116.</p><p>NPC: Cassandra, Nanice, Traice.</p><ul class='labels'><li>Revolutionary League</li></ul>"
                 },
                 {
                     "id": "G14",
@@ -1115,7 +1325,7 @@
                     "x": "0.3060",
                     "y": "0.8115",
                     "category": "guildhall",
-                    "title": "G18: Harmonium’s Guild Hall Ward Garrison",
+                    "title": "G18: Harmonium’s Guildhall Ward Garrison",
                     "about": "Faction War [Adventure], p. 20",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 20.</p>"
                 },
@@ -1139,7 +1349,7 @@
                     "category": "guildhall",
                     "title": "G20: Dark Sign Tavern",
                     "about": "In the Cage: A Guide to Sigil, p. 84",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><p class='labels'><span>Tieflings</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><ul class='labels'><li>Tieflings</li></ul>"
                 },
                 {
                     "id": "G21",
@@ -1183,7 +1393,7 @@
                     "category": "guildhall",
                     "title": "G24: Singing Vortex Inn",
                     "about": "In the Cage: A Guide to Sigil, p. 84",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><p class='labels'><span>Ciphers</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><ul class='labels'><li>Ciphers</li></ul>"
                 },
                 {
                     "id": "G25",
@@ -1205,7 +1415,7 @@
                     "category": "guildhall",
                     "title": "G26: Feathernest Inn",
                     "about": "Uncaged: Faces of Sigil, p. 29<br/>In the Cage: A Guide to Sigil, p. 84 ",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Uncaged: Faces of Sigil, p. 29.<br/>In the Cage: A Guide to Sigil, p. 84 .</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Uncaged: Faces of Sigil, p. 29.<br/>In the Cage: A Guide to Sigil, p. 84 .</p><p>NPC: Adamok Ebon.</p>"
                 },
                 {
                     "id": "G27",
@@ -1228,6 +1438,45 @@
                     "title": "G28: Zakk’s Corpse Curing Taxidermy Shop",
                     "about": "In the Cage: A Guide to Sigil, p. 99",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 99.</p><p>NPC: Mhasha Zakk.</p><p>Home to the best taxidermist in the Cage, Mhasha Zakk.</p>"
+                },
+                {
+                    "id": "G29",
+                    "pin": "hidden",
+                    "fill": "#4089a6",
+                    "x": "0",
+                    "y": "0",
+                    "category": "guildhall",
+                    "action": "lightbox",
+                    "title": "G29: Boffo’s Music Shop",
+                    "about": "Blood Wars Trilogy 1: Blood Hostages [Novel], p. 25",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Blood Wars Trilogy 1: Blood Hostages [Novel], p. 25.</p><p>Location: Guildhall Ward.<br/>NPC: Boffo, Artus, Aereas, Ninavereth.</p>",
+                    "zoom": "0"
+                },
+                {
+                    "id": "G30",
+                    "pin": "hidden",
+                    "fill": "#4089a6",
+                    "x": "0",
+                    "y": "0",
+                    "category": "guildhall",
+                    "action": "lightbox",
+                    "title": "G30: Cantrian Clock Tower",
+                    "about": "Blood Wars Trilogy 2: Abyssal Warriors [Novel], p. 268",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Blood Wars Trilogy 2: Abyssal Warriors [Novel], p. 268.</p><p>Location: Guildhall Ward.</p>",
+                    "zoom": "0"
+                },
+                {
+                    "id": "G31",
+                    "pin": "hidden",
+                    "fill": "#4089a6",
+                    "x": "0",
+                    "y": "0",
+                    "category": "guildhall",
+                    "action": "lightbox",
+                    "title": "G31: Lost Dragon",
+                    "about": "In the Cage: A Guide to Sigil, p. 85",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 85.</p><p>Location: Guildhall Ward.</p>",
+                    "zoom": "0"
                 },
                 {
                     "id": "C1",
@@ -1370,7 +1619,7 @@
                     "category": "clerk",
                     "title": "C13: Davots, Trillian, and Snoob Ltd.",
                     "about": "Doors to the Unknown [Adventure], p. 27",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Doors to the Unknown [Adventure], p. 27.</p><p class='labels'><span>Clerks</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Doors to the Unknown [Adventure], p. 27.</p><ul class='labels'><li>Clerks</li></ul>"
                 },
                 {
                     "id": "C14a",
@@ -1414,7 +1663,7 @@
                     "category": "clerk",
                     "title": "C16: Cup of Freedom Library",
                     "about": "Something Wild [Adventure], p. 17",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Something Wild [Adventure], p. 17.</p><p>NPC: Fiery Polk.</p><p class='labels'><span>Revolutionary League</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Something Wild [Adventure], p. 17.</p><p>NPC: Fiery Polk.</p><ul class='labels'><li>Revolutionary League</li></ul>"
                 },
                 {
                     "id": "C17",
@@ -1524,7 +1773,7 @@
                     "category": "clerk",
                     "title": "C26: Velvet Harness Boarding House",
                     "about": "In the Cage: A Guide to Sigil, p. 62",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.</p><p class='labels'><span>Bariaurs</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.</p><ul class='labels'><li>Bariaurs</li></ul>"
                 },
                 {
                     "id": "C27",
@@ -1533,7 +1782,7 @@
                     "x": "0.5055",
                     "y": "0.8885",
                     "category": "clerk",
-                    "title": "C27: Pestle Apothecary",
+                    "title": "C27: Pestle and Kilnn’s Apothecary",
                     "about": "Planescape: Torment [PC Game]",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Pestle Kilnn.</p>"
                 },
@@ -1579,7 +1828,7 @@
                     "category": "clerk",
                     "title": "C31: Jerkot’s Imports",
                     "about": "Doors to the Unknown [Adventure], p. 13",
-                    "description": "<p><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Doors to the Unknown [Adventure], p. 13.</p><p>NPC: Allena Jerkot.</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Doors to the Unknown [Adventure], p. 13.</p><p>NPC: Allena Jerkot.</p>"
                 },
                 {
                     "id": "C32",
@@ -1601,7 +1850,7 @@
                     "category": "clerk",
                     "title": "C33: Sullen Moon Tavern",
                     "about": "In the Cage: A Guide to Sigil, p. 62",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.</p><p class='labels'><span>Tieflings</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.</p><ul class='labels'><li>Tieflings</li></ul>"
                 },
                 {
                     "id": "C34",
@@ -1623,7 +1872,7 @@
                     "category": "clerk",
                     "title": "C35: Bigby’s College of Academic Arts",
                     "about": "The Factol’s Manifesto, p. 62",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 62.</p><p class='labels'><span>Defunct</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 62.</p><ul class='labels'><li>Defunct</li></ul>"
                 },
                 {
                     "id": "C35b",
@@ -1645,7 +1894,7 @@
                     "category": "clerk",
                     "title": "C36: Iron Spittle Pub",
                     "about": "The Factol’s Manifesto, p. 65",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 65.</p><p>NPC: Aram Oakwright.</p><p class='labels'><span>Fated</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 65.</p><p>NPC: Aram Oakwright.</p><ul class='labels'><li>Fated</li></ul>"
                 },
                 {
                     "id": "C37",
@@ -1656,7 +1905,7 @@
                     "category": "clerk",
                     "title": "C37: Lazz School of Vivid Unplesantness",
                     "about": "In the Cage: A Guide to Sigil, p. 74",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 74.</p><p>An art school and salon that is the current center of a variety of artistic movements focusing on jarring, cacophonous, and otherwise controversial styles, performances, and music.</p><p class='labels'><span>Bleakers</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 74.</p><p>An art school and salon that is the current center of a variety of artistic movements focusing on jarring, cacophonous, and otherwise controversial styles, performances, and music.</p><ul class='labels'><li>Bleakers</li></ul>"
                 },
                 {
                     "id": "C38",
@@ -1667,7 +1916,7 @@
                     "category": "clerk",
                     "title": "C38: Heshter’s Arms Inn",
                     "about": "In the Cage: A Guide to Sigil, p. 62<br/>The Factol’s Manifesto, p. 61",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.<br/>The Factol’s Manifesto, p. 61.</p><p>NPC: Eman Heshter, Larillian, Rayl Whitespoon.</p><p class='labels'><span>Fated</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.<br/>The Factol’s Manifesto, p. 61.</p><p>NPC: Eman Heshter, Larillian, Rayl Whitespoon.</p><ul class='labels'><li>Fated</li></ul>"
                 },
                 {
                     "id": "C39",
@@ -1733,7 +1982,7 @@
                     "category": "clerk",
                     "title": "C44: Tear of the Barghest Tavern",
                     "about": "In the Cage: A Guide to Sigil, p. 62<br/>The Factol’s Manifesto, p. 61",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.<br/>The Factol’s Manifesto, p. 61.</p><p class='labels'><span>Fated</span><span>Landlords</span><span>Moneylenders</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.<br/>The Factol’s Manifesto, p. 61.</p><ul class='labels'><li>Fated</li><li>Landlords</li><li>Moneylenders</li></ul>"
                 },
                 {
                     "id": "C45",
@@ -1788,7 +2037,7 @@
                     "category": "clerk",
                     "title": "C49: Iron Heart Alehouse",
                     "about": "In the Cage: A Guide to Sigil, p. 62<br/>The Factol’s Manifesto, p. 61",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.<br/>The Factol’s Manifesto, p. 61.</p><p class='labels'><span>Fated</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 62.<br/>The Factol’s Manifesto, p. 61.</p><ul class='labels'><li>Fated</li></ul>"
                 },
                 {
                     "id": "C50",
@@ -1800,6 +2049,41 @@
                     "title": "C50: Grundlethum’s Automatic Scribe Print-shop",
                     "about": "In the Cage: A Guide to Sigil, p. 63<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 86",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 63.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 86.</p><p>NPC: Grundlethum Blackdagger.</p><p>A wizard’s shop that uses a bound elemental spirit to produce high-quality documents for mass dissemination at a fraction of the time and cost of any other scribe.</p>"
+                },
+                {
+                    "id": "C51",
+                    "pin": "hidden",
+                    "fill": "#95ac5f",
+                    "x": "0",
+                    "y": "0",
+                    "category": "clerk",
+                    "action": "lightbox",
+                    "title": "C51: Bounded Space Tavern",
+                    "about": "Faction War [Adventure], p. 123",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 123.</p><p>Location: Clerk’s Ward.<br/>NPC: Wilbur Cookenstein.</p><ul class='labels'><li>Post FW</li></ul>",
+                    "zoom": "0"
+                },
+                {
+                    "id": "C52",
+                    "pin": "circular fa fa-flask",
+                    "fill": "#95ac5f",
+                    "x": "0.5995",
+                    "y": "0.7030",
+                    "category": "clerk",
+                    "title": "C52: Mirror Will’s Apothecary",
+                    "about": "Hellbound: The Blood War [Boxed Set] — The Chant of the War, p. 31",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Hellbound: The Blood War [Boxed Set] — The Chant of the War, p. 31.</p><p>NPC: Mirror Will.</p>"
+                },
+                {
+                    "id": "C53",
+                    "pin": "circular fa fa-trophy",
+                    "fill": "#95ac5f",
+                    "x": "0.3995",
+                    "y": "0.8170",
+                    "category": "clerk",
+                    "title": "C53: Weaver’s Guildhall",
+                    "about": "Expedition to the Demonweb Pits [Adventure], p. 21",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Expedition to the Demonweb Pits [Adventure], p. 21.</p>"
                 },
                 {
                     "id": "H0",
@@ -1898,7 +2182,7 @@
                     "category": "hive",
                     "title": "H8: Ku’atraa’s Warehouse",
                     "about": "Planescape: Torment [PC Game]",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Ku’atraa’s.</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Ku’atraa.</p>"
                 },
                 {
                     "id": "H9",
@@ -1920,7 +2204,7 @@
                     "category": "hive",
                     "title": "H10: Gathering Dust Bar",
                     "about": "Planescape: Torment [PC Game]",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Post, Awaiting-Death, Mortai Gravesend, Norochj, Sere the Skeptic.</p><p class='labels'><span>Dustmen</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Post, Awaiting-Death, Mortai Gravesend, Norochj, Sere the Skeptic.</p><ul class='labels'><li>Dustmen</li></ul>"
                 },
                 {
                     "id": "H11",
@@ -1964,7 +2248,7 @@
                     "category": "hive",
                     "title": "H14: Rivergate Tavern",
                     "about": "Pages of Pain [Novel], p. 50",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Pages of Pain [Novel], p. 50.</p><p>NPC: Brill, Jayk, Theseus, Ariadne.</p><p class='labels'><span>Tanar’ri</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Pages of Pain [Novel], p. 50.</p><p>NPC: Brill, Jayk, Theseus, Ariadne.</p><ul class='labels'><li>Tanar’ri</li></ul>"
                 },
                 {
                     "id": "H15",
@@ -1997,7 +2281,7 @@
                     "category": "hive",
                     "title": "H17: Quake’s Place Tavern",
                     "about": "The Factol’s Manifesto, p. 155",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>The Factol’s Manifesto, p. 155.</p><p>NPC: Quake Lavender.</p><p class='labels'><span>Xaositects</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>The Factol’s Manifesto, p. 155.</p><p>NPC: Quake Lavender.</p><ul class='labels'><li>Xaositects</li></ul>"
                 },
                 {
                     "id": "H18",
@@ -2019,7 +2303,7 @@
                     "category": "hive",
                     "title": "H19: Cold Bowl Soup Kitchen",
                     "about": "The Factol’s Manifesto, p. 29",
-                    "description": "<p><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 29.</p><p>NPC: Addle-Pated.</p><p class='labels'><span>Bleakers</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 29.</p><p>NPC: Addle-Pated.</p><ul class='labels'><li>Bleakers</li></ul>"
                 },
                 {
                     "id": "H20",
@@ -2041,7 +2325,7 @@
                     "category": "hive",
                     "title": "H21: Weary Head Pub",
                     "about": "Uncaged: Faces of Sigil, p. 68",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Uncaged: Faces of Sigil, p. 68.</p><p>NPC: Bonebloom, Morvun, Phineas.</p><p class='labels'><span>Bleakers</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Uncaged: Faces of Sigil, p. 68.</p><p>NPC: Bonebloom, Morvun, Phineas.</p><ul class='labels'><li>Bleakers</li></ul>"
                 },
                 {
                     "id": "H22",
@@ -2052,7 +2336,7 @@
                     "category": "hive",
                     "title": "H22: Butcher’s Block Alehouse & Inn",
                     "about": "The Eternal Boundary [Adventure], p. 10<br/>In the Cage: A Guide to Sigil, p. 102",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Eternal Boundary [Adventure], p. 10.<br/>In the Cage: A Guide to Sigil, p. 102.</p><p>NPC: Trunfeld Three-teeth.</p><p class='labels'><span>Criminals</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Eternal Boundary [Adventure], p. 10.<br/>In the Cage: A Guide to Sigil, p. 102.</p><p>NPC: Trunfeld Three-teeth.</p><ul class='labels'><li>Criminals</li></ul>"
                 },
                 {
                     "id": "H23",
@@ -2063,7 +2347,7 @@
                     "category": "hive",
                     "title": "H23: Ylem’s Tower",
                     "about": "Uncaged: Faces of Sigil, pp. 78, 116",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><br/>Uncaged: Faces of Sigil, pp. 78, 116.</p><p>NPC: Ylem, Patch, Rule-of-three.</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><br/>Uncaged: Faces of Sigil, pp. 78, 116.</p><p>NPC: Ylem, Patch, Rule-of-Three.</p>"
                 },
                 {
                     "id": "H24",
@@ -2107,7 +2391,7 @@
                     "category": "hive",
                     "title": "H27: Zero Alehouse",
                     "about": "In the Cage: A Guide to Sigil, p. 103",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 103.</p><p class='labels'><span>Bleakers</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 103.</p><ul class='labels'><li>Bleakers</li></ul>"
                 },
                 {
                     "id": "H28",
@@ -2129,7 +2413,7 @@
                     "category": "hive",
                     "title": "H29: House of the Griffin Tavern",
                     "about": "The Factol’s Manifesto, p. 116",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 116.</p><p>NPC: Griffin, Valer.</p><p class='labels'><span>Revolutionary League</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 116.</p><p>NPC: Griffin, Valer.</p><ul class='labels'><li>Revolutionary League</li></ul>"
                 },
                 {
                     "id": "H30",
@@ -2171,7 +2455,7 @@
                     "x": "0.6835",
                     "y": "0.8150",
                     "category": "hive",
-                    "title": "H33: Harmonium’s 2nd Hive Ward Bastion ",
+                    "title": "H33: Harmonium’s 2nd Hive Ward Bastion",
                     "about": "Faction War [Adventure], p. 27",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 27.</p>"
                 },
@@ -2228,7 +2512,7 @@
                     "category": "hive",
                     "title": "H38: Snapped Finger Tavern",
                     "about": "In the Cage: A Guide to Sigil, p. 102",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 102.</p><p class='labels'><span>Thugs</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 102.</p><ul class='labels'><li>Thugs</li></ul>"
                 },
                 {
                     "id": "H39",
@@ -2240,6 +2524,72 @@
                     "title": "H39: The Slags",
                     "about": "In the Cage: A Guide to Sigil, p. 115",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 116.</p><p>A scar on the already hideous Hive, a neighborhood that was destroyed in a sudden intrusion of the Blood War into the city centuries if not millennia ago. Something taints the place ever since, making any attempt at rebuilding futile.</p>"
+                },
+                {
+                    "id": "H40",
+                    "pin": "circular fa fa-briefcase",
+                    "fill": "#d95353",
+                    "x": "0.6150",
+                    "y": "0.9050",
+                    "category": "hive",
+                    "title": "H40: Azarin’s Recruitment Office",
+                    "about": "Hellbound: The Blood War [Boxed Set] — The Chant of the War, p. 26",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Hellbound: The Blood War [Boxed Set] — The Chant of the War, p. 26.</p><p>NPC: Azarin.</p>"
+                },
+                {
+                    "id": "H41",
+                    "pin": "circular fa fa-star",
+                    "fill": "#d95353",
+                    "x": "0.9085",
+                    "y": "0.7275",
+                    "category": "hive",
+                    "title": "H41: Battling Bariaur Statue",
+                    "about": "Dungeon Magazine #60",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Dungeon Magazine #60.</p><p>The iron statue stands 12’ tall and captures the bariaur in a fighting pose, clutching a glaive. The statue’s brimstone pedestal is surrounded by a garden of neatly-trimmed razorvine.</p><p>NPC: Warrin, Raja.</p>"
+                },
+                {
+                    "id": "H42",
+                    "pin": "circular fa fa-fire",
+                    "fill": "#d95353",
+                    "x": "0.6825",
+                    "y": "0.9025",
+                    "category": "hive",
+                    "title": "H42: Darkhouse Inn",
+                    "about": "Hellbound: The Blood War [Boxed Set] — War Games, p. 54",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Hellbound: The Blood War [Boxed Set] — War Games, p. 54.</p><p>NPC: Keeper.</p><ul class='labels'><li>Defunct</li></ul>"
+                },
+                {
+                    "id": "H43",
+                    "pin": "circular fa fa-heartbeat",
+                    "fill": "#d95353",
+                    "x": "0.7430",
+                    "y": "0.3710",
+                    "category": "hive",
+                    "title": "H43: Old Mebbeth Hospice",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Old Mebbeth.</p>"
+                },
+                {
+                    "id": "H44",
+                    "pin": "circular fa fa-beer",
+                    "fill": "#d95353",
+                    "x": "0.7815",
+                    "y": "0.6750",
+                    "category": "hive",
+                    "title": "H44: Slaughterhouse Tavern",
+                    "about": "Dungeon Magazine #60",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Dungeon Magazine #60.</p><p>NPC: Graxagal, Vaargh, Snurz, Bhalog, Turia, Zilbog, Rule-of-Three.</p>"
+                },
+                {
+                    "id": "H45",
+                    "pin": "circular fa fa-diamond",
+                    "fill": "#d95353",
+                    "x": "0.7315",
+                    "y": "0.3690",
+                    "category": "hive",
+                    "title": "H45: Tylero’s Steel",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Tylero.</p>"
                 },
                 {
                     "id": "L1",
@@ -2261,7 +2611,7 @@
                     "category": "lower",
                     "title": "L2: Happy Candies Sweets Shop",
                     "about": "Harbinger House [Adventure], p. 25",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Harbinger House [Adventure], p. 25.</p><p class='labels'><span>Xaositects</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Harbinger House [Adventure], p. 25.</p><ul class='labels'><li>Xaositects</li></ul>"
                 },
                 {
                     "id": "L3",
@@ -2305,7 +2655,7 @@
                     "category": "lower",
                     "title": "L6: Ubiquitous Wayfarer Inn",
                     "about": "In the Cage: A Guide to Sigil, p. 57<br/>Dead Gods [Adventure], p. 137",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 57.<br/>Dead Gods [Adventure], p. 137.</p><p>NPC: Raien Blackhome, Mirta, Hulester.</p><p>Located in the Lower Ward, this tavern has entrances across the City (especially in the Clerk’s Ward) due to a variety of portals that lead to its location. It houses a large number of portals that lead across the planes.</p><p class='labels'><span>Pre FW</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 57.<br/>Dead Gods [Adventure], p. 137.</p><p>NPC: Raien Blackhome, Mirta, Hulester.</p><p>Located in the Lower Ward, this tavern has entrances across the City (especially in the Clerk’s Ward) due to a variety of portals that lead to its location. It houses a large number of portals that lead across the planes.</p><ul class='labels'><li>Pre FW</li></ul>"
                 },
                 {
                     "id": "L7",
@@ -2348,8 +2698,8 @@
                     "y": "0.4709",
                     "category": "lower",
                     "title": "L10: Black Sail Tavern & Inn",
-                    "about": "The Eternal Boundary [Adventure], p. 16<br/>In the Cage: A Guide to Sigil, p. 48",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>The Eternal Boundary [Adventure], p. 16.<br/>In the Cage: A Guide to Sigil, p. 48.</p><p>NPC: Zaren, Salja.</p><p>A quiet tavern frequented by craftsmen who work near the Armory and the border to The Lady’s Ward. Built from the remnants of an ancient galleon, though none know how it ended up in Sigil.</p>"
+                    "about": "The Eternal Boundary [Adventure], p. 16<br/>In the Cage: A Guide to Sigil, p. 48<br/>Dungeon Magazine #55",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>The Eternal Boundary [Adventure], p. 16.<br/>In the Cage: A Guide to Sigil, p. 48.<br/>Dungeon Magazine #55.</p><p>NPC: Zaren, Salja, Horrn, Inimigle, Turia.</p><p>A quiet tavern frequented by craftsmen who work near the Armory and the border to The Lady’s Ward. Built from the remnants of an ancient galleon, though none know how it ended up in Sigil.</p>"
                 },
                 {
                     "id": "L11",
@@ -2414,8 +2764,8 @@
                     "y": "0.5225",
                     "category": "lower",
                     "title": "L16: Styx Oarsman Bar",
-                    "about": "In the Cage: A Guide to Sigil, p. 56<br/>Uncaged: Faces of Sigil, p. 85<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 56.<br/>Uncaged: Faces of Sigil, p. 85.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82.</p><p>A tavern that caters to fiends, particularly the tanar’ri. It’s possible for non-fiends to bribe their way in, but ill-advised.</p>"
+                    "about": "In the Cage: A Guide to Sigil, p. 56<br/>Uncaged: Faces of Sigil, p. 85<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82<br/>Expedition to the Demonweb Pits [Adventure], p. 19",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 56.<br/>Uncaged: Faces of Sigil, p. 85.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82.<br/>Expedition to the Demonweb Pits [Adventure], p. 19.</p><p>NPC: Rule-of-Three, Zegonz Vlaric, Marilith, Gryfalcon.</p><p>A tavern that caters to fiends, particularly the tanar’ri. It’s possible for non-fiends to bribe their way in, but ill-advised.</p>"
                 },
                 {
                     "id": "L17",
@@ -2481,7 +2831,7 @@
                     "category": "lower",
                     "title": "L22: Aalek’s Oddities",
                     "about": "Planescape: Torment [PC Game]",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Aalek.</p>"
                 },
                 {
                     "id": "L23",
@@ -2492,7 +2842,7 @@
                     "category": "lower",
                     "title": "L23: Anze’s Anvil Smithy",
                     "about": "Planescape: Torment [PC Game]",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Anze.</p>"
                 },
                 {
                     "id": "L24",
@@ -2547,7 +2897,7 @@
                     "category": "lower",
                     "title": "L28: Vault of the Ninth World Warehouse",
                     "about": "Planescape: Torment [PC Game]",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Conall.</p><p class='labels'><span>Revolutionary League</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Conall, Leena, Otis.</p><ul class='labels'><li>Revolutionary League</li></ul>"
                 },
                 {
                     "id": "L29",
@@ -2569,7 +2919,7 @@
                     "category": "lower",
                     "title": "L30: Generous Coin Mercantile",
                     "about": "The Factol’s Manifesto, p. 10",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 10.</p><p class='labels'><span>Athar</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 10.</p><ul class='labels'><li>Athar</li></ul>"
                 },
                 {
                     "id": "L31",
@@ -2579,8 +2929,8 @@
                     "y": "0.4835",
                     "category": "lower",
                     "title": "L31: Soused Duck Tavern",
-                    "about": "The Factol’s Manifesto, p. 10",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 10.</p><p class='labels'><span>Athar</span></p>"
+                    "about": "The Factol’s Manifesto, p. 10<br/>Finder’s Bane [Novel], p. 293",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 10.<br/>Finder’s Bane [Novel], p. 293.</p><ul class='labels'><li>Athar</li></ul>"
                 },
                 {
                     "id": "L32",
@@ -2591,7 +2941,7 @@
                     "category": "lower",
                     "title": "L32: Penn’s Print Shop",
                     "about": "Planescape: Torment [PC Game]",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Scofflaw Penn.</p><p class='labels'><span>Revolutionary League</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Scofflaw Penn.</p><ul class='labels'><li>Revolutionary League</li></ul>"
                 },
                 {
                     "id": "L33",
@@ -2734,7 +3084,7 @@
                     "category": "lower",
                     "title": "L45: Grim Journeyman Tavern",
                     "about": "Faction War [Adventure], p. 123",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 123.</p><p class='labels'><span>Pre FW</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 123.</p><ul class='labels'><li>Pre FW</li></ul>"
                 },
                 {
                     "id": "L46",
@@ -2767,7 +3117,7 @@
                     "category": "lower",
                     "title": "L48: Ascension Drinking Hall",
                     "about": "Harbinger House [Adventure], p. 20",
-                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Harbinger House [Adventure], p. 20.</p><p>NPC: Julius of the Ninth Test, Lini.</p><p class='labels'><span>Believers of the Source</span></p>"
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Harbinger House [Adventure], p. 20.</p><p>NPC: Julius of the Ninth Test, Lini.</p><ul class='labels'><li>Believers of the Source</li></ul>"
                 },
                 {
                     "id": "L49",
@@ -2803,114 +3153,150 @@
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 49.</p><p>A stinking mire of a canal that marks the border between the Lower Ward and the Hive Ward, favored dumping ground for deaders where even the Dustmen or corpse-pickers are reluctant to go trawling.</p>"
                 },
                 {
-                    "id": "U1",
-                    "pin": "circular fa fa-flash",
-                    "fill": "#333333",
-                    "x": "0.9140",
-                    "y": "0.4675",
-                    "category": "under",
-                    "title": "U1: Temple of Darkness",
-                    "about": "Faction War [Adventure], p. 78",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><br/>Faction War [Adventure], p. 78.</p><p>NPC: Incarus, Vanuire, Ghargaross.</p><p>No powers are revered there, far below the Hive Ward: the name simply conveys its aura of&nbsp;fear and evil. A yagnoloth named Incarus serves as the “high priest” of&nbsp;the&nbsp;Temple. His servants include two nycaloth lieutenants (Vaniure and Ghargaross) and a large force of mezzoloth, piscoloth and canoloth underlings.</p><p>The Nightmare Shaft at the center of the temple allows the yugoloth to seep into the dreams of others.</p>"
+                    "id": "L52",
+                    "pin": "circular fa fa-beer",
+                    "fill": "#544173",
+                    "x": "0.7205",
+                    "y": "0.4650",
+                    "category": "lower",
+                    "title": "L52: Grinning Imp Tavern",
+                    "about": "In the Abyss [Adventure], p. 4",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Abyss [Adventure], p. 4.</p><p>NPC: Kor Clotbur.</p><ul class='labels'><li>Athar</li><li>Shapechangers</li></ul>"
                 },
                 {
-                    "id": "U2",
-                    "pin": "circular fa fa-home",
-                    "fill": "#333333",
-                    "x": "0.1025",
-                    "y": "0.5590",
-                    "category": "under",
-                    "title": "U2: Dim Home Commune",
-                    "about": "Faction War [Adventure], p. 86",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 86.</p><p>NPC: Fion, Driel, Nios.</p><p class='labels'><span>Darkers</span></p>"
+                    "id": "L53",
+                    "pin": "circular fa fa-diamond",
+                    "fill": "#544173",
+                    "x": "0.6110",
+                    "y": "0.5220",
+                    "category": "lower",
+                    "title": "L53: Heldoniver’s Candles Shop",
+                    "about": "Hellbound: The Blood War [Boxed Set] — War Games, p. 73",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Hellbound: The Blood War [Boxed Set] — War Games, p. 73.</p><p>NPC: Heldoniver.</p>"
                 },
                 {
-                    "id": "U3",
-                    "pin": "circular fa fa-home",
-                    "fill": "#333333",
-                    "x": "0.1160",
-                    "y": "0.5670",
-                    "category": "under",
-                    "title": "U3: Nowhere Safe House",
-                    "about": "Faction War [Adventure], p. 88",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 88.</p><p>NPC: Gregin, Durrogh Black, Radassa Femio, Kiim Madbone.</p>"
+                    "id": "L54",
+                    "pin": "circular fa fa-scissors",
+                    "fill": "#544173",
+                    "x": "0.7500",
+                    "y": "0.5400",
+                    "category": "lower",
+                    "title": "L54: Tashad’s Barber Shop",
+                    "about": "In the Abyss [Adventure], p. 8",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Abyss [Adventure], p. 8.</p><p>NPC: Tashad.</p>"
                 },
                 {
-                    "id": "U4",
+                    "id": "L55",
+                    "pin": "hidden",
+                    "fill": "#544173",
+                    "x": "0",
+                    "y": "0",
+                    "category": "lower",
+                    "action": "lightbox",
+                    "title": "L55: The Wound That Bleeds Monument",
+                    "about": "Faction War [Adventure], p. 123",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 123.</p><p>Location: Lower Ward.</p><ul class='labels'><li>Post FW</li></ul>",
+                    "zoom": "0"
+                },
+                {
+                    "id": "L56",
+                    "pin": "circular fa fa-cutlery",
+                    "fill": "#544173",
+                    "x": "0.7230",
+                    "y": "0.4340",
+                    "category": "lower",
+                    "title": "L56: Worm’s Guts Restaurant",
+                    "about": "Dungeon Magazine #55",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Dungeon Magazine #55.</p><p>NPC: Virinis.</p><ul class='labels'><li>Fiends</li></ul>"
+                },
+                {
+                    "id": "L57",
                     "pin": "circular fa fa-star",
-                    "fill": "#333333",
-                    "x": "0.7465",
-                    "y": "0.3720",
-                    "category": "under",
-                    "title": "U4: Trash Warrens",
-                    "about": "Planescape: Torment [PC Game]",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p>"
+                    "fill": "#544173",
+                    "x": "0.6940",
+                    "y": "0.5515",
+                    "category": "lower",
+                    "title": "L57: Zactar Cathedral",
+                    "about": "Dungeon Magazine #55",
+                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><br/>Dungeon Magazine #55.</p><p>Monstrous church, once the headquarters of the Zactars. Most locals beleive that the cathedral is cursed.</p><p>NPC: Inimigle, Kraal, Chypp, Leerie, Rockjaws, Kiria, Ivadi,  Jerezin.</p>"
                 },
                 {
-                    "id": "U5",
-                    "pin": "circular fa fa-star",
-                    "fill": "#333333",
-                    "x": "0.7525",
-                    "y": "0.3790",
-                    "category": "under",
-                    "title": "U5: Buried Village",
-                    "about": "Planescape: Torment [PC Game]",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p>"
+                    "id": "A1",
+                    "pin": "hidden",
+                    "fill": "#795548",
+                    "x": "0",
+                    "y": "0",
+                    "category": "any",
+                    "action": "lightbox",
+                    "title": "A1: Funicular",
+                    "about": "Dungeon Magazine #148",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Dungeon Magazine #148.</p><p>Rolling roadhouse, teetering on the edge of Sigil.</p>",
+                    "zoom": "0"
                 },
                 {
-                    "id": "U6",
-                    "pin": "circular fa fa-star",
-                    "fill": "#333333",
-                    "x": "0.7565",
-                    "y": "0.3840",
-                    "category": "under",
-                    "title": "U6: Weeping Stone Catacombs",
-                    "about": "Planescape: Torment [PC Game]",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p><p>NPC: Glyve.</p>"
+                    "id": "A2",
+                    "pin": "hidden",
+                    "fill": "#795548",
+                    "x": "0",
+                    "y": "0",
+                    "category": "any",
+                    "action": "lightbox",
+                    "title": "A2: Secret Door Safe House",
+                    "about": "The Factol’s Manifesto, p. 117",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 117.</p><p>NPC: Brimarc.</p><p>From the outside it seems nothing more than a door on some nondescript wall. Actually it’s a portal to a demiplane. Brimarc, a githzerai who runs the&nbsp;place, enjoys picking up the magical door and moving it from time to&nbsp;time, to keep it really secret.</p><ul class='labels'><li>Revolutionary League</li></ul>",
+                    "zoom": "0"
                 },
                 {
-                    "id": "U7",
-                    "pin": "circular fa fa-star",
-                    "fill": "#333333",
-                    "x": "0.7625",
-                    "y": "0.3780",
-                    "category": "under",
-                    "title": "U7: Warrens of Thought",
-                    "about": "Planescape: Torment [PC Game]",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p><p>NPC: Many-As-One.</p>"
+                    "id": "A3",
+                    "pin": "hidden",
+                    "fill": "#795548",
+                    "x": "0",
+                    "y": "0",
+                    "category": "any",
+                    "action": "lightbox",
+                    "title": "A3: World Serpent Inn",
+                    "about": "In the Cage: A Guide to Sigil, p. 55",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 55.</p><p>NPC: Mitchifer.</p><p>The World Serpent Inn is both a place and a nonplace, existing in multiple planes simultaneously and nowhere at all.</p><p>The Inn’s main entrance is a two-way portal, though its destination changes frequently. Usually it takes on an appearance appropriate for its surroundings, such as a never-beforenoticed storefront in town, a roadside tavern conveniently placed to provide shelter from a storm, or a cavern revealed by a rockslide.</p><p>The portal, regardless of its appearance, is always marked with the symbol of a serpent curled into a horizontal figure eight (the sign of infinity), eating its own tail.</p><ul class='labels'><li>Primes</li></ul>",
+                    "zoom": "0"
                 },
                 {
-                    "id": "U8",
-                    "pin": "circular fa fa-home",
-                    "fill": "#333333",
-                    "x": "0.7495",
-                    "y": "0.3860",
-                    "category": "under",
-                    "title": "U8: Dead Nations",
-                    "about": "Planescape: Torment [PC Game]",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p><p>NPC: Hargrimm, Acaste, Stale Mary, Soego.</p>"
+                    "id": "O1",
+                    "pin": "hidden",
+                    "fill": "#7575758",
+                    "x": "0",
+                    "y": "0",
+                    "category": "other",
+                    "action": "lightbox",
+                    "title": "O1: Bank of Keys",
+                    "about": "Faction War [Adventure], p. 4",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 4.</p><p>Location: Unknown.</p><ul class='labels'><li>Defunct</li></ul>",
+                    "zoom": "0"
                 },
                 {
-                    "id": "U9",
-                    "pin": "circular fa fa-home",
-                    "fill": "#333333",
-                    "x": "0.7450",
-                    "y": "0.3910",
-                    "category": "under",
-                    "title": "U9: Drowned Nations",
-                    "about": "Planescape: Torment [PC Game]",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p>"
+                    "id": "O2",
+                    "pin": "hidden",
+                    "fill": "#7575758",
+                    "x": "0",
+                    "y": "0",
+                    "category": "other",
+                    "action": "lightbox",
+                    "title": "O2: City Provisoner",
+                    "about": "Planescape Campaign Setting [Boxed Set] — Sigil and Beyond, p. 64",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape Campaign Setting [Boxed Set] — Sigil and Beyond, p. 64.</p><p>Location: Unknown.</p><p>Communals beleived that everything belongs to everyone, including the&nbsp;Lady’s share of the power.</p><p>One day, everyone in the Communal headquarters (the&nbsp;City Provisioner’s) vanished. The best guess is they were all trapped into one Maze in the&nbsp;Ethereal Plane.</p><ul class='labels'><li>Defunct</li></ul>",
+                    "zoom": "0"
                 },
                 {
-                    "id": "U10",
-                    "pin": "circular fa fa-star",
-                    "fill": "#333333",
-                    "x": "0.7435",
-                    "y": "0.3980",
-                    "category": "under",
-                    "title": "U10: Nameless One’s Tomb",
-                    "about": "Planescape: Torment [PC Game]",
-                    "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape: Torment [PC Game]</p>"
+                    "id": "O3",
+                    "pin": "hidden",
+                    "fill": "#7575758",
+                    "x": "0",
+                    "y": "0",
+                    "category": "other",
+                    "action": "lightbox",
+                    "title": "O3: Gehreleth’s Grotto Tavern",
+                    "about": "Blood Wars Trilogy 2: Abyssal Warriors [Novel], p. 6",
+                    "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Blood Wars Trilogy 2: Abyssal Warriors [Novel], p. 6.</p><p>Location: Unknown.<br/>NPC: Aereas.</p>",
+                    "zoom": "0"
                 }
             ]
         }
