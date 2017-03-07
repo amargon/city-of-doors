@@ -27,6 +27,9 @@
 // Dont't blur the minimap:
 .mapplic-minimap-background {filter: none;}
 
+// Highlight unplaced venues:
+.mapplic-list-location.unplaced h4 {color: #888;}
+
 
 // Override map pin style -----------------------------------------------------
 .mapplic-pin.circular {
@@ -84,23 +87,77 @@
 
 
 // Override tooltip style -----------------------------------------------------
-.mapplic-tooltip-description .fa:before {margin-right: .2em;}
-.mapplic-tooltip-description .fa-star {color: #fdca2a;}
-.mapplic-tooltip-description .special .fa-star {color: #bf5138;}
-.mapplic-tooltip-description .fa-star-o {color: #d6d6d6;}
-
 .mapplic-tooltip-description p {color: #999;}
 
 .mapplic-tooltip-description b,
 .mapplic-tooltip-description strong
     {color: #666;}
 
-// Add location labels --------------------------------------------------------
-.mapplic-tooltip-description .labels {line-height: 24px;}
 
-.mapplic-tooltip-description .labels span {
+// Override lightbox style ----------------------------------------------------
+.mapplic-lightbox-title {
+    color: #333;
+    font-size: 20px;
+    font-weight: $font-weight__normal;
+    line-height: 20px;
+    margin: 0;
+}
+
+.mapplic-lightbox-description p {
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 12px 0 0;
+}
+
+.mapplic-lightbox-description b,
+.mapplic-lightbox-description strong
+    {color: #444;}
+
+
+// Add location rating --------------------------------------------------------
+.mapplic-tooltip-description .fa:before,
+.mapplic-lightbox-description .fa:before
+    {margin-right: .2em;}
+
+.mapplic-tooltip-description .fa-star,
+.mapplic-lightbox-description .fa-star
+    {color: #fdca2a;}
+
+.mapplic-tooltip-description .special .fa-star,
+.mapplic-lightbox-description .special .fa-star
+    {color: #bf5138;}
+
+.mapplic-tooltip-description .fa-star-o,
+.mapplic-lightbox-description .fa-star-o
+    {color: #d6d6d6;}
+
+// Add location labels --------------------------------------------------------
+.mapplic-tooltip-description .labels,
+.mapplic-lightbox-description .labels {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+.mapplic-tooltip-description .labels {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 5px 0 0;
+}
+
+.mapplic-lightbox-description .labels {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 7px 0 0;
+}
+
+.mapplic-tooltip-description .labels li,
+.mapplic-lightbox-description .labels li {
+    float: left;
     color: #fff;
     background-color: #a680b3;
-    margin-right: 5px;
+    margin: 5px 5px 0 0;
     padding: 4px 6px;
+    white-space: nowrap;
 }

@@ -86,12 +86,23 @@
                 height: 500,{% if developer_mode %}
                 developer: true,{% endif %}
                 fullscreen: true,
+                lightbox: true,
                 mapfill: true,
                 maxscale: 1
             });
 
             $map.on('mapready', function(e, self) {
-                self.moveTo(0, 0, 0, 0);{% if language !== 'en' %}{% block mapplic_l10n %}{% endblock %}{% endif %}
+                self.moveTo(0, 0, 0, 0);
+
+                // Highlight unplaced venues:
+                var unplaced = ['G29', 'G30', 'G31', 'C51', 'L55', 'A1', 'A2', 'A3', 'O1', 'O2', 'O3'];
+                $('.mapplic-list-location').each(function() {
+                    if ($.inArray($(this).attr('data-location'), unplaced) !== -1) {
+                        $(this).addClass('unplaced');
+                    };
+                });{% if language !== 'en' %}
+
+                // Translate Mapplic UI:{% block mapplic_l10n %}{% endblock %}{% endif %}
             });
         });
     </script>{% if analytics_id %}
