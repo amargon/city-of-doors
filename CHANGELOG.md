@@ -4,7 +4,20 @@ Notable changes to the Community Edition of the map.
 
 ## [Unreleased]
 
-Multilanguage support.
+* French, Italian and Russian translations.
+* Better label system: more streamlined, maybe searchable labels.
+
+## [1.1.0] \(2017-03-09\)
+
+### Added
+
+* 32 previously unplaced Sigil venues ([see the full list](extras/venues_unplaced.csv)).
+
+### Changed
+
+* Enable Mapplic “Lightbox” mode to display the data even if the venue doesn’t have a map pin.
+* Convert stub compiler’s notes on Sigil venues to venue labels.
+* Expand a few of the venue descriptions.
 
 ## [1.0.3] \(2017-02-22\)
 
@@ -17,10 +30,10 @@ Multilanguage support.
 
 ## [1.0.2] \(2017-02-02\)
 
-### Changed
+### Fixed
 
-* Replace broken links to planewalker.com original downloads.
-* Fix typos, punctuation and minor UI issues.
+* Broken links to planewalker.com original downloads.
+* Typos, punctuation and minor UI issues.
 
 ## [1.0.1] \(2017-01-11\)
 
@@ -37,7 +50,8 @@ Multilanguage support.
 
 Initial release of the Community Edition.
 
-[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.0.3...master
+[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.1.0...master
+[1.1.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.1.0
 [1.0.3]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.3
 [1.0.2]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.2
 [1.0.1]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.1
