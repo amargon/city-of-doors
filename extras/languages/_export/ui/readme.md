@@ -5,9 +5,11 @@ It lists basic information about each location, wherever available, and is prima
 Feedback is welcome here: [planewalker.com forums](http://planewalker.com/content/new-interactive-sigil-map) (EN) or [my gaming blog](http://blog.nether-whisper.ru/post/136671622821) (RU).  
 The latest release is also available on [GitHub](https://github.com/amargon/city-of-doors/releases/latest).
 
+Feel free to join the [map translation project](https://crowdin.com/project/map-of-sigil) on Crowdin and let me know if your language is not in the list yet.
+
 ## Locations
 
-There are currently **260** map pins. Data have been culled from a variety of sources including most official 2e supplements, adventures and even a setting specific novel and video game.
+There are currently 292 Sigil venues in the list, but only 281 map pins (some venues like The Secret Door simply don’t have a constant location). Data have been culled from a variety of sources including most official 2e supplements, adventures and even setting specific novels and a video game.
 
 To be included in this compilation a location needs to have a proper name or unique moniker, be located in Sigil (or at least have its primary access point in Sigil) and serve some type of identifiable function (be it public or private).
 
@@ -16,6 +18,8 @@ Places of business are usually followed by a qualifier which identifies the type
 The vast majority of these venues find their origins in 2e AD&D sources which predate the events described in the Faction War adventure. Many are also culled from adventures and supplements with no clear mention of when in the city’s history these venues came into being or later became defunct; leaving dubious timeline issues and the fates of some of the locations for individual DMs to resolve.
 
 Some venues, in their original context, have only dubious mentions concerning their placement within the city’s wards while others offer no such clues. In other circumstances some of the venues have two or more sources which contradict each other in regards to location. Although individual DMs are free to place such venues in whichever ward suits their own tastes and story needs, for the purpose of creating the accompanying Sigil Map, it was necessary to ascribe each venue a definitive position within the city’s six wards. In such circumstances a subjective decision was made based on the available background material and the resultant entry is *marked in red*.
+
+Venues without an exact location are greyed-out in the list.
 
 Since Sigil is described as being morphic in nature, both growing and shrinking at the Lady’s whim with both buildings and streets being moved by the Dabus over time, the map is intended to represent only one possible geographic configuration of the city with approximate distances. Scale of the features on the map is only representational, meaning that individual buildings are purposefully enlarged to depict appearance and importance rather than relative scale to each other.
 
