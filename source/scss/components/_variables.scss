@@ -21,6 +21,9 @@ $panel_scrollbar__background: $panel__background;
 $panel_scrollbar__border: adjust-color($header_button__background, $saturation: 5.55%, $lightness: 24.7%); // #a7b7c7 => hsl(210, 22.22%, 71.76%)
 $panel_scrollbar__thumb: adjust-color($header_button__background, $hue: 0.81deg, $saturation: 0.22%, $lightness: 10%); // #7f91a4 => hsl(210.81, 16.89%, 57.06%)
 
+$label_text: #fff;
+$label_background: #a680b3;
+
 // Magic Numbers --------------------------------------------------------------
 $header__height: 66px;
 $header_button__margin: 12px;

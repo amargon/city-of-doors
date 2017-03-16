@@ -875,7 +875,7 @@
                     "y": "0.6955",
                     "category": "market",
                     "title": "M3: Sill Inn",
-                    "about": "Fires of Dis [Adventure], p. 12",
+                    "about": "Fires of Dis [Adventure], p. 12<br/><span class='label'>Pre FW</span>",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Fires of Dis [Adventure], p. 12.</p><p>NPC: Cedlic Maar.</p><ul class='labels'><li>Merchants</li><li>Pre FW</li></ul>"
                 },
                 {
@@ -1128,7 +1128,7 @@
                     "y": "0.7240",
                     "category": "market",
                     "title": "M26: Temple of Bane",
-                    "about": "Finder’s Bane [Novel], p. 267",
+                    "about": "Finder’s Bane [Novel], p. 267<br/><span class='label'>Defunct</span>",
                     "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Finder’s Bane [Novel], p. 267.</p><p>Beneath <em>Dits’ Books</em> on Copperman Way.</p><ul class='labels'><li>Defunct</li></ul>"
                 },
                 {
@@ -1871,7 +1871,7 @@
                     "y": "0.7955",
                     "category": "clerk",
                     "title": "C35: Bigby’s College of Academic Arts",
-                    "about": "The Factol’s Manifesto, p. 62",
+                    "about": "The Factol’s Manifesto, p. 62<br/><span class='label'>Defunct</span>",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>The Factol’s Manifesto, p. 62.</p><ul class='labels'><li>Defunct</li></ul>"
                 },
                 {
@@ -2059,7 +2059,7 @@
                     "category": "clerk",
                     "action": "lightbox",
                     "title": "C51: Bounded Space Tavern",
-                    "about": "Faction War [Adventure], p. 123",
+                    "about": "Faction War [Adventure], p. 123<br/><span class='label'>Post FW</span>",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 123.</p><p>Location: Clerk’s Ward.<br/>NPC: Wilbur Cookenstein.</p><ul class='labels'><li>Post FW</li></ul>",
                     "zoom": "0"
                 },
@@ -2555,7 +2555,7 @@
                     "y": "0.9025",
                     "category": "hive",
                     "title": "H42: Darkhouse Inn",
-                    "about": "Hellbound: The Blood War [Boxed Set] — War Games, p. 54",
+                    "about": "Hellbound: The Blood War [Boxed Set] — War Games, p. 54<br/><span class='label'>Defunct</span>",
                     "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Hellbound: The Blood War [Boxed Set] — War Games, p. 54.</p><p>NPC: Keeper.</p><ul class='labels'><li>Defunct</li></ul>"
                 },
                 {
@@ -2654,7 +2654,7 @@
                     "y": "0.5718",
                     "category": "lower",
                     "title": "L6: Ubiquitous Wayfarer Inn",
-                    "about": "In the Cage: A Guide to Sigil, p. 57<br/>Dead Gods [Adventure], p. 137",
+                    "about": "In the Cage: A Guide to Sigil, p. 57<br/>Dead Gods [Adventure], p. 137<br/><span class='label'>Pre FW</span>",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>In the Cage: A Guide to Sigil, p. 57.<br/>Dead Gods [Adventure], p. 137.</p><p>NPC: Raien Blackhome, Mirta, Hulester.</p><p>Located in the Lower Ward, this tavern has entrances across the City (especially in the Clerk’s Ward) due to a variety of portals that lead to its location. It houses a large number of portals that lead across the planes.</p><ul class='labels'><li>Pre FW</li></ul>"
                 },
                 {
@@ -3083,7 +3083,7 @@
                     "y": "0.3688",
                     "category": "lower",
                     "title": "L45: Grim Journeyman Tavern",
-                    "about": "Faction War [Adventure], p. 123",
+                    "about": "Faction War [Adventure], p. 123<br/><span class='label'>Pre FW</span>",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 123.</p><ul class='labels'><li>Pre FW</li></ul>"
                 },
                 {
@@ -3194,7 +3194,7 @@
                     "category": "lower",
                     "action": "lightbox",
                     "title": "L55: The Wound That Bleeds Monument",
-                    "about": "Faction War [Adventure], p. 123",
+                    "about": "Faction War [Adventure], p. 123<br/><span class='label'>Post FW</span>",
                     "description": "<p class='special'><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 123.</p><p>Location: Lower Ward.</p><ul class='labels'><li>Post FW</li></ul>",
                     "zoom": "0"
                 },
@@ -3268,7 +3268,7 @@
                     "category": "other",
                     "action": "lightbox",
                     "title": "O1: Bank of Keys",
-                    "about": "Faction War [Adventure], p. 4",
+                    "about": "Faction War [Adventure], p. 4<br/><span class='label'>Defunct</span>",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Faction War [Adventure], p. 4.</p><p>Location: Unknown.</p><ul class='labels'><li>Defunct</li></ul>",
                     "zoom": "0"
                 },
@@ -3281,7 +3281,7 @@
                     "category": "other",
                     "action": "lightbox",
                     "title": "O2: City Provisoner",
-                    "about": "Planescape Campaign Setting [Boxed Set] — Sigil and Beyond, p. 64",
+                    "about": "Planescape Campaign Setting [Boxed Set] — Sigil and Beyond, p. 64<br/><span class='label'>Defunct</span>",
                     "description": "<p><span class='fa fa-star'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><span class='fa fa-star-o'></span><br/>Planescape Campaign Setting [Boxed Set] — Sigil and Beyond, p. 64.</p><p>Location: Unknown.</p><p>Communals beleived that everything belongs to everyone, including the&nbsp;Lady’s share of the power.</p><p>One day, everyone in the Communal headquarters (the&nbsp;City Provisioner’s) vanished. The best guess is they were all trapped into one Maze in the&nbsp;Ethereal Plane.</p><ul class='labels'><li>Defunct</li></ul>",
                     "zoom": "0"
                 },

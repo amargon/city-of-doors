@@ -132,6 +132,7 @@
 .mapplic-lightbox-description .fa-star-o
     {color: #d6d6d6;}
 
+
 // Add location labels --------------------------------------------------------
 .mapplic-tooltip-description .labels,
 .mapplic-lightbox-description .labels {
@@ -155,8 +156,18 @@
 .mapplic-tooltip-description .labels li,
 .mapplic-lightbox-description .labels li {
     float: left;
-    color: #fff;
-    background-color: #a680b3;
+    color: $label_text;
+    background-color: $label_background;
+    margin: 5px 5px 0 0;
+    padding: 4px 6px;
+    white-space: nowrap;
+}
+
+// “Defunct”, “Pre FW” and “Post FW” labels in the sidebar:
+.mapplic-list-location span .label {
+    display: inline-block;
+    color: $label_text;
+    background-color: $label_background;
     margin: 5px 5px 0 0;
     padding: 4px 6px;
     white-space: nowrap;
