@@ -21,10 +21,13 @@
     .mapplic-tooltip-content {max-height: 300px;}
 }
 
-// Set lighter font for venue categories:
+// Use lighter font for venue categories:
 .mapplic-list-category > a .mapplic-list-count {font-weight: $font-weight__strong;}
 
-// Dont't blur the minimap:
+// Fix the left border of the venue list item:
+.mapplic-list-location > a {border-left: 2px solid transparent;}
+
+// Dont’t blur the minimap:
 .mapplic-minimap-background {filter: none;}
 
 // Highlight unplaced venues:
