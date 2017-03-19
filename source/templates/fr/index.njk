@@ -1,0 +1,39 @@
+{# ========================================================================= #}
+{# ******************* The Map of Sigil: French Template ******************* #}
+{# ========================================================================= #}
+
+{% extends '_components/_layout.njk' %}
+
+
+{# General ================================================================= #}
+{% set published_at = '2017-01-16T23:58:37+03' %}
+
+{# French translation is not ready yet: #}
+{% set status = 'α' %}
+{% set robots = 'noindex, nofollow' %}
+
+
+{# Language & Translations ================================================= #}
+{% set language = 'fr' %}
+{% set locale = 'fr_FR' %}
+
+{# Available Translations -------------------------------------------------- #}
+{% set translations = {
+    en: 'Anglais',
+    fr: 'Français',
+    it: 'Italien',
+    ru: 'Russe'
+    }
+%}
+
+{# Page UI ----------------------------------------------------------------- #}
+{% set site_name = 'Murmure-Néant' %}
+
+{% set title = 'Carte de Sigil, la Cité des Portes' %}
+{% set description = 'Une liste des 290 lieux de Sigil tirés des matériaux officiels de Planescape.' %}
+{% set header = 'Sigil : La Cité des Portes' %}
+
+{% block mapplic_l10n %}
+                $('.mapplic-search-input').attr('placeholder', 'Recherche...');
+                $('.mapplic-not-found').text('Rien n’a été trouvé. S’il vous plaît, essayez une recherche différente.');
+{%- endblock %}
