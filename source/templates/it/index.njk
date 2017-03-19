@@ -1,0 +1,39 @@
+{# ========================================================================= #}
+{# ******************* The Map of Sigil: Italian Template ****************** #}
+{# ========================================================================= #}
+
+{% extends '_components/_layout.njk' %}
+
+
+{# General ================================================================= #}
+{% set published_at = '2017-03-19T19:53:27+03' %}
+
+{# Italian translation is not ready yet: #}
+{% set status = 'α' %}
+{% set robots = 'noindex, nofollow' %}
+
+
+{# Language & Translations ================================================= #}
+{% set language = 'it' %}
+{% set locale = 'it_IT' %}
+
+{# Available Translations -------------------------------------------------- #}
+{% set translations = {
+    en: 'Inglese',
+    fr: 'Francese',
+    it: 'Italiano',
+    ru: 'Russo'
+    }
+%}
+
+{# Page UI ----------------------------------------------------------------- #}
+{% set site_name = 'Sussurro Fatuo' %}
+
+{% set title = 'La Mappa di Sigil, Città delle Porte' %}
+{% set description = 'Indice di 290 sedi di Sigil ottenuto da materiale ufficiale di Planescape.' %}
+{% set header = 'Sigil: La Città delle Porte' %}
+
+{% block mapplic_l10n %}
+                $('.mapplic-search-input').attr('placeholder', 'Cerca...');
+                $('.mapplic-not-found').text('Non abbiamo trovato nulla. Prova una ricerca diversa.');
+{%- endblock %}
