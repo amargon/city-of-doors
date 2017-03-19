@@ -1,0 +1,41 @@
+{# ========================================================================= #}
+{# ******************* The Map of Sigil: Russian Template ****************** #}
+{# ========================================================================= #}
+
+{% extends '_components/_layout.njk' %}
+
+
+{# General ================================================================= #}
+{% set published_at = '2017-02-19T23:46:45+03' %}
+
+{# Russian translation is not ready yet: #}
+{% set status = 'α' %}
+{% set robots = 'noindex, nofollow' %}
+
+
+{# Language & Translations ================================================= #}
+{% set language = 'ru' %}
+{% set locale = 'ru_RU' %}
+
+{% set font_subset = '&subset=cyrillic' %}
+
+{# Available Translations -------------------------------------------------- #}
+{% set translations = {
+    en: 'Английский',
+    fr: 'Французский',
+    it: 'Итальянский',
+    ru: 'Русский'
+    }
+%}
+
+{# Page UI ----------------------------------------------------------------- #}
+{% set site_name = 'Шёпот Пустоты' %}
+
+{% set title = 'Карта Сигила, Города Дверей' %}
+{% set description = 'Перечень 290 заведений и достопримечательностей Сигила, составленный по официальным материалам Planescape.' %}
+{% set header = 'Сигил: Город Дверей' %}
+
+{% block mapplic_l10n %}
+                $('.mapplic-search-input').attr('placeholder', 'Найти...');
+                $('.mapplic-not-found').text('Ничего не найдено. Попробуйте поискать по-другому.');
+{%- endblock %}
