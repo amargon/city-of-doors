@@ -1,13 +1,17 @@
 "ID","TITLE","TRANSLATION","NOTES"
-"♀1","Zadara’s Manor","","Uncaged: Faces of Sigil, p. 117."
+"♀1","Zadara’s Manor","","Uncaged: Faces of Sigil, p. 117.
+Owner is female titan."
 "♀2","Liberty Hall Tavern","","The Factol’s Manifesto, p. 96."
-"♀3","Tussa’s Greenhouse","","Uncaged: Faces of Sigil, p. 124."
+"♀3","Tussa’s Greenhouse","","Uncaged: Faces of Sigil, p. 124.
+Owner is female bariaur."
 "♀4","Square Bar","","The Factol’s Manifesto, p. 116."
 "♀5","Plague Victims’ Monument","","In the Cage: A Guide to Sigil, p. 8."
 "♀6","Nontegue Manor","","Faction War [Adventure], p. 85."
-"♀7","Tripicus’ Study","","Uncaged: Faces of Sigil, p. 102."
+"♀7","Tripicus’ Study","","Uncaged: Faces of Sigil, p. 102.
+Owner is male ursinal."
 "♀8","Traban’s Forge","","In the Cage: A Guide to Sigil, p. 45.
-Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 80."
+Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 80.
+Owner is male dwaf."
 "♀9","Interplanar Importers Merchant House & Restaurant","","The Factol’s Manifesto, p. 115."
 "♀10","Untra’s Arcana","","Harbinger House [Adventure], p. 26."
 "♀11","City Court","","The Factol’s Manifesto, p. 71.
@@ -15,7 +19,8 @@ In the Cage: A Guide to Sigil, p. 34.
 Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 80."
 "♀12","Singing Fountain","","Uncaged: Faces of Sigil, p. 12."
 "♀13","Palace of the Jester","","In the Cage: A Guide to Sigil, p. 40."
-"♀14","Vlrc’s Clocktower","","Dead Gods [Adventure], p. 51."
+"♀14","Vlrc’s Clocktower","","Dead Gods [Adventure], p. 51.
+Owner is female."
 "♀15","Dusty Wig Boarding House","","Uncaged: Faces of Sigil, p. 14."
 "♀16","City Barracks","","The Factol’s Manifesto, p. 92.
 In the Cage: A Guide to Sigil, p. 32.
@@ -29,7 +34,8 @@ Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 80."
 In the Cage: A Guide to Sigil, p. 39."
 "♀22b","Fortune’s Wheel Gambling Hall","","In the Cage: A Guide to Sigil, p. 36."
 "♀23","Temple of Io","","In the Cage: A Guide to Sigil, p. 30."
-"♀24","Penbrum’s Parchments and Papers Warehouse","","Harbinger House [Adventure], p. 25."
+"♀24","Penbrum’s Parchments and Papers Warehouse","","Harbinger House [Adventure], p. 25.
+Owner is male."
 "♀25","Geldab’s Bakery","","Harbinger House [Adventure], p. 27.
 The Planeswalker’s Handbook, p. 10."
 "♀26","Prison","","The Factol’s Manifesto, p. 103.
@@ -69,51 +75,65 @@ Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 80."
 "♀54","Great Library","","Expedition to the Demonweb Pits [Adventure], pp. 27, 37.
 Faction War [Adventure], p. 84.
 Hellbound: The Blood War [Boxed Set] — War Games, p. 42"
-"♀55","Durkayle’s Tower","","Dungeon Magazine #55."
+"♀55","Durkayle’s Tower","","Dungeon Magazine #55.
+Owner is male human."
 "♀56","Office of the Master of Portals","","In the Cage: A Guide to Sigil, p. 31."
 "♀57","Screaming Tower","","Dungeon Magazine #55."
-"♀58","Spiral’s Mansion","","Hellbound: The Blood War [Boxed Set] — War Games, p. 7."
+"♀58","Spiral’s Mansion","","Hellbound: The Blood War [Boxed Set] — War Games, p. 7.
+Owner is male aasimar."
 "♀59","Tower of the Prophet","","Expedition to the Demonweb Pits [Adventure], p. 23."
 "M0","The Great Bazaar","","In the Cage: A Guide to Sigil, p. 96."
 "M1","Masty’s Tavern","","In the Cage: A Guide to Sigil, p. 84."
 "M2","S&J Transport","","In the Cage: A Guide to Sigil, p. 82."
 "M3","Sill Inn","","Fires of Dis [Adventure], p. 12."
-"M4","Wooly Cupgrass’ Laboratory","","Uncaged: Faces of Sigil, p. 22."
+"M4","Wooly Cupgrass’ Laboratory","","Uncaged: Faces of Sigil, p. 22.
+Owner is male bariaur."
 "M5","Harmonium’s Market Ward Garrison","","Faction War [Adventure], p. 24."
 "M6","Beranto’s Map Shop","","Doors to the Unknown [Adventure], p. 48."
-"M7","Girreht’s Jewelcraft","","Faction War [Adventure], p. 24."
+"M7","Girreht’s Jewelcraft","","Faction War [Adventure], p. 24.
+Owner is male githzerai."
 "M8","Deadfinger’s Tavern","","In the Cage: A Guide to Sigil, p. 84."
 "M9","Bronze Bezants Loanshop","","In the Cage: A Guide to Sigil, p. 90."
-"M10","Turby’s Inn","","In the Cage: A Guide to Sigil, p. 84."
-"M11","Harys Hatchis’ Promotions Office","","Uncaged: Faces of Sigil, p. 44."
+"M10","Turby’s Inn","","In the Cage: A Guide to Sigil, p. 84.
+Owner is male."
+"M11","Harys Hatchis’ Promotions Office","","Uncaged: Faces of Sigil, p. 44.
+Owner is male human."
 "M12","Severed Head Weapons & Armor Shop","","In the Cage: A Guide to Sigil, p. 86."
 "M13","Red Lion Inn Holstery","","The Factol’s Manifesto, p. 84."
 "M14","Parts & Pieces Meat Shop","","Uncaged: Faces of Sigil, p. 92.
 Something Wild [Adventure], p. 16."
-"M15","Imel’s Happy Tongue Restaurant","","In the Cage: A Guide to Sigil, p. 81."
+"M15","Imel’s Happy Tongue Restaurant","","In the Cage: A Guide to Sigil, p. 81.
+Owner is male."
 "M16","Tressym’s Tours","","In the Cage: A Guide to Sigil, p. 89."
 "M17","Warbling Blades Silversmithy","","The Factol’s Manifesto, p. 82."
 "M18","Hynighter’s Horses","","In the Cage: A Guide to Sigil, p. 84."
 "M19","Fell’s Tattoo Parlour","","Uncaged: Faces of Sigil, p. 36."
-"M20","Chinzpeter’s Used Clothing","","Uncaged: Faces of Sigil, p. 124."
+"M20","Chinzpeter’s Used Clothing","","Uncaged: Faces of Sigil, p. 124.
+Owner is male tiefling."
 "M21","Tivvum’s Antiquities","","Uncaged: Faces of Sigil, p. 86.
 Faction War [Adventure], p. 106.
 Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57.
 Dragon Magazine #414."
 "M22","Debtor’s Pole","","In the Cage: A Guide to Sigil, p. 96."
 "M23","Chirper’s Inn","","In the Cage: A Guide to Sigil, p. 93."
-"M24","Café Leonan","","Blood Wars Trilogy 1: Blood Hostages [Novel], p. 65."
-"M25","Dits’ Books","","Finder’s Bane [Novel], p. 268."
+"M24","Café Leonan","","Blood Wars Trilogy 1: Blood Hostages [Novel], p. 65.
+It’s a sentient building."
+"M25","Dits’ Books","","Finder’s Bane [Novel], p. 268.
+Owner is male bariaur."
 "M26","Temple of Bane","","Finder’s Bane [Novel], p. 267."
 "G1","Flame Pits Bathhouse","","In the Cage: A Guide to Sigil, p. 84.
 Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 89."
-"G2","Nittman’s Aerial Tours","","In the Cage: A Guide to Sigil, p. 84."
-"G3","Rechvad’s Persona Lavisicum","","Faction War [Adventure], p. 65."
+"G2","Nittman’s Aerial Tours","","In the Cage: A Guide to Sigil, p. 84.
+Owner is male."
+"G3","Rechvad’s Persona Lavisicum","","Faction War [Adventure], p. 65.
+Owner is male half-elf."
 "G4","Chapel Perilous","","Faction War [Adventure], p. 65."
 "G5","Airion’s Boarding House","","In the Cage: A Guide to Sigil, p. 84."
-"G6","Talun Underfoot’s Burrow","","Faction War [Adventure], p. 19."
+"G6","Talun Underfoot’s Burrow","","Faction War [Adventure], p. 19.
+Owner is male halfling."
 "G7","Blue Toad Inn","","In the Cage: A Guide to Sigil, p. 9."
-"G8","Ensin’s Discount Elixirs","","In the Cage: A Guide to Sigil, p. 95."
+"G8","Ensin’s Discount Elixirs","","In the Cage: A Guide to Sigil, p. 95.
+Owner is male human."
 "G9","Woodman’s Retreat Tavern","","In the Cage: A Guide to Sigil, p. 84.
 Something Wild [Adventure], p. 20."
 "G10","Yawning Rat Inn","","In the Cage: A Guide to Sigil, p. 84.
@@ -138,9 +158,12 @@ Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 88."
 In the Cage: A Guide to Sigil, p. 84."
 "G26","Feathernest Inn","","Uncaged: Faces of Sigil, p. 29.
 In the Cage: A Guide to Sigil, p. 84 ."
-"G27","Xanist’s Invention Shop","","In the Cage: A Guide to Sigil, p. 97."
-"G28","Zakk’s Corpse Curing Taxidermy Shop","","In the Cage: A Guide to Sigil, p. 99."
-"G29","Boffo’s Music Shop","","Blood Wars Trilogy 1: Blood Hostages [Novel], p. 25."
+"G27","Xanist’s Invention Shop","","In the Cage: A Guide to Sigil, p. 97.
+Owner is female human."
+"G28","Zakk’s Corpse Curing Taxidermy Shop","","In the Cage: A Guide to Sigil, p. 99.
+Owner is female human."
+"G29","Boffo’s Music Shop","","Blood Wars Trilogy 1: Blood Hostages [Novel], p. 25.
+Owner is male gnome."
 "G30","Cantrian Clock Tower","","Blood Wars Trilogy 2: Abyssal Warriors [Novel], p. 268."
 "G31","Lost Dragon","","In the Cage: A Guide to Sigil, p. 85."
 "C1","Trianym","","In the Cage: A Guide to Sigil, p. 78."
@@ -154,32 +177,45 @@ Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 86."
 "C7","Healing Hovel","","Doors to the Unknown [Adventure], p. 12."
 "C8","Tome of Magic Components Shop","","Doors to the Unknown [Adventure], p. 25."
 "C9","Scribe’s Rest Pub","","Doors to the Unknown [Adventure], p. 26."
-"C10","Silverhorn’s General Store","","Doors to the Unknown [Adventure], p. 25."
+"C10","Silverhorn’s General Store","","Doors to the Unknown [Adventure], p. 25.
+Owner is male tiefling."
 "C11","Lady Drayon’s Boarding House","","Doors to the Unknown [Adventure], p. 25."
-"C12","Ragnaal & Fluuz Scriptorium","","Doors to the Unknown [Adventure], p. 27."
+"C12","Ragnaal & Fluuz Scriptorium","","Doors to the Unknown [Adventure], p. 27.
+Owners are male bariaurs."
 "C13","Davots, Trillian, and Snoob Ltd.","","Doors to the Unknown [Adventure], p. 27."
-"C14a","Balthazar’s Office","","Doors to the Unknown [Adventure], p. 11."
-"C14b","Paltry’s Pastries","","Doors to the Unknown [Adventure], p. 11."
-"C15","Jeena Ealy’s Compound","","In the Cage: A Guide to Sigil, p. 72."
+"C14a","Balthazar’s Office","","Doors to the Unknown [Adventure], p. 11.
+Owner is male aasimar."
+"C14b","Paltry’s Pastries","","Doors to the Unknown [Adventure], p. 11.
+Owner is female human."
+"C15","Jeena Ealy’s Compound","","In the Cage: A Guide to Sigil, p. 72.
+Owner is female human."
 "C16","Cup of Freedom Library","","Something Wild [Adventure], p. 17."
 "C17","Black Wind Tavern","","In the Cage: A Guide to Sigil, p. 62."
-"C18","Tensar’s Employment Service","","In the Cage: A Guide to Sigil, p. 77."
+"C18","Tensar’s Employment Service","","In the Cage: A Guide to Sigil, p. 77.
+Owner is male human."
 "C19","Daughters of the Light Headquarters","","Faction War [Adventure], p. 18."
-"C20","Goncalves’ Tailor Shop","","Planescape: Torment [PC Game]."
+"C20","Goncalves’ Tailor Shop","","Planescape: Torment [PC Game].
+Owner is male."
 "C21","Brothel for Slaking Intellectual Lusts","","Planescape: Torment [PC Game]."
-"C22","Iannis’ Advocacy Office","","Planescape: Torment [PC Game]."
+"C22","Iannis’ Advocacy Office","","Planescape: Torment [PC Game].
+Owner is male."
 "C23","Art & Curio Galleria","","Planescape: Torment [PC Game]."
-"C24","Finam’s Study","","Planescape: Torment [PC Game]."
+"C24","Finam’s Study","","Planescape: Torment [PC Game].
+Owner is male."
 "C25","Civic Festhall","","The Factol’s Manifesto, p. 134.
 In the Cage: A Guide to Sigil, p. 63.
 Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 84."
 "C26","Velvet Harness Boarding House","","In the Cage: A Guide to Sigil, p. 62."
-"C27","Pestle and Kilnn’s Apothecary","","Planescape: Torment [PC Game]."
+"C27","Pestle and Kilnn’s Apothecary","","Planescape: Torment [PC Game].
+Owner is male."
 "C28","Greengage Cider Shop","","In the Cage: A Guide to Sigil, p. 63.
 Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 86."
-"C29","Vrischika’s Curiosity Shoppe","","Planescape: Torment [PC Game]."
-"C30","Milori the Translator","","Uncaged: Faces of Sigil, p. 64."
-"C31","Jerkot’s Imports","","Doors to the Unknown [Adventure], p. 13."
+"C29","Vrischika’s Curiosity Shoppe","","Planescape: Torment [PC Game].
+Owner is female tanar’ri."
+"C30","Milori the Translator","","Uncaged: Faces of Sigil, p. 64.
+Owner is female lillend."
+"C31","Jerkot’s Imports","","Doors to the Unknown [Adventure], p. 13.
+Owner is female githzerai."
 "C32","Slumbering Lamb Boarding House","","In the Cage: A Guide to Sigil, p. 62.
 Something Wild [Adventure], p. 16."
 "C33","Sullen Moon Tavern","","In the Cage: A Guide to Sigil, p. 62."
@@ -208,9 +244,11 @@ In the Cage: A Guide to Sigil, p. 62."
 "C49","Iron Heart Alehouse","","In the Cage: A Guide to Sigil, p. 62.
 The Factol’s Manifesto, p. 61."
 "C50","Grundlethum’s Automatic Scribe Print-shop","","In the Cage: A Guide to Sigil, p. 63.
-Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 86."
+Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 86.
+Owner is male human."
 "C51","Bounded Space Tavern","","Faction War [Adventure], p. 123."
-"C52","Mirror Will’s Apothecary","","Hellbound: The Blood War [Boxed Set] — The Chant of the War, p. 31."
+"C52","Mirror Will’s Apothecary","","Hellbound: The Blood War [Boxed Set] — The Chant of the War, p. 31.
+Owner is male elf."
 "C53","Weaver’s Guildhall","","Expedition to the Demonweb Pits [Adventure], p. 21."
 "H0","The Hive","","In the Cage: A Guide to Sigil, p. 113.
 Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 84.
@@ -221,9 +259,12 @@ Faction War [Adventure], p. 26."
 "H4","Office of Vermin and Disease Control","","Planescape: Torment [PC Game]."
 "H5","Zaddfum Trestle","","The Factol’s Manifesto, p. 124."
 "H6","Temple of Aoskar","","Planescape: Torment [PC Game]."
-"H7","Sharegrave’s Guildhouse","","Planescape: Torment [PC Game]."
-"H8","Ku’atraa’s Warehouse","","Planescape: Torment [PC Game]."
-"H9","Arlo’s Flophouse","","Planescape: Torment [PC Game]."
+"H7","Sharegrave’s Guildhouse","","Planescape: Torment [PC Game].
+Owner is male."
+"H8","Ku’atraa’s Warehouse","","Planescape: Torment [PC Game].
+Owner is male."
+"H9","Arlo’s Flophouse","","Planescape: Torment [PC Game].
+Owner is male."
 "H10","Gathering Dust Bar","","Planescape: Torment [PC Game]."
 "H11","Smoldering Corpse Bar","","Planescape: Torment [PC Game]."
 "H12","Mortuary","","The Eternal Boundary [Adventure], p. 18.
@@ -241,12 +282,15 @@ Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 83."
 "H17","Quake’s Place Tavern","","The Factol’s Manifesto, p. 155."
 "H18","Bottle & Jug Tavern","","In the Cage: A Guide to Sigil, p. 107."
 "H19","Cold Bowl Soup Kitchen","","The Factol’s Manifesto, p. 29."
-"H20","Parakk the Ratcatcher’s Case","","Uncaged: Faces of Sigil, p. 76."
+"H20","Parakk the Ratcatcher’s Case","","Uncaged: Faces of Sigil, p. 76.
+Owner is male githzerai."
 "H21","Weary Head Pub","","Uncaged: Faces of Sigil, p. 68."
 "H22","Butcher’s Block Alehouse & Inn","","The Eternal Boundary [Adventure], p. 10.
 In the Cage: A Guide to Sigil, p. 102."
-"H23","Ylem’s Tower","","Uncaged: Faces of Sigil, pp. 78, 116."
-"H24","Allesha’s Pantry","","In the Cage: A Guide to Sigil, p. 106."
+"H23","Ylem’s Tower","","Uncaged: Faces of Sigil, pp. 78, 116.
+Owner is a rogue modron."
+"H24","Allesha’s Pantry","","In the Cage: A Guide to Sigil, p. 106.
+Owner is female human."
 "H25","Green Stone Stables","","In the Cage: A Guide to Sigil, p. 111."
 "H26","Benni’s Tap Room","","In the Cage: A Guide to Sigil, p. 102."
 "H27","Zero Alehouse","","In the Cage: A Guide to Sigil, p. 103."
@@ -257,17 +301,21 @@ In the Cage: A Guide to Sigil, p. 102."
 "H32","Scratch Wall","","In the Cage: A Guide to Sigil, p. 115."
 "H33","Harmonium’s 2nd Hive Ward Bastion","","Faction War [Adventure], p. 27."
 "H34","Boneyard Pond","","In the Cage: A Guide to Sigil, p. 125."
-"H35","Orsmonder’s Meats","","In the Cage: A Guide to Sigil, pp. 101, 112."
+"H35","Orsmonder’s Meats","","In the Cage: A Guide to Sigil, pp. 101, 112.
+Owner is male."
 "H36","Shrinker’s Tavern","","In the Cage: A Guide to Sigil, p. 102."
 "H37","Prime Exotics","","In the Cage: A Guide to Sigil, p. 126."
 "H38","Snapped Finger Tavern","","In the Cage: A Guide to Sigil, p. 102."
 "H39","The Slags","","In the Cage: A Guide to Sigil, p. 116."
-"H40","Azarin’s Recruitment Office","","Hellbound: The Blood War [Boxed Set] — The Chant of the War, p. 26."
+"H40","Azarin’s Recruitment Office","","Hellbound: The Blood War [Boxed Set] — The Chant of the War, p. 26.
+Owner is male yugoloth."
 "H41","Battling Bariaur Statue","","Dungeon Magazine #60."
 "H42","Darkhouse Inn","","Hellbound: The Blood War [Boxed Set] — War Games, p. 54."
-"H43","Old Mebbeth Hospice","","Planescape: Torment [PC Game]."
+"H43","Old Mebbeth Hospice","","Planescape: Torment [PC Game].
+Owner is female."
 "H44","Slaughterhouse Tavern","","Dungeon Magazine #60."
-"H45","Tylero’s Steel","","Planescape: Torment [PC Game]."
+"H45","Tylero’s Steel","","Planescape: Torment [PC Game].
+Owner is male."
 "L1","Friendly Fiend Magic Shop","","Uncaged: Faces of Sigil, p. 8."
 "L2","Happy Candies Sweets Shop","","Harbinger House [Adventure], p. 25."
 "L3","The Golden Bell Pawnshop","","In the Cage: A Guide to Sigil, p. 50."
@@ -278,7 +326,8 @@ In the Cage: A Guide to Sigil, p. 55."
 Dead Gods [Adventure], p. 137."
 "L7","Sleepy Dwarf Gem Exchange","","Harbinger House [Adventure], p. 26."
 "L8","Society of the Luminiferous Aether","","In the Cage: A Guide to Sigil, p. 55."
-"L9","Sod Dirk’s Forge","","Harbinger House [Adventure], p. 28."
+"L9","Sod Dirk’s Forge","","Harbinger House [Adventure], p. 28.
+Owner is male half-elf."
 "L10","Black Sail Tavern & Inn","","The Eternal Boundary [Adventure], p. 16.
 In the Cage: A Guide to Sigil, p. 48.
 Dungeon Magazine #55."
@@ -293,13 +342,17 @@ Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 81."
 Uncaged: Faces of Sigil, p. 85.
 Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82.
 Expedition to the Demonweb Pits [Adventure], p. 19."
-"L17","Brokah and Miccah’s Pawnshop","","Planescape: Torment [PC Game]."
+"L17","Brokah and Miccah’s Pawnshop","","Planescape: Torment [PC Game].
+Brokah is male, Miccah is female."
 "L18","Sword and Buckler Alehouse","","In the Cage: A Guide to Sigil, p. 59."
-"L19","Giltspur’s Auction Block","","Planescape: Torment [PC Game]."
+"L19","Giltspur’s Auction Block","","Planescape: Torment [PC Game].
+Owner is male."
 "L20","Hooded Lantern Alehouse","","In the Cage: A Guide to Sigil, p. 59."
 "L21","Cinder’s Magic Shoppe","","Planescape: Torment [PC Game]."
-"L22","Aalek’s Oddities","","Planescape: Torment [PC Game]."
-"L23","Anze’s Anvil Smithy","","Planescape: Torment [PC Game]."
+"L22","Aalek’s Oddities","","Planescape: Torment [PC Game].
+Owner is male."
+"L23","Anze’s Anvil Smithy","","Planescape: Torment [PC Game].
+Owner is male."
 "L24","Speckled Rat Alehouse","","In the Cage: A Guide to Sigil, p. 59."
 "L25","Parted Veil Bookshop","","Uncaged: Faces of Sigil, p. 16."
 "L26","Temple of Lost Badir","","Dead Gods [Adventure], p. 148."
@@ -309,12 +362,15 @@ Expedition to the Demonweb Pits [Adventure], p. 19."
 "L30","Generous Coin Mercantile","","The Factol’s Manifesto, p. 10."
 "L31","Soused Duck Tavern","","The Factol’s Manifesto, p. 10.
 Finder’s Bane [Novel], p. 293."
-"L32","Penn’s Print Shop","","Planescape: Torment [PC Game]."
-"L33","Thelinagra’s Chaos-Shaping Studio","","Uncaged: Faces of Sigil, p. 124."
+"L32","Penn’s Print Shop","","Planescape: Torment [PC Game].
+Owner is male."
+"L33","Thelinagra’s Chaos-Shaping Studio","","Uncaged: Faces of Sigil, p. 124.
+Owner is female githzerai."
 "L34","Face of Gith Tavern","","Uncaged: Faces of Sigil, p. 123.
 In the Cage: A Guide to Sigil, p. 57."
 "L35","Siege Tower Smithy","","Planescape: Torment [PC Game]."
-"L36","Hamrys’ Caskets","","Planescape: Torment [PC Game]."
+"L36","Hamrys’ Caskets","","Planescape: Torment [PC Game].
+Owner is male."
 "L37","Bones of the Night","","In the Cage: A Guide to Sigil, p. 48."
 "L38","Shattered Temple","","The Factol’s Manifesto, p. 10.
 In the Cage: A Guide to Sigil, p. 55.
@@ -329,12 +385,14 @@ Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82."
 "L46","Green Mill Tavern","","In the Cage: A Guide to Sigil, p. 51."
 "L47","New Market","","In the Cage: A Guide to Sigil."
 "L48","Ascension Drinking Hall","","Harbinger House [Adventure], p. 20."
-"L49","Tavrat Chol Moc Tannery","","Faction War [Adventure], p. 73."
+"L49","Tavrat Chol Moc Tannery","","Faction War [Adventure], p. 73.
+Owner is male dwarf."
 "L50","Logu’s Bath Powder Warehouse","","Harbinger House [Adventure], p. 26."
 "L51","The Ditch","","In the Cage: A Guide to Sigil, p. 49."
 "L52","Grinning Imp Tavern","","In the Abyss [Adventure], p. 4."
 "L53","Heldoniver’s Candles Shop","","Hellbound: The Blood War [Boxed Set] — War Games, p. 73."
-"L54","Tashad’s Barber Shop","","In the Abyss [Adventure], p. 8."
+"L54","Tashad’s Barber Shop","","In the Abyss [Adventure], p. 8.
+Owner is female human."
 "L55","The Wound That Bleeds Monument","","Faction War [Adventure], p. 123."
 "L56","Worm’s Guts Restaurant","","Dungeon Magazine #55."
 "L57","Zactar Cathedral","","Dungeon Magazine #55."
