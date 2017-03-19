@@ -7,6 +7,20 @@ Notable changes to the Community Edition of the map.
 * French, Italian and Russian translations.
 * Better label system: more streamlined, maybe searchable labels.
 
+## [1.1.1] \(2017-03-19\)
+
+### Added
+
+* “Defunct”, “Pre FW” and “Post FW” labels in the sidebar venue list.
+
+### Changed
+
+* Update jQuery to 3.2.
+
+### Fixed
+
+* Venue list items in the sidebar shifted on hover.
+
 ## [1.1.0] \(2017-03-09\)
 
 ### Added
@@ -50,7 +64,8 @@ Notable changes to the Community Edition of the map.
 
 Initial release of the Community Edition.
 
-[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.1.0...master
+[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.1.1...master
+[1.1.1]: https://github.com/amargon/city-of-doors/releases/tag/v1.1.1
 [1.1.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.1.0
 [1.0.3]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.3
 [1.0.2]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.2
