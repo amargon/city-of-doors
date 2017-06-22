@@ -73,7 +73,7 @@ var nunjucks = {
             developer_mode: argv.development ? true : false,
             translations_excluded: [],
             analytics_id: argv.community ? false : '31374838',
-            base_url: 'http://nether-whisper.ru/rp/planescape/map-of-sigil/',
+            base_url: 'https://nether-whisper.ru/rp/planescape/map-of-sigil/',
             robots: argv.community ? 'noindex, nofollow' : 'index, nofollow, noarchive',
             ogp: argv.community ? false : true,
             swiftype: argv.community ? false : true,
