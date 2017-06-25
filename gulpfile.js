@@ -119,20 +119,13 @@ var on_error = function(error) {
 };
 
 
-// Announce the build type: Regular or Community Edition ----------------------
-if (argv.community) {
-    plugins.util.log('Building the map of Sigil',  '(Community Edition, default language: ' + argv.language + ')');
-} else {
-    plugins.util.log('Building the map of Sigil',  '(default language: ' + argv.language + ')');
-};
-
-
 // ============================================================================
 // ********************************** TASKS ***********************************
 // ============================================================================
 
 // Clean the build ------------------------------------------------------------
 gulp.task('clean:all', function() {
+    plugins.util.log('Deleting previous build...');
     return del.sync(path.clean.all);
 });
 
@@ -154,6 +147,8 @@ var fetch_mapplic = gulp.src([
 
 // Fetch all packages ---------------------------------------------------------
 gulp.task('fetch:vendor', function() {
+    plugins.util.log('Fetching all vendor packages...');
+
     var jquery = gulp.src('node_modules/jquery/dist/jquery.js')
         .pipe(plugins.changed('source/vendor/jquery/'))
         .pipe(gulp.dest('source/vendor/jquery/'));
@@ -196,13 +191,25 @@ gulp.task('fetch:vendor', function() {
     );
 });
 
+
 // Fetch only the Mapplic package ---------------------------------------------
 gulp.task('fetch:mapplic', function() {
+    plugins.util.log('Fetching Mapplic package...');
     return merge(fetch_mapplic_images, fetch_mapplic);
 });
 
 
 // GO, DABUS, GO ==============================================================
+
+// Announce the build type: Regular or Community Edition ----------------------
+gulp.task('build:announce', function() {
+    if (argv.community) {
+        plugins.util.log('Building the map of Sigil',  '(Community Edition, default language: ' + argv.language + ')');
+    } else {
+        plugins.util.log('Building the map of Sigil',  '(default language: ' + argv.language + ')');
+    };
+});
+
 
 // Copy fonts -----------------------------------------------------------------
 gulp.task('build:fonts', function() {
@@ -295,8 +302,10 @@ gulp.task('build:html', function() {
     return merge(build_default, build_other);
 });
 
+
 // Put it all together --------------------------------------------------------
 gulp.task('build', [
+    'build:announce',
     'build:fonts',
     'build:images',
     'build:data',
