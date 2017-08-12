@@ -33,11 +33,11 @@
     "mapplic": "gitlab:amargon/mapplic"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
+    "autoprefixer": "^7.1.2",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-changed": "^3.1.0",
-    "gulp-clean-css": "^3.4.2",
+    "gulp-clean-css": "^3.7.0",
     "gulp-line-ending-corrector": "^1.0.1",
     "gulp-load-plugins": "^1.4.0",
     "gulp-nunjucks-render": "^2.2.1",
