@@ -1,7 +1,9 @@
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
 
+var c = require('ansi-colors');
 var del = require('del');
+var log = require('fancy-log');
 var merge = require('merge-stream');
 
 
@@ -97,7 +99,7 @@ var nunjucks = {
 var exclude_list = argv.community ? ['fr', 'it', 'ru'] : ['it', 'ru'];
 
 if (exclude_list.indexOf(argv.language) > -1) {
-    plugins.util.log('This translation is incomplete and cannot be set as default.');
+    log.warn(c.yellow('This translation is incomplete and cannot be set as default.'));
     process.exit(1);
 } else {
     function exclude_translations(source) {
@@ -114,7 +116,7 @@ if (exclude_list.indexOf(argv.language) > -1) {
 
 // Format error messages and force exit code 1 on error -----------------------
 var on_error = function(error) {
-    plugins.util.log(plugins.util.colors.red('[ERROR]:', error.name, error.message));
+    log.error(c.red(c.bgRed.white(error.name), error.message));
     process.exit(1);
 };
 
@@ -125,7 +127,7 @@ var on_error = function(error) {
 
 // Clean the build ------------------------------------------------------------
 gulp.task('clean:all', function() {
-    plugins.util.log('Deleting previous build...');
+    log('Deleting previous build...');
     return del.sync(path.clean.all);
 });
 
@@ -147,7 +149,7 @@ var fetch_mapplic = gulp.src([
 
 // Fetch all packages ---------------------------------------------------------
 gulp.task('fetch:vendor', function() {
-    plugins.util.log('Fetching all vendor packages...');
+    log('Fetching all vendor packages...');
 
     var jquery = gulp.src('node_modules/jquery/dist/jquery.js')
         .pipe(plugins.changed('source/vendor/jquery/'))
@@ -194,7 +196,7 @@ gulp.task('fetch:vendor', function() {
 
 // Fetch only the Mapplic package ---------------------------------------------
 gulp.task('fetch:mapplic', function() {
-    plugins.util.log('Fetching Mapplic package...');
+    log('Fetching Mapplic package...');
     return merge(fetch_mapplic_images, fetch_mapplic);
 });
 
@@ -204,9 +206,9 @@ gulp.task('fetch:mapplic', function() {
 // Announce the build type: Regular or Community Edition ----------------------
 gulp.task('build:announce', function() {
     if (argv.community) {
-        plugins.util.log('Building the map of Sigil',  '(Community Edition, default language: ' + argv.language + ')');
+        log(c.green.bold('Building the map of Sigil',  '(Community Edition, default language: ' + argv.language + ')'));
     } else {
-        plugins.util.log('Building the map of Sigil',  '(default language: ' + argv.language + ')');
+        log(c.green.bold('Building the map of Sigil',  '(default language: ' + argv.language + ')'));
     };
 });
 
