@@ -24,31 +24,32 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
-    "jquery": "^3.2.1",
+    "jquery": "^3.3.1",
     "jquery-mousewheel": "^3.1.13",
     "magnific-popup": "^1.1.0",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^8.0.0"
   },
   "optionalDependencies": {
     "mapplic": "gitlab:amargon/mapplic"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
+    "ansi-colors": "^2.0.1",
+    "autoprefixer": "^8.5.0",
     "del": "^3.0.0",
+    "fancy-log": "^1.3.2",
     "gulp": "^3.9.1",
-    "gulp-changed": "^3.1.0",
-    "gulp-clean-css": "^3.4.2",
-    "gulp-line-ending-corrector": "^1.0.1",
-    "gulp-load-plugins": "^1.4.0",
-    "gulp-nunjucks-render": "^2.2.1",
-    "gulp-postcss": "^7.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.6.1",
-    "gulp-sass": "^3.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-line-ending-corrector": "^1.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
-    "gulp-util": "^3.0.8",
     "merge-stream": "^1.0.1",
-    "postcss-import": "^10.0.0",
-    "yargs": "^8.0.2"
+    "postcss-import": "^11.1.0",
+    "yargs": "^11.0.0"
   }
 }

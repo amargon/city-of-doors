@@ -90,7 +90,10 @@
 
 
 // Override tooltip style -----------------------------------------------------
-.mapplic-tooltip-description p {color: #999;}
+.mapplic-tooltip-description p {
+    color: #999;
+    margin-top: 10px;
+}
 
 .mapplic-tooltip-description b,
 .mapplic-tooltip-description strong
