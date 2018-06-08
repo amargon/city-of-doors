@@ -1,5 +1,8 @@
 /* MAPPLIC MAP ELEMENTS ---------------------------------------------------- */
 
+// Fix z-index issue with Magnific Popup lightboxes ---------------------------
+.mapplic-fullscreen {z-index: 1000;}
+
 // Match the sidebar background color to the search panel background color:
 .mapplic-sidebar {background-color: #f8f8f8;}
 
