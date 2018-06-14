@@ -34,6 +34,9 @@
 {% set header = 'Sigil : La Cité des Portes' %}
 
 {% block mapplic_l10n %}
-                $('.mapplic-search-input').attr('placeholder', 'Recherche...');
-                $('.mapplic-not-found').text('Rien n’a été trouvé. S’il vous plaît, essayez une recherche différente.');
+        var mapplic_localization = {
+            more: 'Plus',
+            search: 'Recherche',
+            notfound: 'Rien n’a été trouvé. S’il vous plaît, essayez une recherche différente.'
+        };
 {%- endblock %}
