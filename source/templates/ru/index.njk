@@ -36,6 +36,9 @@
 {% set header = 'Сигил: Город Дверей' %}
 
 {% block mapplic_l10n %}
-                $('.mapplic-search-input').attr('placeholder', 'Найти...');
-                $('.mapplic-not-found').text('Ничего не найдено. Попробуйте поискать по-другому.');
+        var mapplic_localization = {
+            more: 'Подробнее',
+            search: 'Найти',
+            notfound: 'Ничего не найдено. Попробуйте поискать по-другому.'
+        };
 {%- endblock %}
