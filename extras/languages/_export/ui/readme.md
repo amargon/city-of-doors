@@ -2,10 +2,8 @@ This map descends from two well-known planewalker.com downloads: hi-res [PDF map
 
 It lists basic information about each location, wherever available, and is primarily intended to serve as a reference index rather than a substitute for the various products in which these venues appear.
 
-Feedback is welcome here: [planewalker.com forums](http://planewalker.com/content/new-interactive-sigil-map) (EN) or [my gaming blog](http://blog.nether-whisper.ru/post/136671622821) (RU).  
-The latest release is also available on [GitHub](https://github.com/amargon/city-of-doors/releases/latest).
-
-Feel free to join the [map translation project](https://crowdin.com/project/map-of-sigil) on Crowdin and let me know if your language is not in the list yet.
+The latest release is also available on [GitHub](https://github.com/amargon/city-of-doors/releases/latest).  
+Feel free to join the [map translation project](https://crowdin.com/project/map-of-sigil) on Crowdin (and let me know if your language is not in the list yet).
 
 ## Locations
 
