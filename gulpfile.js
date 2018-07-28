@@ -128,7 +128,7 @@ var on_error = function(error) {
 // Clean the build ------------------------------------------------------------
 gulp.task('clean:all', function() {
     log('Deleting previous build...');
-    return del.sync(path.clean.all);
+    return del(path.clean.all);
 });
 
 
@@ -204,12 +204,13 @@ gulp.task('fetch:mapplic', function() {
 // GO, DABUS, GO ==============================================================
 
 // Announce the build type: Regular or Community Edition ----------------------
-gulp.task('build:announce', function() {
+gulp.task('announce', function(done) {
     if (argv.community) {
         log(c.green.bold('Building the map of Sigil',  '(Community Edition, default language: ' + argv.language + ')'));
     } else {
         log(c.green.bold('Building the map of Sigil',  '(default language: ' + argv.language + ')'));
     };
+    done();
 });
 
 
@@ -306,14 +307,13 @@ gulp.task('build:html', function() {
 
 
 // Put it all together --------------------------------------------------------
-gulp.task('build', [
-    'build:announce',
+gulp.task('build', gulp.parallel(
     'build:fonts',
     'build:images',
     'build:data',
     'build:css',
     'build:js',
     'build:html'
-]);
+));
 
-gulp.task('default', ['build']);
+gulp.task('default', gulp.series('announce', 'build'));
