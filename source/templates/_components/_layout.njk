@@ -33,7 +33,7 @@
     </head>
     <body>
         <div class='header'>
-            <div class='logo fa fa-map-o'></div>
+            <div class='logo fas fa-map'></div>
             <div class='title'>{{ header }}{% if status %}<sup>{{ status }}</sup>{% endif %}</div>
             <div id='menu'>{% if not community and translations %}
                 <div class='languages'>
@@ -50,8 +50,8 @@
                     </ul>
                 </div>
 
-                <div class='fa fa-globe'></div>{% endif %}
-                <div class='fa fa-key'></div>
+                <div class='button fas fa-language'></div>{% endif %}
+                <div class='button far fa-question-circle'></div>
             </div>
         </div>
 
@@ -72,12 +72,12 @@
     <script>{% if language !== 'en' %}{% block mapplic_l10n %}{% endblock %}
     {% endif %}
         $(document).ready(function() {
-            $('#menu .fa-key').on('click', function(event) {
+            $('#menu .fa-question-circle').on('click', function(event) {
                 $(this).toggleClass('active');
                 $('.panel').toggleClass('is-visible');
             });{% if not community and translations %}
 
-            $('#menu .fa-globe').on('click', function(event) {
+            $('#menu .fa-language').on('click', function(event) {
                 $(this).toggleClass('active');
                 $('.languages').toggleClass('is-visible');
            });{% endif %}
