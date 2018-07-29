@@ -40,7 +40,8 @@ var path = {
     source: {
         css: 'source/scss/style.scss',
         data: 'source/data/**/*.json',
-        fonts: 'source/vendor/font-awesome/fonts/fontawesome-webfont.*',
+        // Exclude Font Awesome Brands:
+        fonts: ['source/vendor/font-awesome/fonts/*.*', '!source/vendor/font-awesome/fonts/fa-brands-*.*'],
         html: 'source/templates/**/[^_]*.njk',
         js: 'source/js/*.js',
         images: 'source/images/**/*.*'
@@ -174,13 +175,13 @@ gulp.task('fetch:vendor', function() {
         .pipe(plugins.changed('source/vendor/normalize.css/'))
         .pipe(gulp.dest('source/vendor/normalize.css/'));
 
-    var fa_fonts = gulp.src('node_modules/font-awesome/fonts/fontawesome-webfont.*')
+    var fa_fonts = gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*.*')
         .pipe(plugins.changed('source/vendor/font-awesome/fonts/'))
         .pipe(gulp.dest('source/vendor/font-awesome/fonts/'));
 
-    var fa_css = gulp.src('node_modules/font-awesome/css/font-awesome.css')
-        .pipe(plugins.changed('source/vendor/font-awesome/'))
-        .pipe(gulp.dest('source/vendor/font-awesome/'));
+    var fa_css = gulp.src('node_modules/@fortawesome/fontawesome-free/scss/*.scss')
+        .pipe(plugins.changed('source/vendor/font-awesome/scss/'))
+        .pipe(gulp.dest('source/vendor/font-awesome/scss/'));
 
     return merge(
         jquery,

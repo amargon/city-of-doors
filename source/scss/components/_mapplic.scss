@@ -55,8 +55,8 @@
     margin-top: -12px;
 }
 
-.mapplic-pin.circular:not(.fa)::after,
-.mapplic-pin.circular:not(.fa)::before {
+.mapplic-pin.circular:not(.fontawesome)::after,
+.mapplic-pin.circular:not(.fontawesome)::before {
     content: '';
     position: absolute;
     bottom: auto;
@@ -67,17 +67,17 @@
     background-color: #fff;
 }
 
-.mapplic-pin.circular:not(.fa)::after {
+.mapplic-pin.circular:not(.fontawesome)::after {
     height: 2px;
     width: 8px;
 }
 
-.mapplic-pin.circular:not(.fa)::before {
+.mapplic-pin.circular:not(.fontawesome)::before {
     height: 8px;
     width: 2px;
 }
 
-.mapplic-pin.circular.fa {
+.mapplic-pin.circular.fontawesome {
     color: #fff;
     font-size: 12px;
     font-size: .75rem;
@@ -85,7 +85,7 @@
     text-align: center;
 }
 
-.mapplic-pin.circular.large.fa {
+.mapplic-pin.circular.large.fontawesome {
     font-size: 16px;
     font-size: 1rem;
     line-height: 30px;
@@ -125,20 +125,20 @@
 
 
 // Add location rating --------------------------------------------------------
-.mapplic-tooltip-description .fa:before,
-.mapplic-lightbox-description .fa:before
+.mapplic-tooltip-description .fa-star:before,
+.mapplic-lightbox-description .fa-star:before
     {margin-right: .2em;}
 
-.mapplic-tooltip-description .fa-star,
-.mapplic-lightbox-description .fa-star
+.mapplic-tooltip-description .fas.fa-star,
+.mapplic-lightbox-description .fas.fa-star
     {color: #fdca2a;}
 
-.mapplic-tooltip-description .special .fa-star,
-.mapplic-lightbox-description .special .fa-star
+.mapplic-tooltip-description .special .fas.fa-star,
+.mapplic-lightbox-description .special .fas.fa-star
     {color: #bf5138;}
 
-.mapplic-tooltip-description .fa-star-o,
-.mapplic-lightbox-description .fa-star-o
+.mapplic-tooltip-description .far.fa-star,
+.mapplic-lightbox-description .far.fa-star
     {color: #d6d6d6;}
 
 

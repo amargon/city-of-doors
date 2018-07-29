@@ -1,13 +1,15 @@
+@import 'components/variables';
+
 /*! Third-party CSS ======================================================== */
 
 @import '../vendor/normalize.css/normalize.css';
-@import '../vendor/font-awesome/font-awesome.css';
+@import '../vendor/font-awesome/scss/fontawesome.scss';
+@import '../vendor/font-awesome/scss/regular.scss';
+@import '../vendor/font-awesome/scss/solid.scss';
 @import '../vendor/magnific-popup/magnific-popup.css';
 @import '../vendor/mapplic/mapplic.css';
 
 /*! The Map of Sigil ======================================================= */
-
-@import 'components/variables';
 
 *,
 *::after,
