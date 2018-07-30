@@ -97,6 +97,17 @@
     line-height: 1.4;
 }
 
+.panel-content .legend {
+    list-style: none;
+    padding-left: 0;
+}
+
+.panel-content .legend span {
+    margin-right: .5em;
+    text-align: center;
+    width: 20px;
+}
+
 .panel-content p:first-of-type {margin-top: 0;}
 .panel-content p:last-of-type {margin-bottom: 0;}
 
@@ -128,4 +139,6 @@
         font-size: 1.250rem;
         line-height: 1.6;
     }
+
+    .panel-content .legend {column-count: 2;}
 }
