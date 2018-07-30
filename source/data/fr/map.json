@@ -715,7 +715,7 @@
                 },
                 {
                     "id": "♀49",
-                    "pin": "circular fontawesome fas fa-star",
+                    "pin": "circular fontawesome fas fa-leaf",
                     "fill": "#bf5138",
                     "x": "0.4645",
                     "y": "0.5025",
@@ -737,7 +737,7 @@
                 },
                 {
                     "id": "♀51",
-                    "pin": "circular fontawesome fas fa-star",
+                    "pin": "circular fontawesome fas fa-leaf",
                     "fill": "#bf5138",
                     "x": "0.4230",
                     "y": "0.4435",
