@@ -80,7 +80,7 @@ Notable changes to the Community Edition of the map.
 Initial release of the Community Edition.
 
 [Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.2.0...master
-[1.2.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.1.1
+[1.2.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.2.0
 [1.1.1]: https://github.com/amargon/city-of-doors/releases/tag/v1.1.1
 [1.1.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.1.0
 [1.0.3]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.3
