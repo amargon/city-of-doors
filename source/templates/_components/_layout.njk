@@ -24,8 +24,7 @@
         <meta property='og:url' content='{{ base_url }}{% if language !== default_language %}{{ language }}/{% endif %}'>
         <meta property='og:title' content='{{ title }}'>
         <meta property='og:description' content='{{ description }}'>
-        <meta property='og:image' content='{{ base_url }}storage/images/{{ language }}/ogp.jpg'>{% endif %}{% if swiftype and base_url %}
-{% include '_components/_swiftype.njk' ignore missing %}{% endif %}
+        <meta property='og:image' content='{{ base_url }}storage/images/{{ language }}/ogp.jpg'>{% endif %}
         <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
 
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i{{ font_subset }}'>
