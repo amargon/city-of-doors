@@ -835,6 +835,30 @@
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>Expedition to the Demonweb Pits [Adventure], p. 23.</p><p>NPC: Humbart, Edelbart, Ursival, Brizsli, Grenata, Justus & Lucinor.</p>"
                 },
                 {
+                    "id": "♀60",
+                    "pin": "circular fontawesome fas fa-chess-rook",
+                    "fill": "#bf5138",
+                    "x": "0.2535",
+                    "y": "0.3480",
+                    "category": "lady",
+                    "title": "♀60: The Tower",
+                    "about": "Doors to the Unknown [Adventure], pp. 5, 36",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Doors to the Unknown [Adventure], pp. 5, 36.</p>"
+                },
+                {
+                    "id": "♀61",
+                    "pin": "hidden",
+                    "fill": "#bf5138",
+                    "x": "0",
+                    "y": "0",
+                    "category": "lady",
+                    "action": "lightbox",
+                    "title": "♀61: The Silk Worm Clothing",
+                    "about": "Planes of Conflict [Boxed Set] — Adventures in Conflict, p. 4",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Planes of Conflict [Boxed Set] — Adventures in Conflict, p. 4.</p><p>Location: The Lady’s Ward.</p>",
+                    "zoom": "0"
+                },
+                {
                     "id": "M0",
                     "pin": "circular large fontawesome fas fa-flag",
                     "fill": "#db9537",
@@ -1130,6 +1154,32 @@
                     "title": "M26: Temple of Bane",
                     "about": "Finder’s Bane [Novel], p. 267<br/><span class='label'>Defunct</span>",
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Finder’s Bane [Novel], p. 267.</p><p>Beneath <em>Dits’ Books</em> on Copperman Way.</p><ul class='labels'><li>Defunct</li></ul>"
+                },
+                {
+                    "id": "M27",
+                    "pin": "hidden",
+                    "fill": "#db9537",
+                    "x": "0",
+                    "y": "0",
+                    "category": "market",
+                    "action": "lightbox",
+                    "title": "M27: Divinities Clockwork Pet Shop",
+                    "about": "Faction War [Adventure], p. 24",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Adventure], p. 24.</p><p>Location: Market Ward.</p>",
+                    "zoom": "0"
+                },
+                {
+                    "id": "M28",
+                    "pin": "hidden",
+                    "fill": "#db9537",
+                    "x": "0",
+                    "y": "0",
+                    "category": "market",
+                    "action": "lightbox",
+                    "title": "M27: Jandor’s Music Boxes",
+                    "about": "Faction War [Adventure], p. 24",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Adventure], p. 24.</p><p>Location: Market Ward.<br/>NPC: Jandor.</p>",
+                    "zoom": "0"
                 },
                 {
                     "id": "G1",
@@ -2086,6 +2136,19 @@
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Expedition to the Demonweb Pits [Adventure], p. 21.</p>"
                 },
                 {
+                    "id": "C54",
+                    "pin": "hidden",
+                    "fill": "#95ac5f",
+                    "x": "0",
+                    "y": "0",
+                    "category": "clerk",
+                    "action": "lightbox",
+                    "title": "C54: Streetsweeper’s Yard",
+                    "about": "The Great Modron March [Adventure], p. 118",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>The Great Modron March [Adventure], p. 118.</p><p>Location: Clerk’s Ward.</p><p>It’s a junkyard, where the dabus gather the refuse collected from the city’s streets into horrible, stinking piles. The dabus watch over the yard, but&nbsp;some horrible creatures&nbsp;— from otyughs to&nbsp;cross-trading bandits to&nbsp;dicease-ridden giant rats&nbsp;— call kip in&nbsp;the&nbsp;garbage.</p>",
+                    "zoom": "0"
+                },
+                {
                     "id": "H0",
                     "pin": "circular large fontawesome fas fa-flag",
                     "fill": "#d95353",
@@ -2097,13 +2160,13 @@
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 113.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 84.<br/>Faction War [Adventure], p. 26.</p><p>The mad, tangled mess at the heart of the Ward, and also the shanty-town home of&nbsp;the&nbsp;Xaositects, who bring madness, wonders, and atrocities to the city all in their quest for chaos.</p>"
                 },
                 {
-                    "id": "H1",
+                    "id": "H1a",
                     "pin": "circular fontawesome fas fa-star",
                     "fill": "#d95353",
                     "x": "0.7645",
                     "y": "0.5505",
                     "category": "hive",
-                    "title": "H1: Seafarer’s Arch",
+                    "title": "H1a: Seafarer’s Arch",
                     "about": "Polyhedron Magazine #137, p. 15",
                     "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Polyhedron Magazine #137, p. 15.</p>"
                 },
@@ -2601,6 +2664,52 @@
                     "title": "H45: Tylero’s Steel",
                     "about": "Planescape: Torment [PC Game]",
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Planescape: Torment [PC Game].</p><p>NPC: Tylero.</p>"
+                },
+                {
+                    "id": "H46",
+                    "pin": "circular fontawesome fas fa-home",
+                    "fill": "#d95353",
+                    "x": "0.8230",
+                    "y": "0.3720",
+                    "category": "hive",
+                    "title": "H46: Tenement of Thugs",
+                    "about": "Planescape: Torment [PC Game]",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Planescape: Torment [PC Game].</p>"
+                },
+                {
+                    "id": "H47",
+                    "pin": "hidden",
+                    "fill": "#d95353",
+                    "x": "0",
+                    "y": "0",
+                    "category": "hive",
+                    "action": "lightbox",
+                    "title": "H47: Kissing Mudhole Pub",
+                    "about": "Planes of Conflict [Boxed Set] — Adventures in Conflict, p. 3",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Planes of Conflict [Boxed Set] — Adventures in Conflict, p. 3.</p><p>Location: The Hive.</p>",
+                    "zoom": "0"
+                },
+                {
+                    "id": "H48",
+                    "pin": "circular fontawesome fas fa-star",
+                    "fill": "#d95353",
+                    "x": "0.7665",
+                    "y": "0.5365",
+                    "category": "hive",
+                    "title": "H48: The Arcane Remains",
+                    "about": "Polyhedron Magazine #137, p. 16",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Polyhedron Magazine #137, p. 16.</p>"
+                },
+                {
+                    "id": "H49",
+                    "pin": "circular fontawesome fas fa-star",
+                    "fill": "#d95353",
+                    "x": "0.7708",
+                    "y": "0.5265",
+                    "category": "hive",
+                    "title": "H49: The Knife in the River",
+                    "about": "Polyhedron Magazine #137, p. 16",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Polyhedron Magazine #137, p. 16.</p>"
                 },
                 {
                     "id": "L1",
@@ -3232,6 +3341,52 @@
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>Dungeon Magazine #55, pp. 18-47.</p><p>Monstrous church, once the headquarters of the Zactars. Most locals beleive that the cathedral is cursed.</p><p>NPC: Inimigle, Kraal, Chypp, Leerie, Rockjaws, Kiria, Ivadi, Jerezin.</p>"
                 },
                 {
+                    "id": "L58",
+                    "pin": "hidden",
+                    "fill": "#544173",
+                    "x": "0",
+                    "y": "0",
+                    "category": "lower",
+                    "action": "lightbox",
+                    "title": "L58: Drunken Berk Tavern",
+                    "about": "Planes of Conflict [Boxed Set] — Adventures in Conflict, pp. 18, 19",
+                    "description": "<p class='special'><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Planes of Conflict [Boxed Set] — Adventures in Conflict, pp. 18, 19.</p><p>Location: Lower Ward.<br/>NPC: Kimufi.</p>",
+                    "zoom": "0"
+                },
+                {
+                    "id": "L59",
+                    "pin": "circular fontawesome fas fa-star",
+                    "fill": "#544173",
+                    "x": "0.7520",
+                    "y": "0.4280",
+                    "category": "lower",
+                    "title": "L59: Gate of the Clueless",
+                    "about": "In The Cage: A Guide to Sigil, p. 11",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In The Cage: A Guide to Sigil, p. 11.</p>"
+                },
+                {
+                    "id": "L60",
+                    "pin": "circular fontawesome fas fa-star",
+                    "fill": "#544173",
+                    "x": "0.7592",
+                    "y": "0.5608",
+                    "category": "lower",
+                    "title": "L60: Suicide Falls",
+                    "about": "Polyhedron Magazine #137, p. 14",
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Polyhedron Magazine #137, p. 14.</p>"
+                },
+                {
+                    "id": "L61",
+                    "pin": "circular fontawesome fas fa-star",
+                    "fill": "#544173",
+                    "x": "0.7595",
+                    "y": "0.5099",
+                    "category": "lower",
+                    "title": "L61: Taker’s Lock",
+                    "about": "In the Cage: A Guide to Sigil, p. 49<br/>Polyhedron Magazine #137, p. 16",
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 49.<br/>Polyhedron Magazine #137, p. 16.</p><ul class='labels'><li>Fated</li></ul>"
+                },
+                {
                     "id": "A1",
                     "pin": "hidden",
                     "fill": "#795548",
@@ -3307,6 +3462,32 @@
                     "title": "O3: Gehreleth’s Grotto Tavern",
                     "about": "Blood Wars Trilogy 2: Abyssal Warriors [Novel], p. 6",
                     "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Blood Wars Trilogy 2: Abyssal Warriors [Novel], p. 6.</p><p>Location: Unknown.<br/>NPC: Aereas.</p>",
+                    "zoom": "0"
+                },
+                {
+                    "id": "O4",
+                    "pin": "hidden",
+                    "fill": "#7575758",
+                    "x": "0",
+                    "y": "0",
+                    "category": "other",
+                    "action": "lightbox",
+                    "title": "O4: Tower Sorcerous",
+                    "about": "Dragon Magazine #339, p. 37<br/><span class='label'>Defunct</span>",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Dragon Magazine #339, p. 37.</p><p>Location: Unknown.</p><ul class='labels'><li>Defunct</li></ul>",
+                    "zoom": "0"
+                },
+                {
+                    "id": "O5",
+                    "pin": "hidden",
+                    "fill": "#7575758",
+                    "x": "0",
+                    "y": "0",
+                    "category": "other",
+                    "action": "lightbox",
+                    "title": "O5: Lion’s Den Tavern",
+                    "about": "Planes of Law [Boxed Set] — Mount Celestia, pp. 30, 31",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Planes of Law [Boxed Set] — Mount Celestia, pp. 30, 31.</p><p>Location: Unknown.<br/>NPC: Fatlipped Fargle, Crooked Nell.</p>",
                     "zoom": "0"
                 }
             ]

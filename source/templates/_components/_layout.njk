@@ -96,7 +96,7 @@
                 self.moveTo(0, 0, 0, 0);
 
                 // Highlight unplaced venues:
-                var unplaced = ['G29', 'G30', 'G31', 'C51', 'L55', 'A1', 'A2', 'A3', 'O1', 'O2', 'O3'];
+                var unplaced = ['♀61', 'M27', 'M28', 'G29', 'G30', 'G31', 'C51', 'C54', 'H47', 'L55', 'L58', 'A1', 'A2', 'A3', 'O1', 'O2', 'O3', 'O4', 'O5'];
                 $('.mapplic-list-location').each(function() {
                     if ($.inArray($(this).attr('data-location'), unplaced) !== -1) {
                         $(this).addClass('unplaced');
