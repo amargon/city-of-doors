@@ -75,10 +75,10 @@ Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 80."
 "♀54","Great Library","","Expedition to the Demonweb Pits [Adventure], pp. 27, 37.
 Faction War [Adventure], p. 84.
 Hellbound: The Blood War [Boxed Set] — War Games, p. 42"
-"♀55","Durkayle’s Tower","","Dungeon Magazine #55.
+"♀55","Durkayle’s Tower","","Dungeon Magazine #55, pp. 18-47.
 Owner is male human."
 "♀56","Office of the Master of Portals","","In the Cage: A Guide to Sigil, p. 31."
-"♀57","Screaming Tower","","Dungeon Magazine #55."
+"♀57","Screaming Tower","","Dungeon Magazine #55, pp. 18-47."
 "♀58","Spiral’s Mansion","","Hellbound: The Blood War [Boxed Set] — War Games, p. 7.
 Owner is male aasimar."
 "♀59","Tower of the Prophet","","Expedition to the Demonweb Pits [Adventure], p. 23."
@@ -113,7 +113,7 @@ Owner is male tiefling."
 "M21","Tivvum’s Antiquities","","Uncaged: Faces of Sigil, p. 86.
 Faction War [Adventure], p. 106.
 Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57.
-Dragon Magazine #414."
+Dragon Magazine #414, p. 2."
 "M22","Debtor’s Pole","","In the Cage: A Guide to Sigil, p. 96."
 "M23","Chirper’s Inn","","In the Cage: A Guide to Sigil, p. 93."
 "M24","Café Leonan","","Blood Wars Trilogy 1: Blood Hostages [Novel], p. 65.
@@ -253,7 +253,7 @@ Owner is male elf."
 "H0","The Hive","","In the Cage: A Guide to Sigil, p. 113.
 Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 84.
 Faction War [Adventure], p. 26."
-"H1","Seafarer’s Arch","","Polyhedron Magazine #137."
+"H1","Seafarer’s Arch","","Polyhedron Magazine #137, p. 15."
 "H2","Fhurling Bridge","","The Factol’s Manifesto, pp. 6, 124."
 "H3","Ulick’s Bowse","","The Factol’s Manifesto, p. 124."
 "H4","Office of Vermin and Disease Control","","Planescape: Torment [PC Game]."
@@ -309,11 +309,11 @@ Owner is male."
 "H39","The Slags","","In the Cage: A Guide to Sigil, p. 116."
 "H40","Azarin’s Recruitment Office","","Hellbound: The Blood War [Boxed Set] — The Chant of the War, p. 26.
 Owner is male yugoloth."
-"H41","Battling Bariaur Statue","","Dungeon Magazine #60."
+"H41","Battling Bariaur Statue","","Dungeon Magazine #60, pp. 32-58."
 "H42","Darkhouse Inn","","Hellbound: The Blood War [Boxed Set] — War Games, p. 54."
 "H43","Old Mebbeth Hospice","","Planescape: Torment [PC Game].
 Owner is female."
-"H44","Slaughterhouse Tavern","","Dungeon Magazine #60."
+"H44","Slaughterhouse Tavern","","Dungeon Magazine #60, pp. 32-58."
 "H45","Tylero’s Steel","","Planescape: Torment [PC Game].
 Owner is male."
 "L1","Friendly Fiend Magic Shop","","Uncaged: Faces of Sigil, p. 8."
@@ -330,7 +330,7 @@ Dead Gods [Adventure], p. 137."
 Owner is male half-elf."
 "L10","Black Sail Tavern & Inn","","The Eternal Boundary [Adventure], p. 16.
 In the Cage: A Guide to Sigil, p. 48.
-Dungeon Magazine #55."
+Dungeon Magazine #55, pp. 18-47."
 "L11","Harmonium’s Lower Ward Garrison","","Faction War [Adventure], p. 14."
 "L12","Red Pony Alehouse","","In the Cage: A Guide to Sigil, p. 59."
 "L13","Dirk and Firkin Greenhouse/Alehouse","","In the Cage: A Guide to Sigil, p. 57."
@@ -394,8 +394,8 @@ Owner is male dwarf."
 "L54","Tashad’s Barber Shop","","In the Abyss [Adventure], p. 8.
 Owner is female human."
 "L55","The Wound That Bleeds Monument","","Faction War [Adventure], p. 123."
-"L56","Worm’s Guts Restaurant","","Dungeon Magazine #55."
-"L57","Zactar Cathedral","","Dungeon Magazine #55."
+"L56","Worm’s Guts Restaurant","","Dungeon Magazine #55, pp. 18-47."
+"L57","Zactar Cathedral","","Dungeon Magazine #55, pp. 18-47."
 "U1","Temple of Darkness","","Faction War [Adventure], p. 78."
 "U2","Dim Home Commune","","Faction War [Adventure], p. 86."
 "U3","Nowhere Safe House","","Faction War [Adventure], p. 88."
@@ -406,7 +406,7 @@ Owner is female human."
 "U8","Dead Nations","","Planescape: Torment [PC Game]"
 "U9","Drowned Nations","","Planescape: Torment [PC Game]"
 "U10","Nameless One’s Tomb","","Planescape: Torment [PC Game]"
-"A1","Funicular","","Dungeon Magazine #148."
+"A1","Funicular","","Dungeon Magazine #148, p. 96."
 "A2","Secret Door Safe House","","The Factol’s Manifesto, p. 117."
 "A3","World Serpent Inn","","In the Cage: A Guide to Sigil, p. 55."
 "O1","Bank of Keys","","Faction War [Adventure], p. 4."
