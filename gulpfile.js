@@ -79,7 +79,6 @@ var nunjucks = {
             base_url: 'https://nether-whisper.ru/rp/planescape/map-of-sigil/',
             robots: argv.community ? 'noindex, nofollow' : 'index, nofollow, noarchive',
             ogp: argv.community ? false : true,
-            swiftype: argv.community ? false : true,
             common: {
                 jquery: argv.community ? false : '/storage/js/jquery.min.js',
                 favicons: argv.community ? false : {
