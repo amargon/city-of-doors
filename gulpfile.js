@@ -96,7 +96,7 @@ var nunjucks = {
 // ============================================================================
 
 // Exclude incomplete and unreleased translations -----------------------------
-var exclude_list = argv.community ? ['fr', 'it', 'ru'] : ['it', 'ru'];
+var exclude_list = argv.community ? ['fr', 'it', 'ru'] : ['ru'];
 
 if (exclude_list.indexOf(argv.language) > -1) {
     log.warn(c.yellow('This translation is incomplete and cannot be set as default.'));
