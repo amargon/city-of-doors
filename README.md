@@ -15,7 +15,7 @@ Feel free to join (and let me know if your language is not in the list yet).
 
 ## Locations
 
-There are currently 292 Sigil venues in the list, but only 281 map pins (some venues like The Secret Door simply don’t have a constant location). Data have been culled from a variety of sources including most official 2e supplements, adventures and even setting specific novels and a video game.
+There are currently 308 Sigil venues in the list, but only 289 map pins (some venues like The Secret Door simply don’t have a constant location). Data have been culled from a variety of sources including most official 2e supplements, adventures and even setting specific novels and a video game.
 
 To be included in this compilation a location needs to have a proper name or unique moniker, be located in Sigil (or at least have its primary access point in Sigil) and serve some type of identifiable function (be it public or private).
 
