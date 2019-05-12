@@ -2,9 +2,6 @@
 node_modules/
 build/
 
-# Mapplic
-source/vendor/mapplic/
-
 # Packages --------------------------------------------------------------------
 /*.zip
 /*.tar.gz
