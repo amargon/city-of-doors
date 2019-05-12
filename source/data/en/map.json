@@ -766,7 +766,7 @@
                     "category": "lady",
                     "title": "♀53: Temple of Baravar Cloakshadow",
                     "about": "In the Cage: A Guide to Sigil, p. 30",
-                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>Baravar Cloakshadow is&nbsp;the&nbsp;gnomish deity of&nbsp;illusions, protection, and&nbsp;deception. He&nbsp;creates traps and&nbsp;illusions of&nbsp;stunning complexity and&nbsp;cunning.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 30.</p><p>Baravar Cloakshadow is&nbsp;the&nbsp;gnomish deity of&nbsp;illusions, protection, and&nbsp;deception. He&nbsp;creates traps and&nbsp;illusions of&nbsp;stunning complexity and&nbsp;cunning.</p><ul class='labels'><li>Gnomes</a></li><li>Illusions</li><li>Protection</li>"
                 },
                 {
                     "id": "♀54",
@@ -899,8 +899,8 @@
                     "y": "0.6955",
                     "category": "market",
                     "title": "M3: Sill Inn",
-                    "about": "Fires of Dis [Adventure], p. 12<br/><span class='label'>Pre FW</span>",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Fires of Dis [Adventure], p. 12.</p><p>NPC: Cedlic Maar.</p><ul class='labels'><li>Merchants</li><li>Pre FW</li></ul>"
+                    "about": "Fires of Dis [Adventure], p. 12<br/><span class='label'>Pre Faction War</span>",
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Fires of Dis [Adventure], p. 12.</p><p>NPC: Cedlic Maar.</p><ul class='labels'><li>Merchants</li><li>Pre Faction War</li></ul>"
                 },
                 {
                     "id": "M4",
@@ -2109,8 +2109,8 @@
                     "category": "clerk",
                     "action": "lightbox",
                     "title": "C51: Bounded Space Tavern",
-                    "about": "Faction War [Adventure], p. 123<br/><span class='label'>Post FW</span>",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Adventure], p. 123.</p><p>Location: Clerk’s Ward.<br/>NPC: Wilbur Cookenstein.</p><ul class='labels'><li>Post FW</li></ul>",
+                    "about": "Faction War [Adventure], p. 123<br/><span class='label'>Post Faction War</span>",
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Adventure], p. 123.</p><p>Location: Clerk’s Ward.<br/>NPC: Wilbur Cookenstein.</p><ul class='labels'><li>Post Faction War</li></ul>",
                     "zoom": "0"
                 },
                 {
@@ -2774,8 +2774,8 @@
                     "y": "0.5718",
                     "category": "lower",
                     "title": "L6: Ubiquitous Wayfarer Inn",
-                    "about": "In the Cage: A Guide to Sigil, p. 57<br/>Dead Gods [Adventure], p. 137<br/><span class='label'>Pre FW</span>",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 57.<br/>Dead Gods [Adventure], p. 137.</p><p>NPC: Raien Blackhome, Mirta, Hulester.</p><p>Located in the Lower Ward, this tavern has entrances across the City (especially in the Clerk’s Ward) due to a variety of portals that lead to its location. It houses a large number of portals that lead across the planes.</p><ul class='labels'><li>Pre FW</li></ul>"
+                    "about": "In the Cage: A Guide to Sigil, p. 57<br/>Dead Gods [Adventure], p. 137<br/><span class='label'>Pre Faction War</span>",
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 57.<br/>Dead Gods [Adventure], p. 137.</p><p>NPC: Raien Blackhome, Mirta, Hulester.</p><p>Located in the Lower Ward, this tavern has entrances across the City (especially in the Clerk’s Ward) due to a variety of portals that lead to its location. It houses a large number of portals that lead across the planes.</p><ul class='labels'><li>Pre Faction War</li></ul>"
                 },
                 {
                     "id": "L7",
@@ -3203,8 +3203,8 @@
                     "y": "0.3688",
                     "category": "lower",
                     "title": "L45: Grim Journeyman Tavern",
-                    "about": "Faction War [Adventure], p. 123<br/><span class='label'>Pre FW</span>",
-                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Adventure], p. 123.</p><ul class='labels'><li>Pre FW</li></ul>"
+                    "about": "Faction War [Adventure], p. 123<br/><span class='label'>Pre Faction War</span>",
+                    "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Adventure], p. 123.</p><ul class='labels'><li>Pre Faction War</li></ul>"
                 },
                 {
                     "id": "L46",
@@ -3314,8 +3314,8 @@
                     "category": "lower",
                     "action": "lightbox",
                     "title": "L55: The Wound That Bleeds Monument",
-                    "about": "Faction War [Adventure], p. 123<br/><span class='label'>Post FW</span>",
-                    "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Adventure], p. 123.</p><p>Location: Lower Ward.</p><ul class='labels'><li>Post FW</li></ul>",
+                    "about": "Faction War [Adventure], p. 123<br/><span class='label'>Post Faction War</span>",
+                    "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Adventure], p. 123.</p><p>Location: Lower Ward.</p><ul class='labels'><li>Post Faction War</li></ul>",
                     "zoom": "0"
                 },
                 {
