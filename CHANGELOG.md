@@ -7,6 +7,28 @@ Notable changes to the Community Edition of the map.
 * French, Italian and Russian translations.
 * Better label system: more streamlined, maybe searchable labels.
 
+## [1.3.0] \(2019-05-12\)
+
+### Added
+
+* 16 previously missed venues ([see them appended here](extras/venues_unplaced.csv)).
+* Polyhedron Magazine issue number — \#137.
+* Page numbers of Dragon, Dungeon and Polyhedron Magazine articles.
+* Labels for the Temple of Baravar Cloakshadow.
+
+### Changed
+
+* Location of The Ditch map pin.
+* ID of the Seafarer’s Arch (from H1 to H1a).
+* “Pre FW” and “Post FW” labels to “Pre Faction War” and “Post Faction War”
+* Dependencies:
+    * Font Awesome updated to 5.8.2;
+    * jQuery updated to 3.4.1.
+
+### Fixed
+
+* Typos, punctuation and minor UI issues.
+
 ## [1.2.0] \(2018-07-30\)
 
 ### Added
@@ -79,7 +101,8 @@ Notable changes to the Community Edition of the map.
 
 Initial release of the Community Edition.
 
-[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.2.0...master
+[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.3.0...master
+[1.3.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.3.0
 [1.2.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.2.0
 [1.1.1]: https://github.com/amargon/city-of-doors/releases/tag/v1.1.1
 [1.1.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.1.0
