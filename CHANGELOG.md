@@ -7,6 +7,18 @@ Notable changes to the Community Edition of the map.
 * French, Italian and Russian translations.
 * Better label system: more streamlined, maybe searchable labels.
 
+## [1.4.0] \(2019-05-26\)
+
+### Changed
+
+* Most of the map text (district and street labels in particular) has been overhauled to use smaller font size when needed (and to get rid of decades-old typos).
+* The Golden Bell map pin has been moved across the street.
+
+### Fixed
+
+* Shattered Temple and The Ditch area: Powers Row, Radagast Street and Street of the Martyrs.
+* Threefate Boulevard is actually Threegate Boulevard.
+
 ## [1.3.0] \(2019-05-12\)
 
 ### Added
@@ -101,7 +113,8 @@ Notable changes to the Community Edition of the map.
 
 Initial release of the Community Edition.
 
-[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.3.0...master
+[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.4.0...master
+[1.4.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.4.0
 [1.3.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.3.0
 [1.2.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.2.0
 [1.1.1]: https://github.com/amargon/city-of-doors/releases/tag/v1.1.1
