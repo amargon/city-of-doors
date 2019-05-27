@@ -1,8 +1,7 @@
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
 
-var c = require('ansi-colors');
-var del = require('del');
+var color = require('ansi-colors');
 var log = require('fancy-log');
 var merge = require('merge-stream');
 
@@ -53,9 +52,6 @@ var path = {
         html: 'build/',
         js: 'build/storage/js/',
         images: 'build/storage/images/'
-    },
-    clean: {
-        all: 'build/'
     }
 };
 
@@ -99,7 +95,7 @@ var nunjucks = {
 var exclude_list = argv.community ? ['fr', 'it', 'ru'] : ['ru'];
 
 if (exclude_list.indexOf(argv.language) > -1) {
-    log.warn(c.yellow('This translation is incomplete and cannot be set as default.'));
+    log.warn(color.yellow('This translation is incomplete and cannot be set as default.'));
     process.exit(1);
 } else {
     function exclude_translations(source) {
@@ -114,10 +110,10 @@ if (exclude_list.indexOf(argv.language) > -1) {
 };
 
 
-// Format error messages and force exit code 1 on error -----------------------
+// Swallow errors and format error messages -----------------------------------
 var on_error = function(error) {
-    log.error(c.red(c.bgRed.white(error.name), error.message));
-    process.exit(1);
+    log.error(color.red(color.bgRed.white(error.name), error.message));
+    this.emit('end');
 };
 
 
@@ -125,143 +121,95 @@ var on_error = function(error) {
 // ********************************** TASKS ***********************************
 // ============================================================================
 
-// Clean the build ------------------------------------------------------------
-gulp.task('clean:all', function() {
-    log('Deleting previous build...');
-    return del(path.clean.all);
-});
-
-
 // Back up dependencies to “source/vendor” ====================================
 
-// Shared pipes to fetch the Mapplic package if it’s installed ----------------
-var fetch_mapplic_images = gulp.src('node_modules/mapplic/html/mapplic/images/*.*')
-    .pipe(plugins.changed('source/vendor/mapplic/images/'))
-    .pipe(gulp.dest('source/vendor/mapplic/images/'));
-
-var fetch_mapplic = gulp.src([
-    'node_modules/mapplic/html/mapplic/mapplic?(-ie).css',
-    'node_modules/mapplic/html/mapplic/mapplic.js',
-])
-    .pipe(plugins.changed('source/vendor/mapplic/'))
-    .pipe(gulp.dest('source/vendor/mapplic/'));
-
-
-// Fetch all packages ---------------------------------------------------------
-gulp.task('fetch:vendor', function() {
+function fetch_vendor() {
     log('Fetching all vendor packages...');
-
-    var jquery = gulp.src('node_modules/jquery/dist/jquery.js')
-        .pipe(plugins.changed('source/vendor/jquery/'))
-        .pipe(gulp.dest('source/vendor/jquery/'));
-
-    var jquery_mousewheel = gulp.src('node_modules/jquery-mousewheel/jquery.mousewheel.js')
-        .pipe(plugins.changed('source/vendor/jquery.mousewheel/'))
-        .pipe(gulp.dest('source/vendor/jquery.mousewheel/'));
-
-    var hammerjs = gulp.src('node_modules/hammerjs/hammer.js')
-        .pipe(plugins.changed('source/vendor/hammer.js/'))
-        .pipe(gulp.dest('source/vendor/hammer.js/'));
-
-    var magnific_popup = gulp.src([
-        'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
-        'node_modules/magnific-popup/dist/magnific-popup.css'
-    ])
-        .pipe(plugins.changed('source/vendor/magnific-popup/'))
-        .pipe(gulp.dest('source/vendor/magnific-popup/'));
-
-    var normalize = gulp.src('node_modules/normalize.css/normalize.css')
-        .pipe(plugins.changed('source/vendor/normalize.css/'))
-        .pipe(gulp.dest('source/vendor/normalize.css/'));
-
-    var fa_fonts = gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*.*')
-        .pipe(plugins.changed('source/vendor/font-awesome/fonts/'))
-        .pipe(gulp.dest('source/vendor/font-awesome/fonts/'));
-
-    var fa_css = gulp.src('node_modules/@fortawesome/fontawesome-free/scss/*.scss')
-        .pipe(plugins.changed('source/vendor/font-awesome/scss/'))
-        .pipe(gulp.dest('source/vendor/font-awesome/scss/'));
-
     return merge(
-        jquery,
-        jquery_mousewheel,
-        hammerjs,
-        magnific_popup,
-        normalize,
-        fa_fonts, fa_css,
-        fetch_mapplic_images, fetch_mapplic
+        // jQuery:
+        gulp.src('node_modules/jquery/dist/jquery.js')
+            .pipe(gulp.dest('source/vendor/jquery/')),
+        // jQuery Mousewheel:
+        gulp.src('node_modules/jquery-mousewheel/jquery.mousewheel.js')
+            .pipe(gulp.dest('source/vendor/jquery.mousewheel/')),
+        // hammer.js
+        gulp.src('node_modules/hammerjs/hammer.js')
+            .pipe(gulp.dest('source/vendor/hammer.js/')),
+        // Magnific Popup:
+        gulp.src(['node_modules/magnific-popup/dist/jquery.magnific-popup.js', 'node_modules/magnific-popup/dist/magnific-popup.css'])
+            .pipe(gulp.dest('source/vendor/magnific-popup/')),
+        // normalize.css:
+        gulp.src('node_modules/normalize.css/normalize.css')
+            .pipe(gulp.dest('source/vendor/normalize.css/')),
+        // FontAwesome:
+        gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*.*')
+            .pipe(gulp.dest('source/vendor/font-awesome/fonts/')),
+        gulp.src('node_modules/@fortawesome/fontawesome-free/scss/*.scss')
+            .pipe(gulp.dest('source/vendor/font-awesome/scss/')),
+        // Mapplic:
+        gulp.src(['node_modules/mapplic/html/mapplic/mapplic?(-ie).css', 'node_modules/mapplic/html/mapplic/mapplic.js',])
+            .pipe(gulp.dest('source/vendor/mapplic/')),
+            // Mapplic 4.2 package has some unnecessary images:
+        gulp.src(['node_modules/mapplic/html/mapplic/images/*.*', '!node_modules/mapplic/html/mapplic/images/{boat,logo}.png'])
+            .pipe(gulp.dest('source/vendor/mapplic/images/'))
     );
-});
-
-
-// Fetch only the Mapplic package ---------------------------------------------
-gulp.task('fetch:mapplic', function() {
-    log('Fetching Mapplic package...');
-    return merge(fetch_mapplic_images, fetch_mapplic);
-});
+};
 
 
 // GO, DABUS, GO ==============================================================
 
-// Announce the build type: Regular or Community Edition ----------------------
-gulp.task('announce', function(done) {
-    if (argv.community) {
-        log(c.green.bold('Building the map of Sigil',  '(Community Edition, default language: ' + argv.language + ')'));
-    } else {
-        log(c.green.bold('Building the map of Sigil',  '(default language: ' + argv.language + ')'));
-    };
-    done();
-});
-
-
 // Copy fonts -----------------------------------------------------------------
-gulp.task('build:fonts', function() {
+function build_fonts() {
+    log('Copying fonts...');
     return gulp.src(path.source.fonts)
-        .pipe(plugins.changed(path.build.fonts))
         .pipe(gulp.dest(path.build.fonts));
-});
+};
 
 
 // Copy images ----------------------------------------------------------------
-gulp.task('build:images', function() {
+function build_images() {
     function add_pipe(src, dest) {
         return gulp.src(src)
-            .pipe(plugins.changed(dest))
             .pipe(gulp.dest(dest));
     };
 
-    var copy_images = add_pipe(path.source.images, path.build.images);
-    var copy_mapplic_images = add_pipe(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha{20,50}.png'], path.build.images + 'mapplic/');
+    log('Copying images...');
 
-    return merge(copy_images, copy_mapplic_images);
-});
+    return merge(
+        add_pipe(path.source.images, path.build.images),
+        add_pipe(['source/vendor/mapplic/images/**/*.*', '!source/vendor/mapplic/images/alpha{20,50}.png'], path.build.images + 'mapplic/')
+    );
+};
 
 
 // Copy map data --------------------------------------------------------------
-gulp.task('build:data', function() {
+function build_data() {
     var token = 'source/data/' + argv.language + '/*.json';
 
-    var build_default = gulp.src(token)
-        .pipe(plugins.changed(path.build.data))
-        .pipe(plugins.lineEndingCorrector())
-        .pipe(gulp.dest(path.build.data + argv.language + '/'));
+    log('Processing data...');
 
-    var build_other = gulp.src([path.source.data, '!' + token])
-        .pipe(plugins.changed(path.build.data))
-        .pipe(plugins.replace('storage/images/', '../storage/images/'))
-        .pipe(plugins.lineEndingCorrector())
-        .pipe(gulp.dest(path.build.data));
-
-    return merge(build_default, build_other);
-});
+    return merge(
+        // Default language:
+        gulp.src(token)
+            .pipe(plugins.lineEndingCorrector())
+            .pipe(gulp.dest(path.build.data + argv.language + '/')),
+        // Other languages:
+        gulp.src([path.source.data, '!' + token])
+            .pipe(plugins.replace('storage/images/', '../storage/images/'))
+            .pipe(plugins.lineEndingCorrector())
+            .pipe(gulp.dest(path.build.data))
+    );
+};
 
 
 // Process CSS ----------------------------------------------------------------
-gulp.task('build:css', function () {
+function build_css() {
     var processors = [
         require('postcss-import')(),
         require('autoprefixer')({browsers: ['last 2 versions']})
     ];
+
+    log('Processing CSS...');
 
     return gulp.src(path.source.css)
         .pipe(plugins.sass())
@@ -272,11 +220,12 @@ gulp.task('build:css', function () {
         .pipe(plugins.lineEndingCorrector())
         .pipe(plugins.rename({suffix: '.min'}))
         .pipe(gulp.dest(path.build.css));
-});
+};
 
 
 // Process JS -----------------------------------------------------------------
-gulp.task('build:js', function() {
+function build_js() {
+    log('Processing JS...');
     return gulp.src(path.source.js)
         .pipe(plugins.nunjucksRender(nunjucks.js))
         .on('error', on_error)
@@ -284,11 +233,11 @@ gulp.task('build:js', function() {
         .pipe(plugins.lineEndingCorrector())
         .pipe(plugins.rename({suffix: '.min'}))
         .pipe(gulp.dest(path.build.js));
-});
+};
 
 
 // Process page templates -----------------------------------------------------
-gulp.task('build:html', function() {
+function build_html() {
     var token = 'source/templates/' + argv.language + '/[^_]*.njk';
 
     function add_pipe(src) {
@@ -299,21 +248,33 @@ gulp.task('build:html', function() {
             .pipe(gulp.dest(path.build.html));
     };
 
-    var build_default = add_pipe(token);
-    var build_other = add_pipe([path.source.html, '!' + token]);
+    log('Building pages from templates...');
 
-    return merge(build_default, build_other);
-});
+    return merge(add_pipe(token), add_pipe([path.source.html, '!' + token]));
+};
 
 
 // Put it all together --------------------------------------------------------
-gulp.task('build', gulp.parallel(
-    'build:fonts',
-    'build:images',
-    'build:data',
-    'build:css',
-    'build:js',
-    'build:html'
-));
+exports.vendor  = fetch_vendor;
 
-gulp.task('default', gulp.series('announce', 'build'));
+exports.fonts   = build_fonts;
+exports.images  = build_images; // Checks map language and edition.
+exports.data    = build_data    // Checks map language and edition.
+exports.css     = build_css
+exports.js      = build_js      // Checks map edition.
+exports.html    = build_html;   // Checks map language and edition.
+
+exports.default = function() {
+    // Announce the build type: Regular or Community Edition
+    var notice = argv.community ? ': Community Edition ' : ' ';
+    log(color.green.bold('Building the map of Sigil' + notice + '[default language: ' + argv.language + ']'));
+
+    return merge(
+        build_fonts(),
+        build_images(),
+        build_data(),
+        build_css(),
+        build_js(),
+        build_html()
+    );
+};
