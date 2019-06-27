@@ -1,0 +1,45 @@
+{# ========================================================================= #}
+{# ******************* The Map of Sigil: Polish Template ******************* #}
+{# ========================================================================= #}
+
+{% extends '_components/_layout.njk' %}
+
+
+{# General ================================================================= #}
+{% set published_at = '2019-06-23T23:57:48+03' %}
+
+{# Polish translation is not ready yet: #}
+{% set status = 'α' %}
+{% set robots = 'noindex, nofollow' %}
+
+
+{# Language & Translations ================================================= #}
+{% set language = 'pl' %}
+{% set locale = 'pl_PL' %}
+
+{% set font_subset = '&subset=latin-ext' %}
+
+{# Available Translations -------------------------------------------------- #}
+{% set translations = {
+        en: 'Angielski',
+        fr: 'Francuski',
+        it: 'Włoski',
+        ru: 'Rosyjski',
+        pl: 'Polski'
+    }
+%}
+
+{# Page UI ----------------------------------------------------------------- #}
+{% set site_name = 'Szept Pustki' %}
+
+{% set title = 'Mapa Sigil, Miasta Drzwi' %}
+{% set description = 'Indeks referencyjny 308 lokacji w Sigil opisanych w oficjalnych materiałach do settingu Planescape.' %}
+{% set header = 'Sigil, Miasto Drzwi' %}
+
+{% block mapplic_l10n %}
+        var mapplic_localization = {
+            more: 'Więcej',
+            search: 'Szukaj',
+            notfound: 'Nic nie znaleziono. Spróbuj wyszukać coś innego.'
+        };
+{%- endblock %}
