@@ -4,7 +4,7 @@ Notable changes to the Community Edition of the map.
 
 ## [Unreleased]
 
-* French, Italian and Russian translations.
+* French, Italian, Russian and Polish translations.
 * Better label system: more streamlined, maybe searchable labels.
 
 ## [1.4.0] \(2019-05-26\)

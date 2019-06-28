@@ -25,7 +25,7 @@ var argv = require('yargs')
         'language': {
             alias: 'lang',
             // Two-letter codes of target languages on Crowdin:
-            choices: ['en', 'fr', 'it', 'ru'],
+            choices: ['en', 'fr', 'it', 'ru', 'pl'],
             default: 'en',
             describe: 'set the default language',
             nargs: 1,
@@ -92,7 +92,7 @@ var nunjucks = {
 // ============================================================================
 
 // Exclude incomplete and unreleased translations -----------------------------
-var exclude_list = argv.community ? ['fr', 'it', 'ru'] : ['ru'];
+var exclude_list = argv.community ? ['fr', 'it', 'ru', 'pl'] : ['ru', 'pl'];
 
 if (exclude_list.indexOf(argv.language) > -1) {
     log.warn(color.yellow('This translation is incomplete and cannot be set as default.'));
