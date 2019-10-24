@@ -32,7 +32,7 @@ Notable changes to the Community Edition of the map.
 
 * Location of The Ditch map pin.
 * ID of the Seafarer’s Arch (from H1 to H1a).
-* “Pre FW” and “Post FW” labels to “Pre Faction War” and “Post Faction War”
+* “Pre FW” and “Post FW” labels to “Pre Faction War” and “Post Faction War”.
 * Dependencies:
     * Font Awesome updated to 5.8.2;
     * jQuery updated to 3.4.1.

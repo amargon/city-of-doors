@@ -43,7 +43,7 @@ Below is the full list of Planescape material used to make up this map:
 
 1. Planes of Conflict [Boxed Set] — Adventures in Conflict
 1. Baldur’s Gate II [PC Game]
-1. Wars Trilogy 1: Blood Hostages [Novel]
+1. Blood Wars Trilogy 1: Blood Hostages [Novel]
 1. Blood Wars Trilogy 2: Abyssal Warriors [Novel]
 1. Blood Wars Trilogy 3: Planar Powers [Novel]
 1. Planes of Chaos [Boxed Set] — Chaos Adventures
@@ -78,7 +78,7 @@ Below is the full list of Planescape material used to make up this map:
 1. Monstrous Compendium Appendix III
 1. On Hallowed Ground
 1. Planescape Conspectus [Poster]
-1. Planes of Chaos [Boxed Set] — the Travelogue
+1. Planes of Chaos [Boxed Set] — The Travelogue
 1. Planescape Campaign Setting [Boxed Set] — A Player’s Guide to the Planes
 1. The Planeswalker’s Handbook
 1. Planar Handbook
