@@ -206,7 +206,7 @@ function build_data() {
 function build_css() {
     var processors = [
         require('postcss-import')(),
-        require('autoprefixer')({browsers: ['last 2 versions']})
+        require('autoprefixer')
     ];
 
     log('Processing CSS...');
