@@ -42,7 +42,7 @@ var path = {
         // Exclude Font Awesome Brands:
         fonts: ['source/vendor/font-awesome/fonts/*.*', '!source/vendor/font-awesome/fonts/fa-brands-*.*'],
         html: 'source/templates/**/[^_]*.njk',
-        js: 'source/js/*.js',
+        js: 'source/js/*.njk',
         images: 'source/images/**/*.*'
     },
     build: {
