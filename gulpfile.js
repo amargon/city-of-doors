@@ -41,7 +41,7 @@ var path = {
         data: 'source/data/**/*.json',
         // Exclude Font Awesome Brands:
         fonts: ['source/vendor/font-awesome/fonts/*.*', '!source/vendor/font-awesome/fonts/fa-brands-*.*'],
-        html: 'source/templates/**/[^_]*.njk',
+        html: 'source/html/**/[^_]*.njk',
         js: 'source/js/*.njk',
         images: 'source/images/**/*.*'
     },
@@ -64,7 +64,7 @@ var nunjucks = {
         data: {common: {jquery: argv.community ? false : true}}
     },
     html: {
-        path: 'source/templates/',
+        path: 'source/html/',
         data: {
             // Configure the layout:
             community: argv.community,
@@ -238,7 +238,7 @@ function build_js() {
 
 // Process page templates -----------------------------------------------------
 function build_html() {
-    var token = 'source/templates/' + argv.language + '/[^_]*.njk';
+    var token = 'source/html/' + argv.language + '/[^_]*.njk';
 
     function add_pipe(src) {
         return gulp.src(src)
