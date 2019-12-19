@@ -113,6 +113,12 @@ Poetry: [Dolores](http://rpo.library.utoronto.ca/poems/dolores-notre-dame-des-se
 
 Map engine: [Mapplic](https://codecanyon.net/item/mapplic-custom-interactive-map-jquery-plugin/6275001) by sekler.
 
+### Translations
+
+* French: [Le Donjon du Dragon](http://www.donjondudragon.fr/)
+* Italian: Paolo “Mathujoke” Pasquali ([www.planescape.it](http://www.planescape.it/))
+* Polish: Anna “Corpselight” ([Grimuar Sferowca](https://grimuar.pl/)) and [Sferopedia](https://sfery.fandom.com/wiki/Sferopedia)
+
 ## License
 
 [The map data](source/data/) (i.e. the annotated list of Sigil venues), as well as the project documentation, are licensed under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license (CC BY 4.0).
