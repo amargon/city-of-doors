@@ -30,7 +30,7 @@
     "normalize.css": "^8.0.1"
   },
   "optionalDependencies": {
-    "mapplic": "gitlab:amargon/mapplic#v4.2"
+    "mapplic": "gitlab:amargon/mapplic#v4.2.0"
   },
   "devDependencies": {
     "ansi-colors": "^4.1.1",
