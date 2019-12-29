@@ -425,7 +425,7 @@
                     "category": "lady",
                     "title": "♀22: Hazardownia Koło Fortuny",
                     "about": "In the Cage: A Guide to Sigil, p. 36",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 36.</p><p>Jedna z ulubionych karczm sigilijskich hazardzistów. Można tu skosztować doskonałego jadła i&nbsp;napitku, po czym udać się do jednej z&nbsp;kilku sal oferujących rozmaite gry hazardowe&nbsp;– w tym niesławne koło fortuny, któremu lokal zawdzięcza nazwę. Kwatery są tu drogie, ale należą do najbezpieczniejszych w&nbsp;Klatce.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 36.</p><p>Jedna z ulubionych karczm sigilijskich hazardzistów. Można tu skosztować doskonałego jadła i&nbsp;napitku, po czym udać się do jednej z&nbsp;kilku sal oferujących rozmaite gry hazardowe&nbsp;— w tym niesławne koło fortuny, któremu lokal zawdzięcza nazwę. Kwatery są tu drogie, ale należą do najbezpieczniejszych w&nbsp;Klatce.</p>"
                 },
                 {
                     "id": "♀23",
@@ -480,7 +480,7 @@
                     "category": "lady",
                     "title": "♀27: Wieża Żmija",
                     "about": "In the Cage: A Guide to Sigil, p. 44",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 44.</p><p>Położona w pobliżu Więzienia wieża, w&nbsp;której Łaskobójcy trzymają Żmija&nbsp;– szczególną odmianę wiwerny. Jego jad wywołuje majaki i&nbsp;bywa wykorzystywany jako składnik eliksirów prawdy. Czasami członkowie Czerwonej Śmierci rzucają Żmijowi na pożarcie skazańców.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 44.</p><p>Położona w pobliżu Więzienia wieża, w&nbsp;której Łaskobójcy trzymają Żmija&nbsp;— szczególną odmianę wiwerny. Jego jad wywołuje majaki i&nbsp;bywa wykorzystywany jako składnik eliksirów prawdy. Czasami członkowie Czerwonej Śmierci rzucają Żmijowi na pożarcie skazańców.</p>"
                 },
                 {
                     "id": "♀28",
@@ -601,7 +601,7 @@
                     "category": "lady",
                     "title": "♀38: Karczma Złoty Bariaur",
                     "about": "In the Cage: A Guide to Sigil, p. 39<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 78",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 39.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 78.</p><p>BN: Złotogrzywy.</p><p>Klientelą tej położonej w&nbsp;pobliżu Zbrojowni karczmy są przede wszystkim mieszkańcy Sfer Wyższych oraz Sigilijczycy o&nbsp;bardziej wyrafinowanych gustach. Nazwa lokalu pochodzi od postaci odźwiernego&nbsp;– śniadego bariaura o&nbsp;imieniu Złotogrzywy, który wygląda, jakby jego pradziadek był leonalem.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 39.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 78.</p><p>BN: Złotogrzywy.</p><p>Klientelą tej położonej w&nbsp;pobliżu Zbrojowni karczmy są przede wszystkim mieszkańcy Sfer Wyższych oraz Sigilijczycy o&nbsp;bardziej wyrafinowanych gustach. Nazwa lokalu pochodzi od postaci odźwiernego&nbsp;— śniadego bariaura o&nbsp;imieniu Złotogrzywy, który wygląda, jakby jego pradziadek był leonalem.</p>"
                 },
                 {
                     "id": "♀39",
@@ -975,7 +975,7 @@
                     "x": "0.1510",
                     "y": "0.8830",
                     "category": "market",
-                    "title": "M10: Turby’s Inn",
+                    "title": "M10: Karczma Turby’ego",
                     "about": "In the Cage: A Guide to Sigil, p. 84",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><p>BN: Turby.</p>"
                 },
@@ -1120,7 +1120,7 @@
                     "category": "market",
                     "title": "M23: Chirper’s Inn",
                     "about": "In the Cage: A Guide to Sigil, p. 93",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 93.</p><p>A sprawling inn that doubles as tourist trap, anyone is welcome as long as they keep the peace and have money to spend. A variety of attractions and small specialty shops are built into the building, including a small theater and a display of exotic creatures’ skulls.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 93.</p><p>Okazała karczma będąca mekką turystów. Każdy jest tu mile widziany, dopóki płaci i nie zakłóca porządku. W budynku mieści się również kilka sklepików i atrakcji, w tym niewielki teatr i wystawa czaszek egzotycznych istot.</p>"
                 },
                 {
                     "id": "M24",
@@ -1140,7 +1140,7 @@
                     "x": "0.0890",
                     "y": "0.7240",
                     "category": "market",
-                    "title": "M25: Dits’ Books",
+                    "title": "M25: Księgi Ditsa",
                     "about": "Finder’s Bane [Powieść], p. 268",
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Finder’s Bane [Powieść], p. 268.</p><p>BN: Dits, Joel.</p>"
                 },
@@ -1245,7 +1245,7 @@
                     "category": "guildhall",
                     "title": "G6: Nora Taluna Chyżego",
                     "about": "Faction War [Przygoda], p. 19",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Przygoda], p. 19.</p><p>BN: Talun Chyży.</p><p>Talun Underfoot, a wealthy halfling from Oerth, commisioned an actual burrow to&nbsp;be&nbsp;dug for him in the artificial hill that was created from a few tons of real Oerthian soil.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Przygoda], p. 19.</p><p>BN: Talun Chyży.</p><p>Wykopanie tej nory zlecił Talun Chyży, zamożny niziołek z&nbsp;Oerth. Wydrążono ją w&nbsp;zboczu wzgórza usypanego z&nbsp;kilku ton ziemi sprowadzonej z&nbsp;jego rodzimej planety.</p>"
                 },
                 {
                     "id": "G7",
@@ -1254,7 +1254,7 @@
                     "x": "0.3895",
                     "y": "0.6505",
                     "category": "guildhall",
-                    "title": "G7: Blue Toad Inn",
+                    "title": "G7: Karczma Pod Niebieską Ropuchą",
                     "about": "In the Cage: A Guide to Sigil, p. 9",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 9.</p>"
                 },
@@ -1265,9 +1265,9 @@
                     "x": "0.3725",
                     "y": "0.6835",
                     "category": "guildhall",
-                    "title": "G8: Ensin’s Discount Elixirs",
+                    "title": "G8: Tanie Eliksiry Ensina",
                     "about": "In the Cage: A Guide to Sigil, p. 95",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 95.</p><p>BN: Ensin.</p><p>A potion shop run by the wizard Ensin who cuts corners to produce cheap, weak potions in mass quantities.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 95.</p><p>BN: Ensin.</p><p>Sklep z miksturami należący do czarodzieja imieniem Ensin. Można tu kupić słabe, warzone naprędce w masowych ilościach eliksiry na różne okazje.</p>"
                 },
                 {
                     "id": "G9",
@@ -1287,9 +1287,9 @@
                     "x": "0.3665",
                     "y": "0.7520",
                     "category": "guildhall",
-                    "title": "G10: Yawning Rat Inn",
+                    "title": "G10: Karczma Pod Ziewającym Szczurem",
                     "about": "In the Cage: A Guide to Sigil, p. 84<br/>Tales From the Infinite Staircase [Przygoda], p. 13",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Tales From the Infinite Staircase [Przygoda], p. 13.</p><p>BN: Ghieena.</p><p>A dive that serves nothing but cheap wheat ale.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Tales From the Infinite Staircase [Przygoda], p. 13.</p><p>BN: Ghieena.</p><p>Speluna, w której serwuje się tylko tanie pszeniczne ale.</p>"
                 },
                 {
                     "id": "G11",
@@ -1300,7 +1300,7 @@
                     "category": "guildhall",
                     "title": "G11: Wielki Gimnazjon",
                     "about": "The Factol’s Manifesto, p. 145<br/>In the Cage: A Guide to Sigil, p. 96<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 88",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>The Factol’s Manifesto, p. 145.<br/>In the Cage: A Guide to Sigil, p. 96.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 88.</p><p>Run by the Transcendant Order, the Gymnasium is to health and relaxation as the Festhall is to entertainment. It also serves as the most neutral of neutral grounds in&nbsp;the&nbsp;city, where even aasimon and tanar’ri can meet in peace.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>The Factol’s Manifesto, p. 145.<br/>In the Cage: A Guide to Sigil, p. 96.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 88.</p><p>Prowadzony przez Transcendentalny Zakon Gimnazjon to swoiste przeciwieństwo Gmachu Rozrywki&nbsp;— miejsce, do którego mieszkańcy Sigil udają się po odrobinę spokoju i wyciszenia. To również najbardziej neutralny grunt w mieście, gdzie nikogo nie dziwi widok aasimona pertraktującego pokojowo z tanar’ri.</p>"
                 },
                 {
                     "id": "G12",
@@ -1474,9 +1474,9 @@
                     "x": "0.3900",
                     "y": "0.7715",
                     "category": "guildhall",
-                    "title": "G27: Xanist’s Invention Shop",
+                    "title": "G27: Wynalazki Xanist",
                     "about": "In the Cage: A Guide to Sigil, p. 97",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 97.</p><p>BN: Xanist.</p><p>Workshop of professional inventor Xanist.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 97.</p><p>BN: Xanist.</p><p>Warsztat wynalazczyni imieniem Xanist.</p>"
                 },
                 {
                     "id": "G28",
@@ -1689,7 +1689,7 @@
                     "x": "0.4515",
                     "y": "0.7675",
                     "category": "clerk",
-                    "title": "C14: Paltry’s Pastries",
+                    "title": "C14: Ciastkarnia Paltry",
                     "about": "Doors to the Unknown [Przygoda], p. 11",
                     "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Doors to the Unknown [Przygoda], p. 11.</p><p>BN: Paltry, Balthazar Thames.</p>"
                 },
@@ -1722,7 +1722,7 @@
                     "x": "0.3865",
                     "y": "0.8560",
                     "category": "clerk",
-                    "title": "C17: Black Wind Tavern",
+                    "title": "C17: Tawerna Czarny Wiatr",
                     "about": "In the Cage: A Guide to Sigil, p. 62",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 62.</p><p>Enforces a strict policy of silence; a berk who speaks is shown the door.</p>"
                 },
@@ -1845,7 +1845,7 @@
                     "category": "clerk",
                     "title": "C28: Greengage Cider Shop",
                     "about": "In the Cage: A Guide to Sigil, p. 63<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 86",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 63.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 86.</p><p>BN: Marda Farambler.</p><p>A tavern that caters to the smaller races, specializing in cider from the orchards of the halfling goddess Sheela Peryroyl.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 63.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 86.</p><p>BN: Marda Farambler.</p><p>Tawerna, której klientami są głównie przedstawiciele mniejszych ras. Jej sztandarowym napojem jest cydr z jabłek sprowadzanych z sadów niziołczej bogini Sheeli Peryroyl.</p>"
                 },
                 {
                     "id": "C29",
@@ -1865,7 +1865,7 @@
                     "x": "0.5325",
                     "y": "0.8505",
                     "category": "clerk",
-                    "title": "C30: Milori the Translator",
+                    "title": "C30: Milori Tłumaczka",
                     "about": "Uncaged: Faces of Sigil, p. 64",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 64.</p><p>BN: Milori.</p>"
                 },
@@ -1898,7 +1898,7 @@
                     "x": "0.6065",
                     "y": "0.8300",
                     "category": "clerk",
-                    "title": "C33: Sullen Moon Tavern",
+                    "title": "C33: Tawerna Posępny Księżyc",
                     "about": "In the Cage: A Guide to Sigil, p. 62",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 62.</p><ul class='labels'><li>Diabelstwa</li></ul>"
                 },
@@ -1933,7 +1933,7 @@
                     "category": "clerk",
                     "title": "C35: Gmach Zapisów",
                     "about": "The Factol’s Manifesto, p. 62<br/>In the Cage: A Guide to Sigil, p. 71<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 84",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>The Factol’s Manifesto, p. 62.<br/>In the Cage: A Guide to Sigil, p. 71.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 84.</p><p>Home of the Fated, who run Sigil’s Mint and keep records of everything the city needs to keep an eye on, from deeds of ownership to the census to tax rolls.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>The Factol’s Manifesto, p. 62.<br/>In the Cage: A Guide to Sigil, p. 71.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 84.</p><p>Siedziba Przeznaczonych, którzy prowadzą sigilijską mennicę i gromadzą zapisy dotyczące wszystkiego, co ważne w mieście&nbsp;— od aktów własności po spisy ludności i listy podatkowe.</p>"
                 },
                 {
                     "id": "C36",
@@ -1975,7 +1975,7 @@
                     "x": "0.5330",
                     "y": "0.7175",
                     "category": "clerk",
-                    "title": "C39: Silver Spire Inn",
+                    "title": "C39: Karczma Srebrna Iglica",
                     "about": "Faction War [Przygoda], p. 17",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Przygoda], p. 17.</p>"
                 },
@@ -2041,7 +2041,7 @@
                     "x": "0.6290",
                     "y": "0.6220",
                     "category": "clerk",
-                    "title": "C45: Eyes of Elysium Tavern",
+                    "title": "C45: Tawerna Oczy Elizjum",
                     "about": "Uncaged: Faces of Sigil, p. 102<br/>In the Cage: A Guide to Sigil, p. 62",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 102.<br/>In the Cage: A Guide to Sigil, p. 62.</p><p>Serves nothing but water imported from Thalasia.</p>"
                 },
@@ -2331,7 +2331,7 @@
                     "x": "0.9185",
                     "y": "0.3325",
                     "category": "hive",
-                    "title": "H15: Roaring Balor Inn",
+                    "title": "H15: Karczma Pod Ryczącym Balorem",
                     "about": "Well of Worlds [Przygoda], p. 28",
                     "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Well of Worlds [Przygoda], p. 28.</p>"
                 },
@@ -2419,7 +2419,7 @@
                     "x": "0.8630",
                     "y": "0.7580",
                     "category": "hive",
-                    "title": "H23: Ylem’s Tower",
+                    "title": "H23: Wieża Ylema",
                     "about": "Uncaged: Faces of Sigil, pp. 78, 116",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, pp. 78, 116.</p><p>BN: Ylem, Latorośl, Reguła-Trójek.</p>"
                 },
@@ -2430,7 +2430,7 @@
                     "x": "0.8500",
                     "y": "0.7930",
                     "category": "hive",
-                    "title": "H24: Allesha’s Pantry",
+                    "title": "H24: Spiżarnia Alleshy",
                     "about": "In the Cage: A Guide to Sigil, p. 106",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 106.</p><p>BN: Allesha Sheevis.</p><p>The best known and best funded of a handful of charity kitchens in the Hive, run by Allesha Sheevis. Nobody is turned away, and the food is free. The place also puts up those who are willing to donate a little work each day, or drop a coin in the donation box.</p>"
                 },
@@ -2595,7 +2595,7 @@
                     "x": "0.6600",
                     "y": "0.8790",
                     "category": "hive",
-                    "title": "H39: The Slags",
+                    "title": "H39: Popioły",
                     "about": "In the Cage: A Guide to Sigil, p. 115",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 116.</p><p>A scar on the already hideous Hive, a neighborhood that was destroyed in a sudden intrusion of the Blood War into the city centuries if not millennia ago. Something taints the place ever since, making any attempt at rebuilding futile.</p>"
                 },
@@ -2883,7 +2883,7 @@
                     "x": "0.5935",
                     "y": "0.5225",
                     "category": "lower",
-                    "title": "L16: Styx Oarsman Bar",
+                    "title": "L16: Karczma Wioślarz Styksu",
                     "about": "In the Cage: A Guide to Sigil, p. 56<br/>Uncaged: Faces of Sigil, p. 85<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82<br/>Expedition to the Demonweb Pits [Przygoda], p. 19",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 56.<br/>Uncaged: Faces of Sigil, p. 85.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82.<br/>Expedition to the Demonweb Pits [Przygoda], p. 19.</p><p>BN: Rule-of-Three, Zegonz Vlaric, Marilith, Gryfalcon.</p><p>A tavern that caters to fiends, particularly the tanar’ri. It’s possible for non-fiends to bribe their way in, but ill-advised.</p>"
                 },
@@ -2984,7 +2984,7 @@
                     "category": "lower",
                     "title": "L25: Parted Veil Bookshop",
                     "about": "Uncaged: Faces of Sigil, p. 16",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 16.</p><p>BN: Jasnooki Kesto, Sir Cleve, Jeena Ealy, Nye „Szelma”.</p><p>A cramped, overstuffed bookstore where one can find almost any title as has been written.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 16.</p><p>BN: Jasnooki Kesto, Sir Cleve, Jeena Ealy, Nye „Szelma”.</p><p>Ciasna, pękająca w szwach księgarnia, w której można znaleźć niemal wszystko, co kiedykolwiek zostało przelane na papier.</p>"
                 },
                 {
                     "id": "L26",
@@ -3127,7 +3127,7 @@
                     "category": "lower",
                     "title": "L38: Roztrzaskana Świątynia",
                     "about": "The Factol’s Manifesto, p. 10<br/>In the Cage: A Guide to Sigil, p. 55<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>The Factol’s Manifesto, p. 10.<br/>In the Cage: A Guide to Sigil, p. 55.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82.</p><p>Home of the Athar, considered ill-omened by most after the Lady laid waste to&nbsp;the&nsbp;neighborhood centuries ago on the night she slew Aoskar, the God of Portals.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>The Factol’s Manifesto, p. 10.<br/>In the Cage: A Guide to Sigil, p. 55.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 82.</p><p>Siedziba Ataru, wcześniej świątynia ku czci Aoskara, boga portali. Pani zniszczyła ją wraz z okolicznymi budynkami w noc, kiedy zabiła Aoskara. Większość mieszkańców omija ją szerokim łukiem, traktując jej widok jak zły omen.</p>"
                 },
                 {
                     "id": "L39",
@@ -3202,7 +3202,7 @@
                     "x": "0.6870",
                     "y": "0.3688",
                     "category": "lower",
-                    "title": "L45: Grim Journeyman Tavern",
+                    "title": "L45: Tawerna Ponury Czeladnik",
                     "about": "Faction War [Przygoda], p. 123<br/><span class='label'>Sprzed Wojny Frakcji</span>",
                     "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Przygoda], p. 123.</p><ul class='labels'><li>Sprzed Wojny Frakcji</li></ul>"
                 },
@@ -3213,9 +3213,9 @@
                     "x": "0.6380",
                     "y": "0.3645",
                     "category": "lower",
-                    "title": "L46: Green Mill Tavern",
+                    "title": "L46: Tawerna Zielony Młyn",
                     "about": "In the Cage: A Guide to Sigil, p. 51",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 51.</p><p>A beautiful tavern that caters mostly to elves and sylvan clients, but is popular among Primes and clients from The Lady’s Ward. The mill really works and elven breads are produced fresh daily.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 51.</p><p>Piękna tawerna, której klientami są głównie elfy i leśne istoty, jednak można w niej spotkać również Pierwszaków i mieszkańców Dzielnicy Pani. Tytułowy młyn faktycznie funkcjonuje i w tawernie codziennie piecze się świeży elficki chleb.</p>"
                 },
                 {
                     "id": "L47",
@@ -3279,7 +3279,7 @@
                     "x": "0.7205",
                     "y": "0.4650",
                     "category": "lower",
-                    "title": "L52: Grinning Imp Tavern",
+                    "title": "L52: Tawerna Pod Wyszczerzonym Impem",
                     "about": "In the Abyss [Przygoda], p. 4",
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Abyss [Przygoda], p. 4.</p><p>BN: Kor Clotbur.</p><ul class='labels'><li>Atar</li><li>Zmiennokształtni</li></ul>"
                 },
