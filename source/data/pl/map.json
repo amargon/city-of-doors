@@ -810,7 +810,7 @@
                     "category": "lady",
                     "title": "♀57: Krzycząca Wieża",
                     "about": "Dungeon Magazine #55, pp. 18-47",
-                    "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>Dungeon Magazine #55, pp. 18-47.</p><p>BN: Zaraga, Eyarq, Baagoth, Glirkhil, Pix, Pox, Pux.</p><p>The 250’ tall twisted and hollow structure was built atop a natural portal leading to the Elemental Plane of Air. Every hour a huge gust of wind erupts from the&nbsp;portal and blows through the holes, creating the painful wailing noise which earns the tower its name.</p><ul class='labels'><li>Gargulce</li></ul>"
+                    "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>Dungeon Magazine #55, pp. 18-47.</p><p>BN: Zaraga, Eyarq, Baagoth, Glirkhil, Pix, Pox, Pux.</p><p>Tę strzelistą, wijącą się budowlę o wysokości niemal 80 metrów wzniesiono wokół portalu prowadzącego do Planu Żywiołu Powietrza. Co godzinę z portalu wydobywa się potężny podmuch wiatru, który następnie rozchodzi się po wieży, powodując przeraźliwe wycie w rozmaitych szczelinach – to właśnie temu zjawisku budynek zawdzięcza swą nazwę.</p><ul class='labels'><li>Gargulce</li></ul>"
                 },
                 {
                     "id": "♀58",
@@ -867,7 +867,7 @@
                     "category": "market",
                     "title": "M0: Wielki Bazar",
                     "about": "In the Cage: A Guide to Sigil, p. 96",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 96.</p><p>A grand plaza that is home to a sprawling, vibrant market that never closes, the Bazaar is also the home turf of the Free League. The Indeps and the rules of commerce make sure that the deals are fair and honest — well, mostly. Caveat emptor.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 96.</p><p>To rozległe targowisko, które tętni życiem przez okrągłą dobę, jest zarazem głównym terytorium zwolenników Wolnej Ligi. Autonomi pilnują, by handel odbywał się na jasnych i uczciwych zasadach… No, prawie. Każdy kupuje na własną odpowiedzialność.</p>"
                 },
                 {
                     "id": "M1",
@@ -931,7 +931,7 @@
                     "x": "0.1580",
                     "y": "0.7375",
                     "category": "market",
-                    "title": "M6: Beranto’s Map Shop",
+                    "title": "M6: Sklep z mapami Beranta",
                     "about": "Doors to the Unknown [Przygoda], p. 48",
                     "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Doors to the Unknown [Przygoda], p. 48.</p>"
                 },
@@ -942,7 +942,7 @@
                     "x": "0.1290",
                     "y": "0.7615",
                     "category": "market",
-                    "title": "M7: Girreht’s Jewelcraft",
+                    "title": "M7: Warsztat jubilerski Girrehta",
                     "about": "Faction War [Przygoda], p. 24",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Przygoda], p. 24.</p><p>BN: Girreht.</p>"
                 },
@@ -1041,7 +1041,7 @@
                     "x": "0.2165",
                     "y": "0.8305",
                     "category": "market",
-                    "title": "M16: Tressym’s Tours",
+                    "title": "M16: Wycieczki Tressyma",
                     "about": "In the Cage: A Guide to Sigil, p. 89",
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 89.</p>"
                 },
@@ -1096,7 +1096,7 @@
                     "x": "0.2120",
                     "y": "0.7390",
                     "category": "market",
-                    "title": "M21: Tivvum’s Antiquities",
+                    "title": "M21: Antykwariat Tivvuma",
                     "about": "Uncaged: Faces of Sigil, p. 86<br/>Faction War [Przygoda], p. 106<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57<br/>Dragon Magazine #414, p. 2",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>Uncaged: Faces of Sigil, p. 86.<br/>Faction War [Przygoda], p. 106.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57.<br/>Dragon Magazine #414, p. 2.</p><p>BN: Alluvius Ruskin.</p><p>This store is in a tower with green marble walls. It is known as good place to buy portal keys and is run by Alluvius Ruskin, a tiefling, old and frail.</p>"
                 },
@@ -1176,7 +1176,7 @@
                     "y": "0",
                     "category": "market",
                     "action": "lightbox",
-                    "title": "M27: Jandor’s Music Boxes",
+                    "title": "M27: Pozytywki Jandora",
                     "about": "Faction War [Przygoda], p. 24",
                     "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Przygoda], p. 24.</p><p>Lokalizacja: Dzielnica Kupiecka.<br/>BN: Jandor.</p>",
                     "zoom": "0"
@@ -1190,7 +1190,7 @@
                     "category": "guildhall",
                     "title": "G1: Flame Pits Bathhouse",
                     "about": "In the Cage: A Guide to Sigil, p. 84<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 89",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 89.</p><p>BN: Laril Zasskos.</p><p>A bath house that serves clientele with unusual and unique needs or desires — including open lava pools, noxious oozes, and purest water untouched by any contaminant.</p><ul class='labels'><li>Liga Rewolucyjna</li></ul>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 84.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 89.</p><p>BN: Laril Zasskos.</p><p>Łaźnia, której usługi zaspokoją nawet najbardziej niecodzienne zachcianki. Można się tu wykąpać nie tylko w nieskazitelnie czystej wodzie, ale i w lawie czy toksycznym szlamie.</p><ul class='labels'><li>Liga Rewolucyjna</li></ul>"
                 },
                 {
                     "id": "G2",
@@ -1210,9 +1210,9 @@
                     "x": "0.2940",
                     "y": "0.6945",
                     "category": "guildhall",
-                    "title": "G3: Rechvad’s Persona Lavisicum",
+                    "title": "G3: Transmutorium Rechvada",
                     "about": "Faction War [Przygoda], p. 65",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Przygoda], p. 65.</p><p>BN: Rechvad.</p><p>Rechvad’s Persona Lavisicum is a place where customers could temporarily alter their personality in any way they choose.</p><ul class='labels'><li>Eschaton</li></ul>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Faction War [Przygoda], p. 65.</p><p>BN: Rechvad.</p><p>Klienci mogą się tu poddać tymczasowej przemianie osobowości, wybierając dla siebie dowolne nowe cechy.</p><ul class='labels'><li>Eschaton</li></ul>"
                 },
                 {
                     "id": "G4",
@@ -1366,7 +1366,7 @@
                     "category": "guildhall",
                     "title": "G17: The Other Place Spa",
                     "about": "Uncaged: Faces of Sigil, p. 46",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>Uncaged: Faces of Sigil, p. 46.</p><p>BN: Iarmid, Laenis, Dzwonnik Autochon.</p><p>A luxurious spa across the street from the Great Gymnasium, with a reputation unsurpassed outside the Upper Planes.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>Uncaged: Faces of Sigil, p. 46.</p><p>BN: Iarmid, Laenis, Dzwonnik Autochon.</p><p>Luksusowe spa ulokowane naprzeciwko Wielkiego Gimnazjonu. Wieść niesie, że to najlepszy tego typu przybytek poza Sferami Wyższymi.</p>"
                 },
                 {
                     "id": "G18",
@@ -1430,7 +1430,7 @@
                     "x": "0.3305",
                     "y": "0.8095",
                     "category": "guildhall",
-                    "title": "G23: Council of Innkeepers Guildhall",
+                    "title": "G23: Siedziba Rady Gildii Karczmarzy",
                     "about": "In the Cage: A Guide to Sigil, p. 87",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 87.</p><p>BN: Bryn Ohme.</p>"
                 },
@@ -1441,7 +1441,7 @@
                     "x": "0.3635",
                     "y": "0.8455",
                     "category": "guildhall",
-                    "title": "G24: Singing Vortex Inn",
+                    "title": "G24: Karczma Wyjący Wir",
                     "about": "In the Cage: A Guide to Sigil, p. 84",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 84.</p><ul class='labels'><li>Szyfry</li></ul>"
                 },
@@ -1452,7 +1452,7 @@
                     "x": "0.4310",
                     "y": "0.8530",
                     "category": "guildhall",
-                    "title": "G25: Fat Candle Pub",
+                    "title": "G25: Pub Tłusta Świeca",
                     "about": "Uncaged: Faces of Sigil, p. 29<br/>In the Cage: A Guide to Sigil, p. 84",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 29.<br/>In the Cage: A Guide to Sigil, p. 84.</p><p>BN: Hebanowa Adamok.</p>"
                 },
@@ -1485,9 +1485,9 @@
                     "x": "0.4195",
                     "y": "0.7335",
                     "category": "guildhall",
-                    "title": "G28: Zakk’s Corpse Curing Taxidermy Shop",
+                    "title": "G28: Zakład wypychania zwłok Zakk",
                     "about": "In the Cage: A Guide to Sigil, p. 99",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 99.</p><p>BN: Mhasha Zakk.</p><p>Home to the best taxidermist in the Cage, Mhasha Zakk.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 99.</p><p>BN: Mhasha Zakk.</p><p>Pracuje tu Mhasha Zakk, najlepsza taksydermistka w Klatce.</p>"
                 },
                 {
                     "id": "G29",
@@ -1497,7 +1497,7 @@
                     "y": "0",
                     "category": "guildhall",
                     "action": "lightbox",
-                    "title": "G29: Boffo’s Music Shop",
+                    "title": "G29: Sklep muzyczny Boffa",
                     "about": "Trylogia Wojny Krwi 1: Zakładnicy krwi [Powieść], p. 25",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Trylogia Wojny Krwi 1: Zakładnicy krwi [Powieść], p. 25.</p><p>Lokalizacja: Dzielnica Gildii.<br/>BN: Boffo, Artus, Aereas, Ninavereth.</p>",
                     "zoom": "0"
@@ -1523,7 +1523,7 @@
                     "y": "0",
                     "category": "guildhall",
                     "action": "lightbox",
-                    "title": "G31: Lost Dragon",
+                    "title": "G31: Zaginiony Smok",
                     "about": "In the Cage: A Guide to Sigil, p. 85",
                     "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 85.</p><p>Lokalizacja: Dzielnica Gildii.</p>",
                     "zoom": "0"
@@ -1546,9 +1546,9 @@
                     "x": "0.4045",
                     "y": "0.6785",
                     "category": "clerk",
-                    "title": "C2: Trioptic Nic’Epona Statue",
+                    "title": "C2: Posąg trójokiej nic’Epona",
                     "about": "In the Cage: A Guide to Sigil, p. 79",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 79.</p><p>A gargantuan statue of a three-eyed nic’Epona (a magical sort of horse). The base of the statue holds three portals to the Prime, Elysium, and Celestia. It is guarded by a hired band of Doomguard.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 79.</p><p>Olbrzymi posąg przedstawiający trójoką nic’Epona (magiczną istotę przypominającą konia). U jego podstawy znajdują się trzy portale: do Pierwszej, Elizjum i Góry Celestii. Posągu pilnuje wynajęta grupa Strażników Zagłady.</p>"
                 },
                 {
                     "id": "C3",
@@ -1579,7 +1579,7 @@
                     "x": "0.4690",
                     "y": "0.6860",
                     "category": "clerk",
-                    "title": "C5: Power of the One Statue",
+                    "title": "C5: Posąg Mocy Jedynego",
                     "about": "The Factol’s Manifesto, p. 124",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>The Factol’s Manifesto, p. 124.</p>"
                 },
@@ -1590,7 +1590,7 @@
                     "x": "0.4915",
                     "y": "0.6720",
                     "category": "clerk",
-                    "title": "C6: Indusium Tavern",
+                    "title": "C6: Tawerna Induzjum",
                     "about": "Monstrous Compendium Appendix I, p. 4",
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Monstrous Compendium Appendix I, p. 4.</p><p>BN: Danis Dwunastopalcy.</p>"
                 },
@@ -1623,7 +1623,7 @@
                     "x": "0.4375",
                     "y": "0.7240",
                     "category": "clerk",
-                    "title": "C9: Scribe’s Rest Pub",
+                    "title": "C9: Pub Wytchnienie Skryby",
                     "about": "Doors to the Unknown [Przygoda], p. 26",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Doors to the Unknown [Przygoda], p. 26.</p><p>BN: Hofften Burrfoot.</p>"
                 },
@@ -1634,7 +1634,7 @@
                     "x": "0.4375",
                     "y": "0.7410",
                     "category": "clerk",
-                    "title": "C10: Silverhorn’s General Store",
+                    "title": "C10: Dom towarowy Srebrnorogiego",
                     "about": "Doors to the Unknown [Przygoda], p. 25",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Doors to the Unknown [Przygoda], p. 25.</p><p>BN: Srebrnorogi.</p>"
                 },
@@ -1724,7 +1724,7 @@
                     "category": "clerk",
                     "title": "C17: Tawerna Czarny Wiatr",
                     "about": "In the Cage: A Guide to Sigil, p. 62",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 62.</p><p>Enforces a strict policy of silence; a berk who speaks is shown the door.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 62.</p><p>Obowiązuje tu absolutna cisza. Trep, który się odezwie, wyleci za drzwi.</p>"
                 },
                 {
                     "id": "C18",
@@ -1876,7 +1876,7 @@
                     "x": "0.5495",
                     "y": "0.8765",
                     "category": "clerk",
-                    "title": "C31: Jerkot’s Imports",
+                    "title": "C31: Towary importowane Jerkot",
                     "about": "Doors to the Unknown [Przygoda], p. 13",
                     "description": "<p><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Doors to the Unknown [Przygoda], p. 13.</p><p>BN: Allena Jerkot.</p>"
                 },
@@ -2043,7 +2043,7 @@
                     "category": "clerk",
                     "title": "C45: Tawerna Oczy Elizjum",
                     "about": "Uncaged: Faces of Sigil, p. 102<br/>In the Cage: A Guide to Sigil, p. 62",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 102.<br/>In the Cage: A Guide to Sigil, p. 62.</p><p>Serves nothing but water imported from Thalasia.</p>"
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 102.<br/>In the Cage: A Guide to Sigil, p. 62.</p><p>Podaje się tu wyłącznie wodę sprowadzaną z Thalasii.</p>"
                 },
                 {
                     "id": "C46",
@@ -2074,7 +2074,7 @@
                     "x": "0.6545",
                     "y": "0.7195",
                     "category": "clerk",
-                    "title": "C48: Crooked Sword Tavern",
+                    "title": "C48: Tawerna Wygięty Miecz",
                     "about": "The Eternal Boundary [Przygoda], p. 7",
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>The Eternal Boundary [Przygoda], p. 7.</p><p>BN: Gedramak.</p>"
                 },
@@ -2085,7 +2085,7 @@
                     "x": "0.6495",
                     "y": "0.7695",
                     "category": "clerk",
-                    "title": "C49: Iron Heart Alehouse",
+                    "title": "C49: Szynk Żelazne Serce",
                     "about": "In the Cage: A Guide to Sigil, p. 62<br/>The Factol’s Manifesto, p. 61",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 62.<br/>The Factol’s Manifesto, p. 61.</p><ul class='labels'><li>Przeznaczeni</li></ul>"
                 },
@@ -2131,7 +2131,7 @@
                     "x": "0.3995",
                     "y": "0.8170",
                     "category": "clerk",
-                    "title": "C53: Weaver’s Guildhall",
+                    "title": "C53: Siedziba Gildii Tkaczy",
                     "about": "Expedition to the Demonweb Pits [Przygoda], p. 21",
                     "description": "<p class='special'><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Expedition to the Demonweb Pits [Przygoda], p. 21.</p>"
                 },
@@ -2320,7 +2320,7 @@
                     "x": "0.8425",
                     "y": "0.3240",
                     "category": "hive",
-                    "title": "H14: Rivergate Tavern",
+                    "title": "H14: Tawerna Rzeczna Brama",
                     "about": "Pages of Pain [Powieść], p. 50",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Pages of Pain [Powieść], p. 50.</p><p>BN: Brill, Jayk, Tezeusz, Ariadna.</p><ul class='labels'><li>Tanar’ri</li></ul>"
                 },
@@ -2386,7 +2386,7 @@
                     "x": "0.8375",
                     "y": "0.6705",
                     "category": "hive",
-                    "title": "H20: Parakk the Ratcatcher’s Case",
+                    "title": "H20: Leże Parakka Szczurołapa",
                     "about": "Uncaged: Faces of Sigil, p. 76",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 76.</p><p>BN: Parakk Szczurołap, My.</p>"
                 },
@@ -3070,7 +3070,7 @@
                     "x": "0.6785",
                     "y": "0.4955",
                     "category": "lower",
-                    "title": "L33: Thelinagra’s Chaos-Shaping Studio",
+                    "title": "L33: Studio Kształtowania Chaosu Thelinagry",
                     "about": "Uncaged: Faces of Sigil, p. 124",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 124.</p><p>BN: Thelinagra.</p>"
                 },
@@ -3081,7 +3081,7 @@
                     "x": "0.6735",
                     "y": "0.5165",
                     "category": "lower",
-                    "title": "L34: Face of Gith Tavern",
+                    "title": "L34: Tawerna Oblicze Gith",
                     "about": "Uncaged: Faces of Sigil, p. 123<br/>In the Cage: A Guide to Sigil, p. 57",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>Uncaged: Faces of Sigil, p. 123.<br/>In the Cage: A Guide to Sigil, p. 57.</p><p>A githzerai bar, and only a githzerai bar. Supposedly houses a sealed blob of chaos-stuff from Limbo for any Anarchs in the house to mold for the delight of others.</p>"
                 },
