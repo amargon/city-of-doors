@@ -17,7 +17,7 @@
 {% set language = 'pl' %}
 {% set locale = 'pl_PL' %}
 
-{% set font_subset = '&subset=latin-ext' %}
+{% set font_subset = '&subset=latin-ext' | safe %}
 
 {# Available Translations -------------------------------------------------- #}
 {% set translations = {
