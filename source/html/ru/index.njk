@@ -17,7 +17,7 @@
 {% set language = 'ru' %}
 {% set locale = 'ru_RU' %}
 
-{% set font_subset = '&subset=cyrillic' %}
+{% set font_subset = '&subset=cyrillic' | safe %}
 
 {# Available Translations -------------------------------------------------- #}
 {% set translations = {
