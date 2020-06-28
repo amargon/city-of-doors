@@ -4,8 +4,25 @@ Notable changes to the Community Edition of the map.
 
 ## [Unreleased]
 
-* French, Italian, Russian and Polish translations.
-* Better label system: more streamlined, maybe searchable labels.
+* French, Italian and Russian translations.
+* Upgrade to Mapplic v6.
+
+## [1.4.1] \(2020-06-19\)
+
+### Added
+
+* More details on the Word Serpent Inn.
+
+### Changed
+
+* Dependencies:
+    * Font Awesome updated to 5.13;
+    * jQuery updated to 3.5.1.
+
+### Fixed
+
+* Wrong page numbers of New Market, Plague Victims Monument and World Serpent Inn references.
+* Typos in Dark Sigh Tavern and Red Lion Inn tooltip titles.
 
 ## [1.4.0] \(2019-05-26\)
 
@@ -102,7 +119,7 @@ Notable changes to the Community Edition of the map.
 
 ### Added
 
-* More details on the Great Library.  
+* More details on the Great Library.
 * Link to the “Dolores” poem in the Map Key (README) panel.
 
 ### Changed
@@ -113,7 +130,8 @@ Notable changes to the Community Edition of the map.
 
 Initial release of the Community Edition.
 
-[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.4.0...master
+[Unreleased]: https://github.com/amargon/city-of-doors/compare/v1.4.1...master
+[1.4.1]: https://github.com/amargon/city-of-doors/releases/tag/v1.4.1
 [1.4.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.4.0
 [1.3.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.3.0
 [1.2.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.2.0
@@ -122,4 +140,4 @@ Initial release of the Community Edition.
 [1.0.3]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.3
 [1.0.2]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.2
 [1.0.1]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.1
-[1.0.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.0
+[1.0.0]: https://github.com/amargon/city-of-doors/releases/tag/v1.0.0
